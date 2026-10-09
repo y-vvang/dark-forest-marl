@@ -1,0 +1,29 @@
+{
+  "10556": {
+    "survival_by_kind": {
+      "learner": 0.808,
+      "random": 0.717,
+      "df": 0.683,
+      "pacifist": 0.308
+    },
+    "starve_share": 0.775
+  },
+  "10557": {
+    "survival_by_kind": {
+      "learner": 0.758,
+      "random": 0.592,
+      "df": 0.692,
+      "pacifist": 0.367
+    },
+    "starve_share": 0.707
+  },
+  "10558": {
+    "survival_by_kind": {
+      "learner": 0.825,
+      "random": 0.65,
+      "df": 0.692,
+      "pacifist": 0.4
+    },
+    "starve_share": 0.762
+  }
+}

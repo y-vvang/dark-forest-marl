@@ -1,0 +1,14 @@
+[eval start] df_heuristic main s3001
+[eval start] df_heuristic main s3002
+/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/evaluate.py:115: RuntimeWarning: Mean of empty slice
+  "tech_surv_mean": float(np.nanmean(per_ep["tech_surv"])),
+[df_heuristic/main/s3001] surv 0.062 | final_alive 0.0 | strike/100 4.17 | P(imm) 0.90 -> ../results/eval_df_heuristic_main_s3001.json
+/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/evaluate.py:115: RuntimeWarning: Mean of empty slice
+  "tech_surv_mean": float(np.nanmean(per_ep["tech_surv"])),
+[df_heuristic/main/s3002] surv 0.062 | final_alive 0.0 | strike/100 4.17 | P(imm) 0.90 -> ../results/eval_df_heuristic_main_s3002.json
+[eval start] df_heuristic main s3003
+[eval start] pacifist main s4001
+/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/evaluate.py:115: RuntimeWarning: Mean of empty slice
+  "tech_surv_mean": float(np.nanmean(per_ep["tech_surv"])),
+[df_heuristic/main/s3003] surv 0.062 | final_alive 0.0 | strike/100 4.17 | P(imm) 0.90 -> ../results/eval_df_heuristic_main_s3003.json
+[eval start] pacifist main s4002

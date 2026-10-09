@@ -1,0 +1,76 @@
+# DarkForestGrid v2.3 — unbounded civilization count + fixed-tick settlement
+# On top of v2.2s (conserved pool + Softsign reward scale 0.01 + target-pays shield).
+# v2.3 changes:
+#   1) NO civilization-count cap: 36 slots (> conservation max 30 alive);
+#      exactly one next spawn-resource pre-rolled at all times, each birth
+#      pre-rolls the next. World settles at fixed t_max (or physical heat death).
+#   2) Tech growth reverts to the PRE-v2.2 mechanism: develop_rate × (1 − tech/cap),
+#      cap held huge (unbounded) → effectively linear 0.05/tick. The "steep early,
+#      flat late" shaping lives in the Softsign REWARD, not in growth.
+#   3) Broadcasts: only ALL-broadcast (BROADCAST_SELF); BROADCAST_OTHER retired
+#      (index reserved, invalid in every state). The sender trivially knows it is
+#      exposed; its public flag is visible to all observers.
+#   4) Strikes gain target choice: STRIKE (explicit coords via targets[] or nearest
+#      fallback), STRIKE_WEAK (min tech known), STRIKE_STRONG (max tech known).
+#   5) DQN-audit fixes retained: next-valid target masking, reward scale 0.01.
+
+env:
+  n_agents: 36
+  world: 100.0
+  detect_radius: 30.0
+  t_max: 250
+  p_detect_base: 0.03
+  stealth_mult: 0.25
+  p_detect_max: 0.35
+  p_explosion: 0.01
+  develop_rate: 0.05
+  tech_cap: 1000000.0
+  tech_spawn_lo: 0.5
+  tech_spawn_hi: 10.0
+  kill_base: 0.55
+  kill_tech_slope: 0.12
+  res_min: 5.0
+  res_max: 20.0
+  res_total_budget: 150.0
+  shield_cost_frac: 0.5
+  softsign_a: 0.2
+  softsign_reward_scale: 0.01
+  p_deplete: 0.02
+  deplete_lo: 0.5
+  deplete_hi: 2.0
+  gate_broadcast_tech: 1.0
+  gate_broadcast_res: 10.0
+  gate_observe_tech: 5.0
+  gate_domain_tech: 5.0
+  gate_strike_tech: 7.0
+  develop_reward: 0.05
+  death_penalty: 10.0
+  bd_entry_penalty: 0.5
+  bd_growth_mult: 0.2
+  bd_explosion_mult: 0.1
+  enable_black_domain: true
+  spawn_schedule: [[0, 4]]
+
+model:
+  obs_dim: 38
+  n_actions: 10
+  hidden: [64, 64]
+
+train:
+  episodes: 600
+  gamma: 0.995
+  lr: 0.0006
+  batch_size: 128
+  replay_size: 150000
+  update_every: 2
+  target_sync: 2000
+  eps_start: 1.0
+  eps_end: 0.05
+  eps_frac: 0.5
+  seeds: [42]
+
+eval:
+  episodes: 150
+  epsilon: 0.05
+  policy_seeds: [1001, 1002, 1003]
+  env_seed_base: 10001

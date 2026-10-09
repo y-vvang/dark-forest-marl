@@ -1,0 +1,62 @@
+{
+  "10556": {
+    "survival_by_kind": {
+      "learner": 0.244,
+      "random": 0.717,
+      "df": 0.644,
+      "pacifist": 0.361
+    },
+    "starve_share": 0.708,
+    "deaths_by_cause": {
+      "invade": 101,
+      "starve": 259,
+      "mutual": 6
+    },
+    "peak_tech_median": {
+      "learner": 345.1,
+      "random": 81.3,
+      "df": 192.7,
+      "pacifist": 456.2
+    }
+  },
+  "10557": {
+    "survival_by_kind": {
+      "learner": 0.233,
+      "random": 0.7,
+      "df": 0.6,
+      "pacifist": 0.392
+    },
+    "starve_share": 0.687,
+    "deaths_by_cause": {
+      "starve": 171,
+      "invade": 76,
+      "mutual": 2
+    },
+    "peak_tech_median": {
+      "learner": 314.6,
+      "random": 80.0,
+      "df": 224.2,
+      "pacifist": 731.2
+    }
+  },
+  "10558": {
+    "survival_by_kind": {
+      "learner": 0.283,
+      "random": 0.658,
+      "df": 0.633,
+      "pacifist": 0.383
+    },
+    "starve_share": 0.641,
+    "deaths_by_cause": {
+      "starve": 157,
+      "invade": 81,
+      "mutual": 7
+    },
+    "peak_tech_median": {
+      "learner": 315.1,
+      "random": 81.1,
+      "df": 358.4,
+      "pacifist": 467.5
+    }
+  }
+}

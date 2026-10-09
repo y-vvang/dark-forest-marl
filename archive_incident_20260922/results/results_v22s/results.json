@@ -1,0 +1,119 @@
+{
+  "task": "v2.2 rerun per user clarification (Softsign on REWARD) + DQN-principle audit; variant v2.2s isolates reward-scale",
+  "provenance": {
+    "mode": "measured",
+    "hardware": "2 vCPU, 4GB, no GPU",
+    "seeds": "single seed 42; 3 world seeds for pool evidence",
+    "timestamp": "2026-09-19"
+  },
+  "audit_findings": [
+    "F1 (fixed): Double-DQN target argmax was unmasked by next-state valid actions -> target/behavior mismatch; buffer now stores next-valid mask",
+    "F2 (verified OK): per-agent death = true terminal (no bootstrap); time-limit cutoffs bootstrap naturally via d=0 (initial suspicion inverted on close reading)",
+    "F3 (design): per-tick Softsign bound 5 < death 10 holds, but at scale 1.0 the develop stream PV ~700-1000 dwarfs the death penalty in the RETURN; value scale destabilized the 64x64 net (loss 0.07->1.24, degenerate SILENT 0.53); learner pool survival collapsed to worst (0.485 / 0.23-0.28)",
+    "F4 (fix variant v2.2s): same shape scaled 0.01 -> per-tick cap 0.05 = legacy; loss stable/decreasing; learner 0.915 = project best; forest economics persist (starve 0.71-0.78, pacifist 0.31-0.40)",
+    "F5 (mechanism note): with unbounded tech, the tech leader is shielded; DF strikes the highest-tech known civ and drains itself 50%/blocked strike vs the leading learner"
+  ],
+  "v22_pool_150eps": {
+    "learner": 0.485,
+    "random": 0.751,
+    "df": 0.772,
+    "pacifist": 0.553
+  },
+  "v22s_pool_150eps": {
+    "learner": 0.915,
+    "random": 0.716,
+    "df": 0.805,
+    "pacifist": 0.394
+  },
+  "v22_worlds": {
+    "10556": {
+      "survival_by_kind": {
+        "learner": 0.244,
+        "random": 0.717,
+        "df": 0.644,
+        "pacifist": 0.361
+      },
+      "starve_share": 0.708,
+      "deaths_by_cause": {
+        "invade": 101,
+        "starve": 259,
+        "mutual": 6
+      },
+      "peak_tech_median": {
+        "learner": 345.1,
+        "random": 81.3,
+        "df": 192.7,
+        "pacifist": 456.2
+      }
+    },
+    "10557": {
+      "survival_by_kind": {
+        "learner": 0.233,
+        "random": 0.7,
+        "df": 0.6,
+        "pacifist": 0.392
+      },
+      "starve_share": 0.687,
+      "deaths_by_cause": {
+        "starve": 171,
+        "invade": 76,
+        "mutual": 2
+      },
+      "peak_tech_median": {
+        "learner": 314.6,
+        "random": 80.0,
+        "df": 224.2,
+        "pacifist": 731.2
+      }
+    },
+    "10558": {
+      "survival_by_kind": {
+        "learner": 0.283,
+        "random": 0.658,
+        "df": 0.633,
+        "pacifist": 0.383
+      },
+      "starve_share": 0.641,
+      "deaths_by_cause": {
+        "starve": 157,
+        "invade": 81,
+        "mutual": 7
+      },
+      "peak_tech_median": {
+        "learner": 315.1,
+        "random": 81.1,
+        "df": 358.4,
+        "pacifist": 467.5
+      }
+    }
+  },
+  "v22s_worlds": {
+    "10556": {
+      "survival_by_kind": {
+        "learner": 0.808,
+        "random": 0.717,
+        "df": 0.683,
+        "pacifist": 0.308
+      },
+      "starve_share": 0.775
+    },
+    "10557": {
+      "survival_by_kind": {
+        "learner": 0.758,
+        "random": 0.592,
+        "df": 0.692,
+        "pacifist": 0.367
+      },
+      "starve_share": 0.707
+    },
+    "10558": {
+      "survival_by_kind": {
+        "learner": 0.825,
+        "random": 0.65,
+        "df": 0.692,
+        "pacifist": 0.4
+      },
+      "starve_share": 0.762
+    }
+  }
+}

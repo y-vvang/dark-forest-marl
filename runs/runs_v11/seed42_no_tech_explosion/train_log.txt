@@ -1,0 +1,12 @@
+[22:51:02] === train seed=42 ablation=no_tech_explosion episodes=500 ===
+[22:51:26] ep 50/500 | ret    27.6 | alive 0.114 | silent 0.20 strike 0.18 | P(imm-strike) 0.68 | eps 0.84 | loss 0.0809 | 24s
+[22:51:49] ep 100/500 | ret    29.1 | alive 0.120 | silent 0.20 strike 0.15 | P(imm-strike) 0.63 | eps 0.69 | loss 0.1676 | 47s
+[22:52:12] ep 150/500 | ret    32.1 | alive 0.130 | silent 0.19 strike 0.12 | P(imm-strike) 0.56 | eps 0.53 | loss 0.2451 | 70s
+[22:52:35] ep 200/500 | ret    36.7 | alive 0.147 | silent 0.14 strike 0.09 | P(imm-strike) 0.44 | eps 0.37 | loss 0.3349 | 94s
+[22:52:58] ep 250/500 | ret    47.3 | alive 0.187 | silent 0.12 strike 0.06 | P(imm-strike) 0.41 | eps 0.21 | loss 0.3675 | 117s
+[22:53:20] ep 300/500 | ret    74.4 | alive 0.289 | silent 0.10 strike 0.03 | P(imm-strike) 0.29 | eps 0.10 | loss 0.3872 | 138s
+[22:53:42] ep 350/500 | ret    94.5 | alive 0.366 | silent 0.05 strike 0.02 | P(imm-strike) 0.18 | eps 0.10 | loss 0.2837 | 160s
+[22:54:04] ep 400/500 | ret    94.4 | alive 0.366 | silent 0.06 strike 0.02 | P(imm-strike) 0.21 | eps 0.10 | loss 0.2383 | 182s
+[22:54:25] ep 450/500 | ret    86.9 | alive 0.338 | silent 0.11 strike 0.02 | P(imm-strike) 0.21 | eps 0.10 | loss 0.2521 | 203s
+[22:54:47] ep 500/500 | ret    91.0 | alive 0.353 | silent 0.06 strike 0.02 | P(imm-strike) 0.22 | eps 0.10 | loss 0.2862 | 226s
+[22:54:47] === done in 3.8 min -> ../runs/seed42_no_tech_explosion ===

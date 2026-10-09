@@ -1,0 +1,100 @@
+{
+  "worlds": [
+    10556
+  ],
+  "episodes_per_world": 40,
+  "action_profiles_by_kind": {
+    "learner": {
+      "SILENT": 0.47,
+      "DEVELOP": 0.5159,
+      "BROADCAST_SELF": 0.0017,
+      "BROADCAST_OTHER": 0.0013,
+      "STRIKE": 0.0012,
+      "BLACK_DOMAIN": 0.0073,
+      "INVADE": 0.0011,
+      "OBSERVE": 0.0014
+    },
+    "random": {
+      "SILENT": 0.5215,
+      "DEVELOP": 0.2345,
+      "BROADCAST_SELF": 0.0035,
+      "BROADCAST_OTHER": 0.0013,
+      "STRIKE": 0.0018,
+      "BLACK_DOMAIN": 0.2345,
+      "INVADE": 0.0016,
+      "OBSERVE": 0.0013
+    },
+    "df": {
+      "SILENT": 0.232,
+      "DEVELOP": 0.3489,
+      "BROADCAST_SELF": 0.0,
+      "BROADCAST_OTHER": 0.0,
+      "STRIKE": 0.4189,
+      "BLACK_DOMAIN": 0.0,
+      "INVADE": 0.0,
+      "OBSERVE": 0.0003
+    },
+    "pacifist": {
+      "SILENT": 0.4947,
+      "DEVELOP": 0.5053,
+      "BROADCAST_SELF": 0.0,
+      "BROADCAST_OTHER": 0.0,
+      "STRIKE": 0.0,
+      "BLACK_DOMAIN": 0.0,
+      "INVADE": 0.0,
+      "OBSERVE": 0.0
+    }
+  },
+  "strike_resolution_by_tech_ratio": {
+    "1-1.5": {
+      "survived": 1294,
+      "killed": 287
+    },
+    "1.5-2": {
+      "survived": 735,
+      "killed": 124
+    },
+    "2-3": {
+      "blocked": 1289
+    },
+    "3-5": {
+      "blocked": 1273
+    },
+    "5-inf": {
+      "blocked": 3547
+    }
+  },
+  "survival_by_birth_tick": {
+    "[0,25)": {
+      "learner": 40,
+      "learner_surv": 12,
+      "random": 40,
+      "random_surv": 20,
+      "df": 40,
+      "df_surv": 22,
+      "pacifist": 40,
+      "pacifist_surv": 11
+    },
+    "[25,75)": {},
+    "[75,150)": {},
+    "[150,251)": {}
+  },
+  "survival_by_peak_tech": {
+    "[0,10)": {
+      "n": 20,
+      "surv": 0
+    },
+    "[10,50)": {
+      "n": 60,
+      "surv": 6
+    },
+    "[50,200)": {
+      "n": 170,
+      "surv": 83
+    },
+    "[200,inf)": {
+      "n": 230,
+      "surv": 143
+    }
+  }
+}

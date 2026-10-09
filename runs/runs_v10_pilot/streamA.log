@@ -1,0 +1,62 @@
+[22:33:03] === train seed=42 ablation=main episodes=500 ===
+[22:33:18] ep 50/500 | ret    27.3 | alive 0.113 | silent 0.20 strike 0.19 | P(imm-strike) 1.34 | eps 0.84 | loss 0.0946 | 15s
+[22:33:33] ep 100/500 | ret    29.1 | alive 0.119 | silent 0.19 strike 0.15 | P(imm-strike) 0.97 | eps 0.68 | loss 0.1724 | 30s
+[22:33:48] ep 150/500 | ret    31.4 | alive 0.127 | silent 0.19 strike 0.12 | P(imm-strike) 1.03 | eps 0.52 | loss 0.2642 | 44s
+[22:34:02] ep 200/500 | ret    36.2 | alive 0.145 | silent 0.18 strike 0.09 | P(imm-strike) 0.92 | eps 0.36 | loss 0.3324 | 59s
+[22:34:16] ep 250/500 | ret    45.3 | alive 0.179 | silent 0.14 strike 0.06 | P(imm-strike) 0.58 | eps 0.20 | loss 0.3966 | 73s
+[22:34:30] ep 300/500 | ret    75.7 | alive 0.294 | silent 0.13 strike 0.03 | P(imm-strike) 0.36 | eps 0.10 | loss 0.3801 | 87s
+[22:34:43] ep 350/500 | ret    94.2 | alive 0.364 | silent 0.07 strike 0.02 | P(imm-strike) 0.19 | eps 0.10 | loss 0.3079 | 100s
+[22:34:57] ep 400/500 | ret    86.6 | alive 0.336 | silent 0.06 strike 0.02 | P(imm-strike) 0.25 | eps 0.10 | loss 0.2477 | 114s
+[22:35:18] ep 450/500 | ret    83.8 | alive 0.326 | silent 0.11 strike 0.03 | P(imm-strike) 0.25 | eps 0.10 | loss 0.2804 | 134s
+[22:35:40] ep 500/500 | ret    86.5 | alive 0.336 | silent 0.07 strike 0.02 | P(imm-strike) 0.18 | eps 0.10 | loss 0.2931 | 156s
+[22:35:40] === done in 2.6 min -> ../runs/seed42_main ===
+[22:35:40] === train seed=43 ablation=main episodes=500 ===
+[22:36:03] ep 50/500 | ret    26.9 | alive 0.112 | silent 0.20 strike 0.18 | P(imm-strike) 1.23 | eps 0.85 | loss 0.028 | 23s
+[22:36:27] ep 100/500 | ret    30.6 | alive 0.125 | silent 0.21 strike 0.15 | P(imm-strike) 1.01 | eps 0.68 | loss 0.126 | 47s
+[22:36:51] ep 150/500 | ret    32.2 | alive 0.131 | silent 0.19 strike 0.12 | P(imm-strike) 1.03 | eps 0.52 | loss 0.2083 | 71s
+[22:37:15] ep 200/500 | ret    38.3 | alive 0.153 | silent 0.19 strike 0.09 | P(imm-strike) 0.72 | eps 0.36 | loss 0.2824 | 95s
+[22:37:37] ep 250/500 | ret    46.6 | alive 0.184 | silent 0.14 strike 0.06 | P(imm-strike) 0.57 | eps 0.20 | loss 0.3334 | 117s
+[22:37:59] ep 300/500 | ret    79.0 | alive 0.307 | silent 0.10 strike 0.03 | P(imm-strike) 0.24 | eps 0.10 | loss 0.3437 | 139s
+[22:38:21] ep 350/500 | ret    94.9 | alive 0.367 | silent 0.06 strike 0.02 | P(imm-strike) 0.21 | eps 0.10 | loss 0.2731 | 161s
+[22:38:43] ep 400/500 | ret    90.2 | alive 0.348 | silent 0.05 strike 0.02 | P(imm-strike) 0.20 | eps 0.10 | loss 0.2182 | 183s
+[22:39:05] ep 450/500 | ret    94.0 | alive 0.364 | silent 0.08 strike 0.02 | P(imm-strike) 0.23 | eps 0.10 | loss 0.2413 | 205s
+[22:39:27] ep 500/500 | ret    90.7 | alive 0.353 | silent 0.07 strike 0.02 | P(imm-strike) 0.19 | eps 0.10 | loss 0.256 | 226s
+[22:39:27] === done in 3.8 min -> ../runs/seed43_main ===
+[22:39:27] === train seed=44 ablation=main episodes=500 ===
+[22:39:52] ep 50/500 | ret    28.8 | alive 0.119 | silent 0.21 strike 0.17 | P(imm-strike) 1.25 | eps 0.84 | loss 0.0653 | 25s
+[22:40:15] ep 100/500 | ret    29.6 | alive 0.121 | silent 0.21 strike 0.15 | P(imm-strike) 1.05 | eps 0.68 | loss 0.1521 | 48s
+[22:40:39] ep 150/500 | ret    34.1 | alive 0.138 | silent 0.21 strike 0.11 | P(imm-strike) 1.03 | eps 0.52 | loss 0.2423 | 71s
+[22:41:01] ep 200/500 | ret    37.7 | alive 0.151 | silent 0.18 strike 0.09 | P(imm-strike) 0.84 | eps 0.36 | loss 0.3062 | 94s
+[22:41:23] ep 250/500 | ret    46.3 | alive 0.183 | silent 0.18 strike 0.06 | P(imm-strike) 0.55 | eps 0.20 | loss 0.3701 | 116s
+[22:41:44] ep 300/500 | ret    81.1 | alive 0.317 | silent 0.12 strike 0.03 | P(imm-strike) 0.27 | eps 0.10 | loss 0.3331 | 137s
+[22:42:06] ep 350/500 | ret    92.2 | alive 0.357 | silent 0.08 strike 0.02 | P(imm-strike) 0.20 | eps 0.10 | loss 0.2827 | 159s
+[22:42:27] ep 400/500 | ret    90.7 | alive 0.351 | silent 0.06 strike 0.02 | P(imm-strike) 0.24 | eps 0.10 | loss 0.2479 | 180s
+[22:42:48] ep 450/500 | ret    91.7 | alive 0.356 | silent 0.10 strike 0.02 | P(imm-strike) 0.21 | eps 0.10 | loss 0.2684 | 201s
+[22:43:10] ep 500/500 | ret    97.4 | alive 0.377 | silent 0.09 strike 0.02 | P(imm-strike) 0.23 | eps 0.10 | loss 0.286 | 222s
+[22:43:10] === done in 3.7 min -> ../runs/seed44_main ===
+[22:43:10] === train seed=42 ablation=no_tech_explosion episodes=500 ===
+[22:43:34] ep 50/500 | ret    27.4 | alive 0.114 | silent 0.21 strike 0.18 | P(imm-strike) 0.72 | eps 0.85 | loss 0.0862 | 23s
+[22:43:56] ep 100/500 | ret    29.0 | alive 0.119 | silent 0.20 strike 0.15 | P(imm-strike) 0.71 | eps 0.69 | loss 0.1653 | 46s
+[22:44:18] ep 150/500 | ret    31.1 | alive 0.126 | silent 0.17 strike 0.12 | P(imm-strike) 0.57 | eps 0.54 | loss 0.2482 | 68s
+[22:44:41] ep 200/500 | ret    34.6 | alive 0.139 | silent 0.17 strike 0.10 | P(imm-strike) 0.57 | eps 0.38 | loss 0.3337 | 91s
+[22:45:03] ep 250/500 | ret    43.9 | alive 0.173 | silent 0.11 strike 0.06 | P(imm-strike) 0.48 | eps 0.22 | loss 0.3794 | 113s
+[22:45:25] ep 300/500 | ret    74.2 | alive 0.288 | silent 0.06 strike 0.03 | P(imm-strike) 0.29 | eps 0.10 | loss 0.3911 | 134s
+[22:45:46] ep 350/500 | ret    90.3 | alive 0.349 | silent 0.08 strike 0.02 | P(imm-strike) 0.22 | eps 0.10 | loss 0.3168 | 156s
+[22:46:08] ep 400/500 | ret    92.5 | alive 0.357 | silent 0.05 strike 0.02 | P(imm-strike) 0.19 | eps 0.10 | loss 0.2686 | 177s
+[22:46:23] ep 450/500 | ret    85.8 | alive 0.332 | silent 0.06 strike 0.02 | P(imm-strike) 0.20 | eps 0.10 | loss 0.2617 | 193s
+[22:46:37] ep 500/500 | ret    85.8 | alive 0.332 | silent 0.07 strike 0.03 | P(imm-strike) 0.17 | eps 0.10 | loss 0.3285 | 206s
+[22:46:37] === done in 3.4 min -> ../runs/seed42_no_tech_explosion ===
+[22:46:37] === train seed=43 ablation=no_tech_explosion episodes=500 ===
+Traceback (most recent call last):
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/train.py", line 166, in <module>
+    main()
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/train.py", line 95, in main
+    a = agent.act(obs, valid, eps)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/model.py", line 141, in act
+    q, _ = self.online.forward(obs.astype(np.float64))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/model.py", line 34, in forward
+    z = h @ self.params[f"W{i}"] + self.params[f"b{i}"]
+        ~~^~~~~~~~~~~~~~~~~~~~~~
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 25 is different from 24)

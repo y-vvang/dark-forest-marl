@@ -1,0 +1,42 @@
+[22:51:01] streamB start seed42 no_tech_explosion
+[22:51:02] === train seed=42 ablation=no_tech_explosion episodes=500 ===
+[22:51:26] ep 50/500 | ret    27.6 | alive 0.114 | silent 0.20 strike 0.18 | P(imm-strike) 0.68 | eps 0.84 | loss 0.0809 | 24s
+[22:51:49] ep 100/500 | ret    29.1 | alive 0.120 | silent 0.20 strike 0.15 | P(imm-strike) 0.63 | eps 0.69 | loss 0.1676 | 47s
+[22:52:12] ep 150/500 | ret    32.1 | alive 0.130 | silent 0.19 strike 0.12 | P(imm-strike) 0.56 | eps 0.53 | loss 0.2451 | 70s
+[22:52:35] ep 200/500 | ret    36.7 | alive 0.147 | silent 0.14 strike 0.09 | P(imm-strike) 0.44 | eps 0.37 | loss 0.3349 | 94s
+[22:52:58] ep 250/500 | ret    47.3 | alive 0.187 | silent 0.12 strike 0.06 | P(imm-strike) 0.41 | eps 0.21 | loss 0.3675 | 117s
+[22:53:20] ep 300/500 | ret    74.4 | alive 0.289 | silent 0.10 strike 0.03 | P(imm-strike) 0.29 | eps 0.10 | loss 0.3872 | 138s
+[22:53:42] ep 350/500 | ret    94.5 | alive 0.366 | silent 0.05 strike 0.02 | P(imm-strike) 0.18 | eps 0.10 | loss 0.2837 | 160s
+[22:54:04] ep 400/500 | ret    94.4 | alive 0.366 | silent 0.06 strike 0.02 | P(imm-strike) 0.21 | eps 0.10 | loss 0.2383 | 182s
+[22:54:25] ep 450/500 | ret    86.9 | alive 0.338 | silent 0.11 strike 0.02 | P(imm-strike) 0.21 | eps 0.10 | loss 0.2521 | 203s
+[22:54:47] ep 500/500 | ret    91.0 | alive 0.353 | silent 0.06 strike 0.02 | P(imm-strike) 0.22 | eps 0.10 | loss 0.2862 | 226s
+[22:54:47] === done in 3.8 min -> ../runs/seed42_no_tech_explosion ===
+[22:54:47] streamB done  seed42 no_tech_explosion
+[22:54:47] streamB start seed43 no_tech_explosion
+[22:54:48] === train seed=43 ablation=no_tech_explosion episodes=500 ===
+[22:55:12] ep 50/500 | ret    27.6 | alive 0.114 | silent 0.22 strike 0.18 | P(imm-strike) 0.68 | eps 0.85 | loss 0.0611 | 24s
+[22:55:36] ep 100/500 | ret    30.6 | alive 0.125 | silent 0.20 strike 0.15 | P(imm-strike) 0.67 | eps 0.68 | loss 0.1625 | 49s
+[22:56:00] ep 150/500 | ret    32.2 | alive 0.130 | silent 0.18 strike 0.12 | P(imm-strike) 0.67 | eps 0.52 | loss 0.2434 | 72s
+[22:56:24] ep 200/500 | ret    37.5 | alive 0.149 | silent 0.16 strike 0.09 | P(imm-strike) 0.50 | eps 0.36 | loss 0.3154 | 96s
+[22:56:47] ep 250/500 | ret    46.2 | alive 0.182 | silent 0.11 strike 0.06 | P(imm-strike) 0.49 | eps 0.20 | loss 0.3785 | 119s
+[22:57:09] ep 300/500 | ret    76.2 | alive 0.295 | silent 0.06 strike 0.03 | P(imm-strike) 0.27 | eps 0.10 | loss 0.3533 | 141s
+[22:57:32] ep 350/500 | ret    89.6 | alive 0.346 | silent 0.06 strike 0.02 | P(imm-strike) 0.21 | eps 0.10 | loss 0.3076 | 164s
+[22:57:54] ep 400/500 | ret    85.7 | alive 0.332 | silent 0.05 strike 0.02 | P(imm-strike) 0.22 | eps 0.10 | loss 0.2414 | 186s
+[22:58:17] ep 450/500 | ret    91.3 | alive 0.354 | silent 0.08 strike 0.02 | P(imm-strike) 0.22 | eps 0.10 | loss 0.2597 | 209s
+[22:58:39] ep 500/500 | ret    80.6 | alive 0.313 | silent 0.10 strike 0.02 | P(imm-strike) 0.22 | eps 0.10 | loss 0.2868 | 231s
+[22:58:39] === done in 3.9 min -> ../runs/seed43_no_tech_explosion ===
+[22:58:39] streamB done  seed43 no_tech_explosion
+[22:58:39] streamB start seed44 no_tech_explosion
+[22:58:40] === train seed=44 ablation=no_tech_explosion episodes=500 ===
+[22:59:00] streamB done  seed44 no_tech_explosion
+[22:59:00] streamB start seed42 costly_strike
+[22:59:00] === train seed=42 ablation=costly_strike episodes=500 ===
+[22:59:22] ep 50/500 | ret    24.6 | alive 0.109 | silent 0.21 strike 0.17 | P(imm-strike) 0.68 | eps 0.85 | loss 0.0872 | 22s
+[22:59:46] ep 100/500 | ret    28.1 | alive 0.122 | silent 0.20 strike 0.15 | P(imm-strike) 0.69 | eps 0.70 | loss 0.1777 | 46s
+[23:00:09] ep 150/500 | ret    30.7 | alive 0.130 | silent 0.17 strike 0.12 | P(imm-strike) 0.54 | eps 0.54 | loss 0.2616 | 69s
+[23:00:33] ep 200/500 | ret    35.8 | alive 0.148 | silent 0.16 strike 0.09 | P(imm-strike) 0.51 | eps 0.37 | loss 0.3283 | 92s
+[23:00:55] ep 250/500 | ret    47.5 | alive 0.191 | silent 0.14 strike 0.06 | P(imm-strike) 0.35 | eps 0.21 | loss 0.3861 | 115s
+[23:01:17] ep 300/500 | ret    72.2 | alive 0.284 | silent 0.15 strike 0.03 | P(imm-strike) 0.20 | eps 0.10 | loss 0.4128 | 137s
+[23:01:38] ep 350/500 | ret    93.9 | alive 0.366 | silent 0.06 strike 0.02 | P(imm-strike) 0.20 | eps 0.10 | loss 0.2999 | 158s
+[23:02:00] ep 400/500 | ret    93.6 | alive 0.365 | silent 0.07 strike 0.02 | P(imm-strike) 0.21 | eps 0.10 | loss 0.2318 | 179s
+[23:02:21] ep 450/500 | ret    92.7 | alive 0.363 | silent 0.12 strike 0.02 | P(imm-strike) 0.23 | eps 0.10 | loss 0.2387 | 201s

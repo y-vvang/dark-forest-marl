@@ -1,0 +1,39 @@
+{
+  "task": "v2.1: staggered spawning + two-stage protocol (self-play -> strategy pool)",
+  "provenance": {
+    "mode": "measured",
+    "hardware": "2 vCPU Xeon, 4GB RAM, no GPU",
+    "note": "single seed 42, 600 training episodes, frozen eval 150 episodes in mixed pool (3x each of random/DF/pacifist/learner slots)",
+    "timestamp": "2026-09-08"
+  },
+  "stage_a_selfplay": {
+    "episodes": 600,
+    "alive_last100": 0.528,
+    "return_last100": 17.6,
+    "strike_freq_last100": 0.0125,
+    "population_curve_check": "4 -> 6 -> 8 -> 10 -> 12 by schedule"
+  },
+  "stage_b_pool": {
+    "survival_by_kind": {
+      "learner": 0.81,
+      "random": 0.688,
+      "df": 0.889,
+      "pacifist": 0.901
+    },
+    "learner_action_profile": {
+      "SILENT": 0.354,
+      "DEVELOP": 0.61,
+      "BROADCAST_SELF": 0.004,
+      "BROADCAST_OTHER": 0.005,
+      "STRIKE": 0.006,
+      "BLACK_DOMAIN": 0.017,
+      "INVADE": 0.001,
+      "OBSERVE": 0.002
+    },
+    "class_survival": {
+      "low": 0.58,
+      "mid": 0.767,
+      "high": 0.882
+    }
+  }
+}

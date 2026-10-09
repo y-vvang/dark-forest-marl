@@ -1,0 +1,30 @@
+[
+  {
+    "id": "fig_01_strategy_emergence",
+    "path_pdf": "fig_01_strategy_emergence.pdf",
+    "path_png": "fig_01_strategy_emergence.png",
+    "caption": "(a) v1.4 main: action-frequency evolution over 500 training episodes (3-seed mean ± range); (b) P(strike within 10 ticks of FIRST detection) and survival fraction vs episode. Training-time behaviour, eps annealed to 0.10.",
+    "section": "results"
+  },
+  {
+    "id": "fig_02_policy_comparison",
+    "path_pdf": "fig_02_policy_comparison.pdf",
+    "path_png": "fig_02_policy_comparison.png",
+    "caption": "Frozen-policy evaluation on v1.4 (400 eps/seed for baselines, 100 eps/seed for DQN): survival fraction and survivors at T=250. DQN survives ~3x the hand-written Dark-Forest heuristic, which goes extinct despite P(strike|detect)=0.90.",
+    "section": "results"
+  },
+  {
+    "id": "fig_03_mechanism_ladder",
+    "path_pdf": "fig_03_mechanism_ladder.pdf",
+    "path_png": "fig_03_mechanism_ladder.png",
+    "caption": "Mechanism ladder (training-time, last 100 eps, 3-seed mean ± range): strike rate and survival across v1.0-v1.4 plus v1.4 ablations and the terminal-reward branch. Pre-emptive striking emerges only after growth becomes existential (v1.3+); removing the black domain doubles it (0.23 to 0.45); the terminal-reward branch drives black-domain usage to 55% of actions.",
+    "section": "results"
+  },
+  {
+    "id": "fig_04_survival_curves",
+    "path_pdf": "fig_04_survival_curves.pdf",
+    "path_png": "fig_04_survival_curves.png",
+    "caption": "Mean civilizations alive vs tick (v1.4, frozen policies): random and DF-heuristic collapse within ~60 ticks; pacifists and DQN-trained survivors persist but at low counts.",
+    "section": "results"
+  }
+]

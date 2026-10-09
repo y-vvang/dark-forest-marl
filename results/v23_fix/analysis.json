@@ -1,0 +1,97 @@
+{
+  "action_profiles_by_kind": {
+    "df": {
+      "SILENT": 29.8862,
+      "DEVELOP": 45.3595,
+      "STRIKE": 5.1954,
+      "OBSERVE": 0.851
+    },
+    "learner": {
+      "SILENT": 3.0823,
+      "DEVELOP": 125.4427,
+      "BROADCAST_SELF": 0.1645,
+      "STRIKE": 0.0157,
+      "BLACK_DOMAIN": 2.9305,
+      "INVADE": 0.1851,
+      "OBSERVE": 0.0411,
+      "STRIKE_WEAK": 0.0304,
+      "STRIKE_STRONG": 0.0147
+    },
+    "pacifist": {
+      "SILENT": 34.9673,
+      "DEVELOP": 35.093
+    },
+    "random": {
+      "SILENT": 34.1644,
+      "DEVELOP": 33.1386,
+      "BROADCAST_SELF": 0.8396,
+      "STRIKE": 0.0277,
+      "BLACK_DOMAIN": 33.1376,
+      "INVADE": 0.1248,
+      "OBSERVE": 0.0525,
+      "STRIKE_WEAK": 0.0307,
+      "STRIKE_STRONG": 0.0317
+    }
+  },
+  "strike_resolution_by_tech_ratio": {
+    "1-1.5": {
+      "killed": 1917,
+      "survived": 1007
+    },
+    "1.5-2": {
+      "survived": 375,
+      "killed": 70
+    },
+    "2-3": {
+      "blocked": 1008
+    },
+    "3-5": {
+      "blocked": 586
+    },
+    "5-inf": {
+      "blocked": 395
+    }
+  },
+  "survival_by_birth_tick": {
+    "[0,25)": {
+      "learner": 120,
+      "random": 120,
+      "df": 120,
+      "pacifist": 120,
+      "learner_surv": 71,
+      "random_surv": 38,
+      "df_surv": 30,
+      "pacifist_surv": 15
+    },
+    "[150,251)": {
+      "learner": 901,
+      "random": 890,
+      "random_surv": 470,
+      "df": 873,
+      "pacifist": 859,
+      "learner_surv": 529,
+      "df_surv": 296,
+      "pacifist_surv": 193
+    }
+  },
+  "survival_by_peak_tech": {
+    "[10,50)": {
+      "n": 1721,
+      "surv": 948
+    },
+    "[0,10)": {
+      "n": 2076,
+      "surv": 522
+    },
+    "[50,200)": {
+      "n": 184,
+      "surv": 151
+    },
+    "[200,inf)": {
+      "n": 22,
+      "surv": 21
+    }
+  },
+  "n_strike_events": 5358,
+  "n_civs": 4003
+}

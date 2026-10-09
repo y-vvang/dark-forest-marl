@@ -1,0 +1,76 @@
+{
+  "task": "v2.0: resource economy + invasion + tech-gated actions",
+  "provenance": {
+    "mode": "measured",
+    "hardware": "2 vCPU Xeon, 4GB RAM, no GPU",
+    "note": "single seed (42) per mode — sandbox round limits; frozen eval 100 eps (mixed 150); P(imm) = immediate-strike events per first-detection (can exceed 1)",
+    "timestamp": "2026-09-07"
+  },
+  "policies": {
+    "df_heuristic": {
+      "survival_mean": 0.9617,
+      "final_alive": 10.43,
+      "strike_per_100": 70.49,
+      "invade_per_100": 0.0,
+      "p_strike_after_detect": 3.541,
+      "survival_by_spawn_tech_class": {
+        "low": 0.96,
+        "mid": 0.966,
+        "high": 0.964
+      },
+      "n_episodes": 100
+    },
+    "dqn": {
+      "survival_mean": 0.5918,
+      "final_alive": 5.67,
+      "strike_per_100": 0.417,
+      "invade_per_100": 0.314,
+      "p_strike_after_detect": 0.148,
+      "survival_by_spawn_tech_class": {
+        "low": 0.434,
+        "mid": 0.619,
+        "high": 0.737
+      },
+      "n_episodes": 100
+    },
+    "mixed": {
+      "survival_mean": 0.6939,
+      "final_alive": 7.43,
+      "strike_per_100": 18.653,
+      "invade_per_100": 0.178,
+      "p_strike_after_detect": 1.495,
+      "survival_by_spawn_tech_class": {
+        "low": 0.506,
+        "mid": 0.701,
+        "high": 0.876
+      },
+      "n_episodes": 150
+    },
+    "pacifist": {
+      "survival_mean": 0.966,
+      "final_alive": 10.54,
+      "strike_per_100": 0.0,
+      "invade_per_100": 0.0,
+      "p_strike_after_detect": 0.0,
+      "survival_by_spawn_tech_class": {
+        "low": 0.976,
+        "mid": 0.964,
+        "high": 0.958
+      },
+      "n_episodes": 100
+    },
+    "random": {
+      "survival_mean": 0.396,
+      "final_alive": 4.15,
+      "strike_per_100": 0.08,
+      "invade_per_100": 0.618,
+      "p_strike_after_detect": 0.115,
+      "survival_by_spawn_tech_class": {
+        "low": 0.046,
+        "mid": 0.435,
+        "high": 0.723
+      },
+      "n_episodes": 100
+    }
+  }
+}

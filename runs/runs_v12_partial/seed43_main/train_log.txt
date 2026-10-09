@@ -1,0 +1,22 @@
+[23:13:03] === train seed=43 ablation=main episodes=500 ===
+[23:13:27] ep 50/500 | ret    27.2 | alive 0.113 | silent 0.19 strike 0.19 | P(imm-strike) 0.66 | eps 0.85 | loss 0.0812 | 24s
+[23:13:51] ep 100/500 | ret    29.0 | alive 0.119 | silent 0.20 strike 0.15 | P(imm-strike) 0.66 | eps 0.69 | loss 0.1645 | 48s
+[23:14:15] ep 150/500 | ret    30.9 | alive 0.125 | silent 0.18 strike 0.13 | P(imm-strike) 0.60 | eps 0.54 | loss 0.2523 | 71s
+[23:14:39] ep 200/500 | ret    37.4 | alive 0.150 | silent 0.22 strike 0.09 | P(imm-strike) 0.62 | eps 0.37 | loss 0.3314 | 96s
+[23:15:02] ep 250/500 | ret    44.3 | alive 0.175 | silent 0.17 strike 0.06 | P(imm-strike) 0.42 | eps 0.21 | loss 0.3866 | 119s
+[23:15:25] ep 300/500 | ret    70.1 | alive 0.273 | silent 0.13 strike 0.03 | P(imm-strike) 0.25 | eps 0.10 | loss 0.4138 | 142s
+[23:15:40] ep 350/500 | ret    88.8 | alive 0.344 | silent 0.08 strike 0.02 | P(imm-strike) 0.19 | eps 0.10 | loss 0.3333 | 157s
+[23:15:55] ep 400/500 | ret    88.6 | alive 0.345 | silent 0.14 strike 0.02 | P(imm-strike) 0.21 | eps 0.10 | loss 0.2686 | 172s
+[23:16:10] ep 450/500 | ret    86.3 | alive 0.337 | silent 0.14 strike 0.03 | P(imm-strike) 0.18 | eps 0.10 | loss 0.2672 | 187s
+[23:16:25] ep 500/500 | ret    82.0 | alive 0.320 | silent 0.14 strike 0.03 | P(imm-strike) 0.20 | eps 0.10 | loss 0.3181 | 202s
+[23:16:25] === done in 3.4 min -> ../runs/seed43_main ===
+[08:31:20] === train seed=43 ablation=main episodes=500 ===
+[08:31:24] ep 50/500 | ret    15.8 | alive 0.066 | silent 0.22 strike 0.11 | P(imm-strike) 0.49 | eps 0.97 | loss 0.0897 | 4s
+[08:31:29] ep 100/500 | ret    17.1 | alive 0.071 | silent 0.21 strike 0.10 | P(imm-strike) 0.60 | eps 0.93 | loss 0.032 | 9s
+[08:31:34] ep 150/500 | ret    15.6 | alive 0.065 | silent 0.22 strike 0.11 | P(imm-strike) 0.64 | eps 0.89 | loss 0.063 | 13s
+[08:31:39] ep 200/500 | ret    17.4 | alive 0.072 | silent 0.20 strike 0.10 | P(imm-strike) 0.53 | eps 0.85 | loss 0.0812 | 18s
+[08:31:46] ep 250/500 | ret    19.9 | alive 0.082 | silent 0.20 strike 0.10 | P(imm-strike) 0.58 | eps 0.79 | loss 0.134 | 25s
+[08:31:54] ep 300/500 | ret    20.4 | alive 0.084 | silent 0.21 strike 0.10 | P(imm-strike) 0.65 | eps 0.73 | loss 0.2327 | 33s
+[08:32:01] ep 350/500 | ret    20.8 | alive 0.085 | silent 0.19 strike 0.10 | P(imm-strike) 0.54 | eps 0.66 | loss 0.2913 | 41s
+[08:32:13] ep 400/500 | ret    28.3 | alive 0.115 | silent 0.17 strike 0.08 | P(imm-strike) 0.60 | eps 0.56 | loss 0.3717 | 53s
+[08:32:24] ep 450/500 | ret    27.4 | alive 0.111 | silent 0.16 strike 0.09 | P(imm-strike) 0.62 | eps 0.47 | loss 0.4096 | 64s

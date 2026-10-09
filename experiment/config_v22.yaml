@@ -1,0 +1,72 @@
+# DarkForestGrid v2.2 — resource conservation (Axiom 2) + unbounded tech arms race
+# (user-co-designed 2026-09-18)
+# Changes vs v2.1:
+#   1) FIXED total resource budget (150). Every bit of matter leaving circulation
+#      (depletion, unlooted corpses, shield costs) accrues to a FREE POOL.
+#   2) Endogenous births: after each birth the NEXT civilization's spawn resources
+#      are pre-rolled; it is born the moment the pool can afford them (pool debited).
+#      Fixed schedule is gone.
+#   3) NO tech cap. Growth = Softsign variant f(x)=x/(1+a|x|), a=0.2 per DEVELOP tick.
+#   4) SHIELD: a civ with tech >= 2x the striker's tech blocks the strike, but
+#      blocking drains shield_cost_frac (0.5) of its resources -> pool.
+#   5) Invasions BYPASS the shield (guaranteed kill) — the equalizer against giants.
+
+env:
+  n_agents: 12
+  world: 100.0
+  detect_radius: 30.0
+  t_max: 250
+  p_detect_base: 0.03
+  stealth_mult: 0.25
+  p_detect_max: 0.35
+  p_explosion: 0.01
+  develop_rate: 0.05
+  tech_cap: 1000000.0        # effectively removed
+  tech_spawn_lo: 0.5
+  tech_spawn_hi: 10.0
+  kill_base: 0.55
+  kill_tech_slope: 0.12
+  res_min: 5.0
+  res_max: 20.0
+  res_total_budget: 150.0
+  shield_cost_frac: 0.5
+  softsign_a: 0.2
+  p_deplete: 0.02
+  deplete_lo: 0.5
+  deplete_hi: 2.0
+  gate_broadcast_tech: 1.0
+  gate_broadcast_res: 10.0
+  gate_observe_tech: 5.0
+  gate_domain_tech: 5.0
+  gate_strike_tech: 7.0
+  develop_reward: 0.05
+  death_penalty: 10.0
+  bd_entry_penalty: 0.5
+  bd_growth_mult: 0.2
+  bd_explosion_mult: 0.1
+  enable_black_domain: true
+  spawn_schedule: [[0, 4]]   # only the initial cohort is fixed; the rest are pool-gated
+
+model:
+  obs_dim: 36
+  n_actions: 8
+  hidden: [64, 64]
+
+train:
+  episodes: 600
+  gamma: 0.995
+  lr: 0.0006
+  batch_size: 128
+  replay_size: 150000
+  update_every: 2
+  target_sync: 2000
+  eps_start: 1.0
+  eps_end: 0.05
+  eps_frac: 0.5
+  seeds: [42]
+
+eval:
+  episodes: 150
+  epsilon: 0.05
+  policy_seeds: [1001, 1002, 1003]
+  env_seed_base: 10001

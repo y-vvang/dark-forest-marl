@@ -1,0 +1,4 @@
+[dqn/main/s1002] surv 0.474 | final_alive 1.7 | strike/100 2.05 | P(imm) 0.12 -> ../results/eval_dqn_main_s1002.json
+[dqn/main/s1003] surv 0.543 | final_alive 2.6 | strike/100 1.10 | P(imm) 0.11 -> ../results/eval_dqn_main_s1003.json
+[dqn/main/s1001] surv 0.525 | final_alive 2.5 | strike/100 1.13 | P(imm) 0.10 -> ../results/eval_dqn_main_s1001.json
+V12_EVALS_DONE

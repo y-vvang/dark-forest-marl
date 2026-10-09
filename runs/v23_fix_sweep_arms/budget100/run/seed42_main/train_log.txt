@@ -1,0 +1,3 @@
+ep 50/150 | ret   -51.8 | alive 0.285 | silent 0.18 strike 0.00 invade 0.00 obs 0.00 bd 0.13 | eps 0.37 | loss 0.0421 | 37s
+ep 100/150 | ret   -16.9 | alive 0.245 | silent 0.11 strike 0.00 invade 0.00 obs 0.00 bd 0.02 | eps 0.05 | loss 0.058 | 71s
+ep 150/150 | ret    37.2 | alive 0.199 | silent 0.06 strike 0.00 invade 0.00 obs 0.00 bd 0.02 | eps 0.05 | loss 0.0329 | 105s

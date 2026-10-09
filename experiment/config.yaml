@@ -1,0 +1,69 @@
+env:
+  n_agents: 12
+  world: 100.0
+  detect_radius: 30.0
+  t_max: 250
+  p_detect_base: 0.03
+  stealth_mult: 0.25
+  p_detect_max: 0.35
+  p_explosion: 0.01
+  develop_rate: 0.05
+  tech_cap: 1000.0
+  kill_base: 0.55
+  kill_tech_slope: 0.12
+  strike_cost_mult: 0.96
+  strike_penalty: 0.0
+  develop_reward: 0.05
+  alive_reward: 1.0
+  min_spawn_dist: 12.0
+  explosion_lo: 1.6
+  explosion_hi: 2.2
+  matter_total: 400.0
+  develop_cost: 0.0
+  passive_cost: 0.0
+  neighbor_suppression: 0.5
+  decay_rate: 0.04
+  collapse_threshold: 0.5
+  enable_black_domain: true
+  bd_entry_penalty: 0.5
+  bd_growth_mult: 0.2
+  bd_explosion_mult: 0.1
+  enable_counter_detection: true
+  terminal_survival_reward: 0.0
+model:
+  obs_dim: 28
+  n_actions: 6
+  hidden:
+  - 64
+  - 64
+train:
+  episodes: 500
+  gamma: 0.995
+  lr: 0.0006
+  batch_size: 128
+  replay_size: 150000
+  update_every: 2
+  target_sync: 2000
+  eps_start: 1.0
+  eps_end: 0.1
+  eps_frac: 0.55
+  seeds:
+  - 42
+  - 43
+  - 44
+eval:
+  episodes: 400
+  epsilon: 0.05
+  policy_seeds:
+  - 1001
+  - 1002
+  - 1003
+  env_seed_base: 10001
+ablations:
+  no_tech_explosion:
+    p_explosion: 0.0
+  costly_strike:
+    strike_penalty: 0.25
+    strike_cost_mult: 0.9
+  no_black_domain:
+    enable_black_domain: false

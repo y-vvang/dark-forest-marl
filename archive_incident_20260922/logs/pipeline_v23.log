@@ -1,0 +1,15 @@
+PIPELINE START Mon Sep 21 19:23:18 CST 2026
+SWEEP_SLOT_FREE Mon Sep 21 19:23:18 CST 2026
+SWEEP_EXIT=0 Mon Sep 21 19:23:19 CST 2026
+[stage B] survival by kind: {'learner': 0.665, 'random': 0.445, 'df': 0.56, 'pacifist': 0.553}
+[stage B] learner action profile: {'SILENT': 0.524, 'DEVELOP': 0.465, 'BROADCAST_SELF': 0.0, 'BROADCAST_OTHER(retired)': 0.0, 'STRIKE': 0.0, 'BLACK_DOMAIN': 0.01, 'INVADE': 0.0, 'OBSERVE': 0.0, 'STRIKE_WEAK': 0.0, 'STRIKE_STRONG': 0.0}
+[stage B] class survival: {'low': 0.115, 'mid': 0.772, 'high': 0.951}
+-> ../results_v23/stage_b.json
+STAGEB_EXIT=0 Mon Sep 21 19:24:25 CST 2026
+-> ../results_v23_analysis.json
+  learner   {'SILENT': 3.8879, 'DEVELOP': 166.3866, 'BROADCAST_SELF': 0.194, 'STRIKE': 0.0025, 'BLACK_DOMAIN': 3.7846, 'INVADE': 0.073, 'OBSERVE': 0.0076, 'STRIKE_WEAK': 0.0013, 'STRIKE_STRONG': 0.0025}
+  random    {'SILENT': 36.1089, 'DEVELOP': 34.9278, 'BROADCAST_SELF': 1.1864, 'STRIKE': 0.1444, 'BLACK_DOMAIN': 34.6588, 'INVADE': 0.2651, 'OBSERVE': 0.2192, 'STRIKE_WEAK': 0.1509, 'STRIKE_STRONG': 0.147}
+  df        {'SILENT': 15.5061, 'DEVELOP': 23.3397, 'STRIKE': 106.0573, 'OBSERVE': 4.2183}
+  pacifist  {'SILENT': 72.5379, 'DEVELOP': 72.4101}
+ANALYSIS_EXIT=0 Mon Sep 21 19:25:22 CST 2026
+PIPELINE_DONE Mon Sep 21 19:25:22 CST 2026

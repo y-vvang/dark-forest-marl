@@ -1,0 +1,163 @@
+{
+  "shield025": {
+    "override": {
+      "env": {
+        "shield_cost_frac": 0.25
+      }
+    },
+    "loss_last50": 0.0227,
+    "pool_survival_2worlds40eps": {
+      "learner": 0.876,
+      "random": 0.655,
+      "df": 0.872,
+      "pacifist": 0.887
+    }
+  },
+  "shield075": {
+    "override": {
+      "env": {
+        "shield_cost_frac": 0.75
+      }
+    },
+    "loss_last50": 0.0492,
+    "pool_survival_2worlds40eps": {
+      "learner": 0.835,
+      "random": 0.648,
+      "df": 0.776,
+      "pacifist": 0.814
+    },
+    "arm_dir": "../sweep_v23_arms/shield075"
+  },
+  "scale005": {
+    "override": {
+      "env": {
+        "softsign_reward_scale": 0.005
+      }
+    },
+    "loss_last50": 0.0702,
+    "pool_survival_2worlds40eps": {
+      "learner": 0.647,
+      "random": 0.642,
+      "df": 0.732,
+      "pacifist": 0.757
+    },
+    "arm_dir": "../sweep_v23_arms/scale005"
+  },
+  "scale02": {
+    "override": {
+      "env": {
+        "softsign_reward_scale": 0.02
+      }
+    },
+    "loss_last50": 0.055,
+    "pool_survival_2worlds40eps": {
+      "learner": 0.692,
+      "random": 0.621,
+      "df": 0.652,
+      "pacifist": 0.714
+    },
+    "arm_dir": "../sweep_v23_arms/scale02"
+  },
+  "budget100": {
+    "override": {
+      "env": {
+        "res_total_budget": 100.0
+      }
+    },
+    "loss_last50": 0.0227,
+    "pool_survival_2worlds40eps": {
+      "learner": 0.809,
+      "random": 0.611,
+      "df": 0.841,
+      "pacifist": 0.873
+    },
+    "arm_dir": "../sweep_v23_arms/budget100"
+  },
+  "budget200": {
+    "override": {
+      "env": {
+        "res_total_budget": 200.0
+      }
+    },
+    "loss_last50": 0.0307,
+    "pool_survival_2worlds40eps": {
+      "learner": 0.842,
+      "random": 0.702,
+      "df": 0.768,
+      "pacifist": 0.799
+    },
+    "arm_dir": "../sweep_v23_arms/budget200"
+  },
+  "lr3e4": {
+    "override": {
+      "train": {
+        "lr": 0.0003
+      }
+    },
+    "loss_last50": 0.0743,
+    "pool_survival_2worlds40eps": {
+      "learner": 0.71,
+      "random": 0.649,
+      "df": 0.766,
+      "pacifist": 0.806
+    },
+    "arm_dir": "../sweep_v23_arms/lr3e4"
+  },
+  "lr12e3": {
+    "override": {
+      "train": {
+        "lr": 0.0012
+      }
+    },
+    "loss_last50": 0.0572,
+    "pool_survival_2worlds40eps": {
+      "learner": 0.72,
+      "random": 0.623,
+      "df": 0.771,
+      "pacifist": 0.805
+    },
+    "arm_dir": "../sweep_v23_arms/lr12e3"
+  },
+  "gamma099": {
+    "override": {
+      "train": {
+        "gamma": 0.99
+      }
+    },
+    "loss_last50": 0.0532,
+    "pool_survival_2worlds40eps": {
+      "learner": 0.741,
+      "random": 0.68,
+      "df": 0.758,
+      "pacifist": 0.797
+    },
+    "arm_dir": "../sweep_v23_arms/gamma099"
+  },
+  "gamma0999": {
+    "override": {
+      "train": {
+        "gamma": 0.999
+      }
+    },
+    "loss_last50": 0.0161,
+    "pool_survival_2worlds40eps": {
+      "learner": 0.851,
+      "random": 0.649,
+      "df": 0.789,
+      "pacifist": 0.797
+    },
+    "arm_dir": "../sweep_v23_arms/gamma0999"
+  },
+  "base_control": {
+    "override": {},
+    "loss_last50": 0.0495,
+    "pool_survival_2worlds40eps": {
+      "learner": 0.696,
+      "random": 0.682,
+      "df": 0.753,
+      "pacifist": 0.829
+    },
+    "arm_dir": "../sweep_v23_arms/base_control",
+    "note": "baseline control (no overrides)"
+  }
+}

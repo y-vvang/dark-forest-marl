@@ -1,0 +1,65 @@
+# v2.2s — audit variant of v2.2: identical Softsign reward SHAPE, scale 0.01
+# r_develop = 0.01 * tech/(1+0.2*tech), per-tick cap 0.05 (= v2.0/v2.1 legacy cap)
+# Purpose: isolate whether v2.2's learner collapse is caused by reward SCALE
+# (return-level dominance of the develop stream) rather than reward shape.
+
+env:
+  n_agents: 12
+  world: 100.0
+  detect_radius: 30.0
+  t_max: 250
+  p_detect_base: 0.03
+  stealth_mult: 0.25
+  p_detect_max: 0.35
+  p_explosion: 0.01
+  develop_rate: 0.05
+  tech_cap: 1000000.0
+  tech_spawn_lo: 0.5
+  tech_spawn_hi: 10.0
+  kill_base: 0.55
+  kill_tech_slope: 0.12
+  res_min: 5.0
+  res_max: 20.0
+  res_total_budget: 150.0
+  shield_cost_frac: 0.5
+  softsign_a: 0.2
+  softsign_reward_scale: 0.01
+  p_deplete: 0.02
+  deplete_lo: 0.5
+  deplete_hi: 2.0
+  gate_broadcast_tech: 1.0
+  gate_broadcast_res: 10.0
+  gate_observe_tech: 5.0
+  gate_domain_tech: 5.0
+  gate_strike_tech: 7.0
+  develop_reward: 0.05
+  death_penalty: 10.0
+  bd_entry_penalty: 0.5
+  bd_growth_mult: 0.2
+  bd_explosion_mult: 0.1
+  enable_black_domain: true
+  spawn_schedule: [[0, 4]]
+
+model:
+  obs_dim: 36
+  n_actions: 8
+  hidden: [64, 64]
+
+train:
+  episodes: 600
+  gamma: 0.995
+  lr: 0.0006
+  batch_size: 128
+  replay_size: 150000
+  update_every: 2
+  target_sync: 2000
+  eps_start: 1.0
+  eps_end: 0.05
+  eps_frac: 0.5
+  seeds: [42]
+
+eval:
+  episodes: 150
+  epsilon: 0.05
+  policy_seeds: [1001, 1002, 1003]
+  env_seed_base: 10001

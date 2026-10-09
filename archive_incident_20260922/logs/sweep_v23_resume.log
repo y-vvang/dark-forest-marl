@@ -1,0 +1,22 @@
+[shield025] already recorded — skip (evidence chain preserved)
+[shield075] loss50=0.0492 surv={'learner': 0.835, 'random': 0.648, 'df': 0.776, 'pacifist': 0.814}
+[scale005] loss50=0.0702 surv={'learner': 0.647, 'random': 0.642, 'df': 0.732, 'pacifist': 0.757}
+[scale02] loss50=0.0550 surv={'learner': 0.692, 'random': 0.621, 'df': 0.652, 'pacifist': 0.714}
+[budget100] loss50=0.0227 surv={'learner': 0.809, 'random': 0.611, 'df': 0.841, 'pacifist': 0.873}
+[budget200] loss50=0.0307 surv={'learner': 0.842, 'random': 0.702, 'df': 0.768, 'pacifist': 0.799}
+[lr3e4] loss50=0.0743 surv={'learner': 0.71, 'random': 0.649, 'df': 0.766, 'pacifist': 0.806}
+[lr12e3] loss50=0.0572 surv={'learner': 0.72, 'random': 0.623, 'df': 0.771, 'pacifist': 0.805}
+[gamma099] loss50=0.0532 surv={'learner': 0.741, 'random': 0.68, 'df': 0.758, 'pacifist': 0.797}
+[gamma0999] loss50=0.0161 surv={'learner': 0.851, 'random': 0.649, 'df': 0.789, 'pacifist': 0.797}
+SWEEP DONE
+[shield025] already recorded — skip (evidence chain preserved)
+[shield075] already recorded — skip (evidence chain preserved)
+[scale005] already recorded — skip (evidence chain preserved)
+[scale02] already recorded — skip (evidence chain preserved)
+[budget100] already recorded — skip (evidence chain preserved)
+[budget200] already recorded — skip (evidence chain preserved)
+[lr3e4] already recorded — skip (evidence chain preserved)
+[lr12e3] already recorded — skip (evidence chain preserved)
+[gamma099] already recorded — skip (evidence chain preserved)
+[gamma0999] already recorded — skip (evidence chain preserved)
+SWEEP DONE
