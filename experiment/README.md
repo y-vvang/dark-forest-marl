@@ -1,11 +1,14 @@
 # DarkForestGrid v1.3 — 黑暗森林策略涌现实验（可运行代码包）
 
-> **版本指针（2026-09-21 更新）**：本目录代码已演进至 **v2.3**（当前版本，`config_v23.yaml`）：
-> 36 槽位无上限文明（生成器预滚 + 定长 250 刻结算）、资源守恒自由池、Softsign 科技奖励
-> （scale 0.01）+ 线性增长、半倍科技护盾（目标付账）、广播仅全体、打击三模式选目标；
-> 动作空间 10、obs 38。v1.x 的 `train.py`/`config_v1*.yaml` 保留作机制阶梯记录；
-> v2.x 入口为 `train2.py` + `stage_b.py` + `analysis_v23.py` + `sweep_v23.py`（参数验证）。
-> 机制说明见上级 `README.md`「环境模型与奖励设计架构」板块。
+> **版本指针（2026-10-09 更新）**：本目录代码已演进至 **v2.4**（当前版本，`config_v24.yaml`）：
+> v2.3 全套（36 槽位无上限文明、资源守恒自由池、Softsign 科技奖励 scale 0.01、线性增长、
+> 半倍科技护盾目标付账、定长 250 刻结算）+ 观测优先信息原则（BROADCAST_ALL 改名、
+> BROADCAST_OTHER 恢复为揭露目标、删 STRIKE_WEAK/STRONG、OBSERVE 显式选目标）+ 禁科技继承；
+> **动作空间 8、obs 36**。**v2.4 入口**：`train2_v24.py` + `stage_b_v24.py` + `run_v24_arms.py`
+> （四奖励臂幂等驱动）+ `smoke_v24.py`（冒烟）；v2.3-fix 链（`env2.py`/`data2.py`/`train2.py`/
+> `stage_b.py`/`config_v23.yaml`）保留原状，与 v2.4 隔离。v1.x 的 `train.py`/`config_v1*.yaml`
+> 保留作机制阶梯记录；v2.3 分析入口 `analysis_v23.py` + `sweep_v23.py`。
+> 机制说明见上级 `README.md`「环境模型与奖励设计架构」板块与 `reports/v24_arms_brief.md`。
 
 把《三体》黑暗森林法则的两条公理、两个中间机制（猜疑链 / 技术爆炸）**逐条编码**成
 12 文明的多智能体环境，用参数共享的 Double-DQN 自博弈训练，观察"生存策略"是否

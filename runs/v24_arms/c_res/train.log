@@ -1,0 +1,13 @@
+[20:37:59] ep 50/600 | ret  -356.0 | alive 0.040 | silent 0.34 strike 0.00 invade 0.09 obs 0.00 bd 0.00 | eps 0.84 | loss 1.0212 | 62s
+[20:38:59] ep 100/600 | ret  -356.0 | alive 0.035 | silent 0.27 strike 0.00 invade 0.09 obs 0.00 bd 0.00 | eps 0.68 | loss 0.9708 | 122s
+[20:39:59] ep 150/600 | ret  -352.2 | alive 0.043 | silent 0.23 strike 0.00 invade 0.09 obs 0.00 bd 0.00 | eps 0.53 | loss 0.9192 | 182s
+[20:40:57] ep 200/600 | ret  -350.4 | alive 0.051 | silent 0.19 strike 0.00 invade 0.07 obs 0.00 bd 0.00 | eps 0.37 | loss 0.7832 | 240s
+[20:41:53] ep 250/600 | ret  -336.2 | alive 0.084 | silent 0.18 strike 0.00 invade 0.05 obs 0.00 bd 0.00 | eps 0.21 | loss 0.6716 | 296s
+[20:42:49] ep 300/600 | ret  -288.9 | alive 0.139 | silent 0.05 strike 0.00 invade 0.04 obs 0.00 bd 0.02 | eps 0.05 | loss 0.4364 | 352s
+[20:43:43] ep 350/600 | ret  -191.6 | alive 0.227 | silent 0.03 strike 0.00 invade 0.02 obs 0.00 bd 0.05 | eps 0.05 | loss 0.1799 | 406s
+[20:44:37] ep 400/600 | ret  -302.9 | alive 0.123 | silent 0.06 strike 0.00 invade 0.03 obs 0.00 bd 0.02 | eps 0.05 | loss 0.1732 | 460s
+[20:45:32] ep 450/600 | ret  -160.3 | alive 0.234 | silent 0.04 strike 0.00 invade 0.01 obs 0.00 bd 0.02 | eps 0.05 | loss 0.1598 | 515s
+[20:46:27] ep 500/600 | ret  -269.1 | alive 0.138 | silent 0.08 strike 0.00 invade 0.03 obs 0.00 bd 0.01 | eps 0.05 | loss 0.1837 | 570s
+[20:47:22] ep 550/600 | ret  -130.1 | alive 0.182 | silent 0.04 strike 0.00 invade 0.02 obs 0.00 bd 0.03 | eps 0.05 | loss 0.186 | 625s
+[20:48:17] ep 600/600 | ret  -244.2 | alive 0.161 | silent 0.07 strike 0.00 invade 0.02 obs 0.00 bd 0.05 | eps 0.05 | loss 0.2248 | 680s
+=== done in 11.3 min -> ../runs/v24_arms/c_res/run/seed42_main ===

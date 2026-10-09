@@ -1,0 +1,23 @@
+[19:41:19] ep 50/600 | ret   -60.0 | alive 0.360 | silent 0.36 strike 0.00 invade 0.00 obs 0.00 bd 0.31 | eps 0.84 | loss 0.0492 | 39s
+[19:41:58] ep 100/600 | ret   -20.0 | alive 0.376 | silent 0.32 strike 0.00 invade 0.00 obs 0.00 bd 0.32 | eps 0.68 | loss 0.0503 | 78s
+[19:42:36] ep 150/600 | ret  -200.0 | alive 0.422 | silent 0.36 strike 0.00 invade 0.00 obs 0.00 bd 0.25 | eps 0.53 | loss 0.0338 | 116s
+[19:43:13] ep 200/600 | ret  -120.0 | alive 0.361 | silent 0.35 strike 0.00 invade 0.00 obs 0.00 bd 0.29 | eps 0.37 | loss 0.0279 | 152s
+[19:43:48] ep 250/600 | ret   -80.0 | alive 0.360 | silent 0.18 strike 0.00 invade 0.00 obs 0.00 bd 0.32 | eps 0.21 | loss 0.026 | 188s
+[19:44:23] ep 300/600 | ret   -40.0 | alive 0.340 | silent 0.43 strike 0.01 invade 0.00 obs 0.00 bd 0.19 | eps 0.05 | loss 0.0299 | 223s
+[19:44:58] ep 350/600 | ret   -60.0 | alive 0.294 | silent 0.29 strike 0.00 invade 0.00 obs 0.00 bd 0.27 | eps 0.05 | loss 0.0281 | 257s
+[19:45:32] ep 400/600 | ret   -20.0 | alive 0.380 | silent 0.45 strike 0.00 invade 0.00 obs 0.00 bd 0.40 | eps 0.05 | loss 0.0155 | 292s
+[19:46:07] ep 450/600 | ret   -80.0 | alive 0.415 | silent 0.38 strike 0.00 invade 0.00 obs 0.00 bd 0.35 | eps 0.05 | loss 0.0213 | 326s
+[19:46:41] ep 500/600 | ret   -20.0 | alive 0.364 | silent 0.53 strike 0.00 invade 0.00 obs 0.00 bd 0.35 | eps 0.05 | loss 0.0173 | 361s
+[19:47:16] ep 550/600 | ret  -110.0 | alive 0.399 | silent 0.41 strike 0.00 invade 0.00 obs 0.00 bd 0.35 | eps 0.05 | loss 0.015 | 396s
+[19:47:51] ep 600/600 | ret   -10.0 | alive 0.424 | silent 0.26 strike 0.00 invade 0.00 obs 0.00 bd 0.48 | eps 0.05 | loss 0.0111 | 430s
+=== done in 7.2 min -> ../runs/v23_fix_term_only/run/seed42_main ===
+TRAIN_EXIT=0
+[stage B] survival by kind: {'learner': 0.712, 'random': 0.442, 'df': 0.429, 'pacifist': 0.394}
+[stage B] learner action profile: {'SILENT': 0.566, 'DEVELOP': 0.191, 'BROADCAST_SELF': 0.002, 'BROADCAST_OTHER(retired)': 0.0, 'STRIKE': 0.0, 'BLACK_DOMAIN': 0.241, 'INVADE': 0.001, 'OBSERVE': 0.0, 'STRIKE_WEAK': 0.0, 'STRIKE_STRONG': 0.0}
+[stage B] class survival: {'low': 0.133, 'mid': 0.559, 'high': 0.686}
+-> ../results/v23_fix_term_only/stage_b.json
+STAGEB_EXIT=0
+SURV: {'learner': {'survival_fraction_of_lifetime': 0.712, 'loot_mean': 5.84, 'kills_mean': 0.23}, 'random': {'survival_fraction_of_lifetime': 0.442, 'loot_mean': 3.92, 'kills_mean': 0.17}, 'df': {'survival_fraction_of_lifetime': 0.429, 'loot_mean': 0.0, 'kills_mean': 13.11}, 'pacifist': {'survival_fraction_of_lifetime': 0.394, 'loot_mean': 0.0, 'kills_mean': 0.0}}
+PROFILE: {'SILENT': 0.566, 'DEVELOP': 0.191, 'BROADCAST_SELF': 0.002, 'BROADCAST_OTHER(retired)': 0.0, 'STRIKE': 0.0, 'BLACK_DOMAIN': 0.241, 'INVADE': 0.001, 'OBSERVE': 0.0, 'STRIKE_WEAK': 0.0, 'STRIKE_STRONG': 0.0}
+CLASS: None
+TERM_ONLY_DONE

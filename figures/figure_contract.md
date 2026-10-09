@@ -1,5 +1,10 @@
 # Figure Contract — DarkForestGrid v1
 
+> **版本注记（2026-10-09）**：本契约覆盖 fig_01–11（v1.x–v2.3 阶段产物，含 fig_10 v2.2 守恒森林、
+> fig_11 v2.2s 奖励审计）。**v2.4 暂无新图**——四奖励臂结果以数据表交付
+> （`reports/v24_arms_brief.md` §2–§3、`results/v24_arms/summary.json`），后续出图按本契约
+> archetype/sizes 规范编号 fig_12 起。
+
 Core conclusion: 在自建黑暗森林环境中，自博弈 DQN 收敛出"低打击、重发展、不广播"
 的生存策略；"先发打击"只在特定参数下保留——策略形态由环境机制（技术爆炸/打击成本）
 塑形，而非公理的必然推论。

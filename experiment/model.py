@@ -73,14 +73,15 @@ class Adam:
 
 
 class ReplayBuffer:
-    def __init__(self, capacity: int, obs_dim: int, seed: int = 0):
+    def __init__(self, capacity: int, obs_dim: int, seed: int = 0,
+                 n_valid: int = 10):     # v2.4: valid-mask width parametrised (was hardcoded 10)
         self.capacity = capacity
         self.s = np.zeros((capacity, obs_dim), dtype=np.float32)
         self.s2 = np.zeros((capacity, obs_dim), dtype=np.float32)
         self.a = np.zeros(capacity, dtype=np.int64)
         self.r = np.zeros(capacity, dtype=np.float32)
         self.d = np.zeros(capacity, dtype=np.float32)
-        self.v2 = np.ones((capacity, 10), dtype=np.float32)   # next-state valid mask (v2.3: 10 actions)
+        self.v2 = np.ones((capacity, n_valid), dtype=np.float32)   # next-state valid mask
         self.idx = 0
         self.full = False
         self.rng = np.random.default_rng(seed)
@@ -138,7 +139,7 @@ class DQNAgent:
         self.target = MLP([obs_dim] + hidden + [n_actions], rng)
         self.target.params = {k: v.copy() for k, v in self.online.params.items()}
         self.opt = Adam(self.online.params, lr=lr)
-        self.buffer = ReplayBuffer(replay_size, obs_dim, seed=seed + 1)
+        self.buffer = ReplayBuffer(replay_size, obs_dim, seed=seed + 1, n_valid=n_actions)
         self.rng = np.random.default_rng(seed + 2)
         self.updates = 0
 

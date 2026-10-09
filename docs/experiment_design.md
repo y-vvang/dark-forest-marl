@@ -1,9 +1,12 @@
 # Experiment Design — 黑暗森林策略的多智能体强化学习涌现实验
 
-> **版本指针（2026-09-21 更新）**：本设计文档书写于 v1.x 机制阶梯期（v1.0–v1.3）。设计此后演进：
+> **版本指针（2026-10-09 更新）**：本设计文档书写于 v1.x 机制阶梯期（v1.0–v1.3）。设计此后演进：
 > v2.0 资源经济与入侵 → v2.1 间隔生成与两段式协议 → v2.2/v2.2s 公理化资源守恒与奖励审计 →
-> **v2.3 无上限文明 + 定长刻结算**（当前版本）。v2.x 的机制定义、奖励设计与实证结果见
-> `experiment_report.md` 第三～五部分；环境/奖励架构见 `README.md`「环境模型与奖励设计架构」板块。
+> v2.3 无上限文明 + 定长刻结算 → **v2.4 观测优先信息原则 + 同起跑线 + 四奖励臂**（当前版本，
+> 用户协同设计：BROADCAST_ALL 改名 / BROADCAST_OTHER 恢复为揭露目标 / 删科技排序打击 /
+> OBSERVE 显式选目标 / 禁科技继承；奖励臂 classic / terminal / res / malintent）。
+> v2.x 的机制定义、奖励设计与实证结果见 `experiment_report.md` 第三～七部分；
+> v2.4 详版见 `reports/v24_arms_brief.md`；环境/奖励架构见 `README.md`「环境模型与奖励设计架构」板块。
 > 下文保留原状作为 v1.x 设计记录。
 
 **Run:** DarkForestGrid **v1.2**（机制阶梯：v1.0 pilot → v1.1 → v1.2，见 §2.1/§2.2）· DQN self-play · 3 seeds × (1 main + 2 ablations)

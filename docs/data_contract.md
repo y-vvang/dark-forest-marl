@@ -1,10 +1,14 @@
 # Data Contract — DarkForestGrid v1.2（机制阶梯 v1.0 → v1.1 → v1.2）
 
-> **版本指针（2026-09-21 更新）**：本契约书写于 v1.x 机制阶梯期。机制阶梯已延伸至 **v2.3**
-> （资源守恒 + 自由池 + 内生生成 + 无上限文明 + 定长刻结算 + Softsign 科技奖励 + 半倍科技护盾 +
-> 打击三模式选目标；动作空间 10、obs 38 维、36 槽位）。v2.x 的数据路线、字段语义与产物清单以
-> `experiment_report.md` 第三～五部分与 `README.md`「环境模型与奖励设计架构」板块为准；
-> v2.x 各轮产物：`runs_v2*/` `results_v2*/` `sweep_v23_arms/`。下文 v1.x 内容保留原状作为阶梯早期记录。
+> **版本指针（2026-10-09 更新）**：本契约书写于 v1.x 机制阶梯期。机制阶梯已延伸至 **v2.4**
+> （当前版本 **v2.4** = v2.3 全套 + 观测优先信息原则——BROADCAST_ALL 改名、BROADCAST_OTHER 恢复为
+> "揭露目标坐标、广播者不暴露"、删 STRIKE_WEAK/STRONG、OBSERVE 显式选目标、禁科技继承；
+> **动作空间 8、obs 36 维**、36 槽位；新奖励参数 `res_reward_scale` / `attack_reward`）。
+> v2.x 的数据路线、字段语义与产物清单以 `experiment_report.md` 第三～七部分、
+> `reports/v24_arms_brief.md` 与 `README.md`「环境模型与奖励设计架构」板块为准；
+> v2.4 各臂产物：`runs/v24_arms/` `results/v24_arms/`（summary.json + per-arm stage_b.json）。
+> v2.4 观测语义要点：他人科技/资源仅在其被 `observed` 后进入 obs（`near_tech/near_res=-1` 占位）；
+> v2.3 的"known 即可见科技"的打击排序动作已删除。下文 v1.x 内容保留原状作为阶梯早期记录。
 
 ## Task binding
 - research question: 黑暗森林法则（生存公理 + 物质竞争 + 猜疑链 + 技术爆炸）在何种机制组合下会使"隐藏+先发打击"成为多智能体强化学习自博弈的主导生存策略？
