@@ -1,0 +1,28 @@
+{
+  "override": {
+    "res_reward_scale": 0.0025
+  },
+  "survival_by_kind": {
+    "learner": 0.487,
+    "random": 0.301,
+    "df": 0.524,
+    "pacifist": 0.549
+  },
+  "learner_loot_mean": 68.31,
+  "learner_kills_mean": 0.09,
+  "learner_action_profile": {
+    "SILENT": 0.703,
+    "DEVELOP": 0.241,
+    "BROADCAST_ALL": 0.008,
+    "BROADCAST_OTHER": 0.029,
+    "STRIKE": 0.0,
+    "BLACK_DOMAIN": 0.003,
+    "INVADE": 0.016,
+    "OBSERVE": 0.0
+  },
+  "survival_by_earned_tech_class": {
+    "low": 0.369,
+    "mid": 0.601,
+    "high": 0.858
+  }
+}

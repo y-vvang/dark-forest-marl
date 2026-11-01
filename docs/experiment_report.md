@@ -472,3 +472,117 @@ v2.2（scale 1.0）对照：学习者 SILENT 0.470 + DEVELOP 0.516——值网�
 - 驱动 v1 曾因 fork 并行写竞态丢 summary 臂；已从四个 stage_b.json 无损重建并修复（per-arm summary + 主进程合并，幂等重入验证）。
 - Stage B 150 回合下 pacifist/df 差距（如 a 臂 0.578 vs 0.519）未做显著性检验，按描述性结果对待。
 - 产物：`runs/v24_arms/<arm>/`、`results/v24_arms/`、`logs/v24_arms.log`；复现与单臂重跑见简报 §6。
+
+## 8. 第八部分 — v2.5 信息完备化 + 出生数无上限（2026-10-15，measured + 假说标注）
+
+### 8.1 机制变更（全部经冒烟验证，smoke_v25/smoke_v25b 全绿）
+
+1. **出生数无上限（死亡槽回收）**：36 槽位不变；出生优先未出生槽，耗尽后回收死亡槽（新生儿社交记忆清零：known/observed/public/under_attack/in_domain/first_detect 全抹，spawn_* 与 peak_tech 本代覆盖）。ever-born uncapped，资源预算（150）为唯一刹车；终局条件不变（t_max 或热死）。冒烟：随机 300 tick 出生 189 个（>36，复用生效）。
+2. **"被入侵"第一类环境状态**：既有两段式通知（`known[j,i]=True` 立即发现入侵者）+ obs 新增自我状态 `under_attack`（滑窗一刻：重选 obs 即见"正被入侵"，下一 tick 常规 obs 仍见，再下 tick 清除）+ 环境侧 `last_invader` 身份记录。**动作空间不变**——模型只按正常动作决策。
+3. **"被揭露"自知**：obs 新增 `self_public`（public 自我标志，持久醒目——known 不可撤销、黑域不洗旧知识）。
+4. obs 36→38（scal 7→9）；归一化分母固定 n_norm=36（alive/known 计数可超 1，clip 2）。
+5. Stage B 生存口径改"当前占用者"（出生 tick 归零 alive_ticks/loot/kills/first_detect）。
+
+### 8.2 人工策略 v2b（用户令"按最新环境重写，保证其仍适用"）
+
+| 策略 | 适配 | 结果（h2 vs 主跑同臂） |
+|---|---|---|
+| df | 被咬后下一 tick 反咬 last_invader（画像不变：打击优先/observe 0.3/develop） | 生存 +3.6~+4.2pp——反咬是正收益 |
+| pacifist | 被咬或被揭露 → 进黑域（tech≤5 回退静默），永不攻击 | +3.7~+6.3pp——躲避是正收益 |
+| random | 不变（无信息对照） | a/b/c 臂 +3.5~+6.4pp（间接受益），d 臂 −2.1pp |
+| learner | 冻结策略（与主跑同一 checkpoint） | −3.1~0pp——**对 under_attack/self_public 零利用** |
+
+### 8.3 四奖励臂结果（600ep 自博弈 + Stage B 150ep；主跑=旧启发式池，h2=v2b 池）
+
+| 臂 | learner（主跑/h2） | df（主跑/h2） | pacifist（主跑/h2） | random（主跑/h2） | 训练收敛（last-50ep） |
+|---|---|---|---|---|---|
+| a_classic | 0.562 / 0.545 | 0.569 / 0.611 | **0.603 / 0.666** | 0.283 / 0.329 | ret −198，Δ+79，收敛中 |
+| b_terminal | **0.621** / 0.590 | 0.596 / 0.632 | 0.635 / **0.672** | 0.321 / 0.356 | ret −269，平稳 |
+| c_res | 0.487 / 0.487 | 0.524 / 0.563 | **0.549 / 0.607** | 0.301 / 0.365 | **ret −1278，Δ−538 未收敛且恶化**；invade 6.45/100 |
+| d_malintent | 0.556 / 0.556 | 0.548 / 0.588 | **0.573 / 0.625** | 0.390 / 0.369 | **ret +337 转正，Δ+239 仍在涨**；后期 BOTHER 0.807 |
+
+### 8.4 结论（v2.5 世界）
+
+1. **pacifist 四臂仍全居首**（0.607–0.672，v2b 口径）——信息完备化没有撼动"隐匿种田流"的版本答案；v2.4 结论稳健。
+2. **"信息完备 ≠ 策略完备"**：知情启发式（df/pacifist）用上新状态即全面受益，而 600ep 自博弈的 learner 对 `under_attack`/`self_public` 的利用为零——观测可获得性提升不自动转化为策略优势，学习利用需要专门的探索/信用分配支持。
+3. **"遗忘效应"重塑池生态（vs v2.4，方向性）**：死亡槽回收=集体记忆随死亡下葬。random 0.05–0.07→0.28–0.39、learner 0.30–0.48→0.49–0.62（b 臂 0.621 居首）全线上浮——v2.4 世界惩罚"被记住"，v2.5 世界记忆会消失。
+4. **d 臂信息战放大**：训练后期 BOTHER 占比 0.181→0.807，return 转正且仍在涨，StageB 生存不再垫底——"恶意有代价"被削弱（假说级：世界更替更快+目标池更替，借刀杀人反而高效；单种子）。
+5. **c 臂掠夺流崩塌**：invade 6.45/100（a 臂 6 倍）但 return −1278 恶化——回收机制下目标更替加速，贪婪加速反噬加速。
+
+### 8.5 披露
+
+- **口径变化**：v2.5 生存分母=最后一代出生窗口（回收后 spawn_tick 覆盖），与 v2.4 全程口径不完全可比；§8.4.3 为方向性证据（各 kind 同口径内对比）。
+- 单种子（42）；四臂间比较可信，跨版本对比按假说级对待。
+- df 反咬/pacifist 躲避是 disclosed 启发式，不代表学习者可达上限；learner 零利用可能是探索不足（StageB eps=0.05）。
+- c/d 臂 600ep 未达定态（c 恶化、d 仍在涨），如需定态结论应延长至 1000ep+。
+- 产物：`runs/v25_arms/`、`results/v25_arms/`（主跑）、`results/v25_arms_h2/`（v2b 对照+`analysis.json`）、`figures/fig_12/13_v25_*`；复现见 `reports/v25_brief.md` §8。执行链：async-compute-window 流水线（`logs/pipeline_v25.log`，`PIPELINE_V25_DONE`，五阶段 EXIT 全 0）。
+
+## 9. 第九部分 — v2.5.1 多种子 + v3.0 solo 范式/旗舰（2026-10-16/17，measured）
+
+> 研究意图明确化（10-16）：**"在建立的宇宙模型中，所有文明一起从零探索，将收敛出何种生存策略？"**——评估自本版起只在单模型中进行（solo：成型模型冻结后指挥全宇宙单跑），训练期 metrics 不再充当评估数据。详版见 `reports/v30_brief.md`。
+
+### 9.1 多种子扩展（4 臂 × 3 seeds × 1000ep + StageB 双套）
+
+| 臂（v2b 口径） | learner | pacifist | 裁决要点 |
+|---|---|---|---|
+| a_classic | 0.538±0.035 | **0.640±0.014** | pacifist 3/3 居首（四臂 std 0.008–0.014） |
+| b_terminal | 0.478±0.028 | **0.604±0.010** | 隐匿黑域流（late SILENT 0.345+BD 0.070） |
+| c_res | 0.438±0.011 | **0.602±0.008** | 掠夺 return 3/3 负（−570~−818），1000ep 仍不收敛 |
+| d_malintent | 0.518±0.030 | **0.617±0.010** | 揭露流复现：BROADCAST_OTHER 0.712–0.768、return 唯一转正 +47~+254 |
+
+跨种子裁决：§8.4 假说中 **pacifist 居首、d 臂揭露流、c 臂掠夺不收敛全部升级为跨种子事实**；10-16 晨对 d 臂"种子噪声"的中间判断系查错键名（metrics 无 BOTHER 键），已撤销。learner 0.438–0.538 全面低于同池 pacifist——"信息完备≠策略完备"跨种子保持。
+
+### 9.2 solo 评估（冻结模型指挥全宇宙，16ep×600tick×12 ckpt）
+
+| 臂 | 生存 | strike/100 | 黑域/100 | invade/100 | p_imm | SILENT |
+|---|---|---|---|---|---|---|
+| a_classic | 0.499±0.090 | 0.19 | 2.05 | 0.57 | 0.021 | 0.732 |
+| b_terminal | **0.384**±0.014 | 0.04 | **9.24** | 1.39 | 0.000 | **0.884** |
+| c_res | 0.500±0.062 | 0.18 | 0.27 | **2.62** | 0.008 | 0.813 |
+| d_malintent | 0.479±0.137 | 0.08 | 0.00 | 2.12 | **0.395** | 0.781 |
+
+**对研究问题的回答（本环境公理体系下）**：从零自博弈收敛出的主流生存策略是**沉默+发展**（SILENT 0.73–0.88），**黑暗森林式先发打击不是收敛解**（strike/100 0.04–0.19，除 d 臂外首触 10t 打击率 ≤0.02）。奖励塑形改变策略形态——恶意/揭露奖励激活首发倾向（p_imm=0.395）与入侵骚扰、资源奖励推向掠夺（2.62/100）——但不改变"低打击"底色；仅终局奖励把策略推向极端黑域（9.24/100）且**反伤自身**（生存最低 0.384、std 最小=一致次优吸引子）。同质宇宙生存（0.384–0.500）普遍低于混合池（0.438–0.538）。
+
+### 9.3 旗舰 champion（league 训练 3 seeds×1000ep + 评估）
+
+- 训练：learner 12 槽（唯一学习方）+ 24 槽对手池（random/df/pacifist/四臂冻结 ckpt）每 ep 重抽；late return −667/−495/−331，画像 invade 0.04–0.11、bd 0.04–0.14。
+- league 矩阵（12 vs 24，8ep×3 seeds）：vs random 0.584 > pacifist 0.538 > df 0.484 ≫ vs 四臂 ckpt 0.312–0.360（vs b_terminal 最差 0.312）。
+- **诚实负结果**："最能打"未达成——champion 对全部同源臂模型全败。归因假说（§简报 3.3）：异质对手稀释学习信号/同类专家克制泛化打法/训练-评估压力结构失配。真旗舰升级路线：curriculum 专攻或对手过采样+延长训练。
+
+### 9.4 披露
+
+- solo 口径：per-civ 存活 tick/(窗口−出生 tick)；p_imm=打击事件中距攻击者首次探测 ≤10 tick 占比；探测→打击为均值（中位数未存）。
+- champion league 为 8ep×3 seeds 小样本，假说级。
+- 产物：`runs/v25m_arms/`、`runs/v3/v30_champion/`、`results/v25m_arms/analysis_multiseed.json`、`results/v30_solo/`、`results/v3/v30_champion/`、`figures/fig_14–18_*`。执行链：`logs/pipeline_v25m.log` 第二条 `PIPELINE_V25M_DONE`（10-16 22:59，EXIT 全 0）+ `logs/pipeline_v30.log` `PIPELINE_V26_DONE`（10-17 05:36，EXIT 全 0，含 05:20 幂等自动续跑）。
+
+## 10. 第十部分 — v3.1 curriculum 专攻 + v3.2 超参 sweep/离线早停终审 + v3.3 容量轴（2026-10-17/18，measured）
+
+### 10.1 v3.1 curriculum 专攻（"最能打"第一次冲击）
+
+- 机制：热启动自 v3.0 champion s42 ckpt + 对手池臂过采样 80%（12 learner + 臂槽 3×8）+ lr 减半。
+- 结果：vs 臂 0.363（仅 +0.018 vs v3.0 0.345），solo 0.406→0.323 反跌——专攻过拟合信号；诚实负结果，直接催生 v3.2 全轴 sweep。
+- 产物：`runs/v3/v31_champion/`、`results/v3/v31_champion/`、`figures/fig_19/20_v31_*`。
+
+### 10.2 v3.2 超参 sweep（19 分支 × 5 轴，链式贪心）
+
+- 设计：A1 池×lr（9）→ A2 γ（2）→ A3 replay（2）→ A4 eps（2）→ A5 tsync+batch（4），每分支 500ep 热启动自 v3.0 champion s42，每轴最优传入下一轴；门控 vs_arm>0.45 触发确认轮。
+- 工程事故与修复（诚实记录）：①首版超参 override 写在 `DQNAgent` 构造之后，构造期参数（lr/γ/replay/tsync/batch）全部未生效——16/19 分支分数逐位相同（同 seed 确定性下"分数逐位相同=配置未生效"铁证），修复重扫；②分支名生成双横线破坏 lr 解析（lr 改从定义结构读回，不解析生成名）；③pkill -f 模式自匹配自杀、flock 不防"锁释放但旧 worker 存活"（双驱动并行写坏一个分支，删重跑）。
+- sweep 结果：c 池（臂 100%）稳定最优 0.425–0.431，b 池方差大、d 池（b 加权）全面负贡献；γ/replay/eps 三轴变体均不如 base；**tsync 500 唯一双赢轴**（vs_arm 0.4667 + solo 0.615）→ 门控过。
+
+### 10.3 离线早停终审（early-stopping confirm）
+
+- 动机：首轮 confirm（1000ep 固定长）s42 vs_arm 0.408 ≪ sweep 0.467；训练 loss 0.42→1.03（ep300 后加速、无 ret 收益）——长训退化/过拟合嫌疑。
+- 方法（最原始的提前停止）：3 seeds×1000ep+每 250ep 快照 → 12 快照离线 8ep league eval（与 sweep 同口径）→ 每 seed 取 vs_arm 峰值快照（并列取更早 ep）→ 峰值补 solo 16ep 哨兵。
+- 结果：12 快照无一破 0.45；峰值均值 **0.4132**；s43 自 ep250 单调衰减（0.380→0.341）、s44 终点跳水（0.406→0.345）、s42 噪声主导——跨种子最优点在 ep250 附近，长训稳定更差；峰值 ckpt solo 均值 0.397 ≈ v3.0 champion 0.406。
+- 判定：sweep 单 seed 0.4667 系评估噪声+单种子乐观偏差，门控实质未过——**"最能打"结构性不可达，非优化问题**。
+
+### 10.4 v3.3 容量轴（champion 训练线独立大版本首战）
+
+- 定版：`train3_champion.py`（rounds/`--snap-every`/`--hidden` 构造前 override/`config_v33.yaml` 一等公民）+ `run_v33_capacity.py` + `pipeline_v33.sh`；冒烟 `--smoke` 全链 EXIT=0。
+- 口径决策：hidden 变宽使热启动 ckpt 的 Adam 动量缓冲与全层权重形状失效（128 宽加载 64 宽 Adam 状态首步广播崩溃实证）→ 三宽度全部**从头训**，与热启动口径不可直比（契约注记）。
+- 结果（500ep+8ep league，seed42）：h64 **0.4120** / h128 0.3871 / h192 **0.4158**（vs_heur 0.779、solo 0.544 同向最优；h128 谷值）；**vs_arm 天花板 0.41–0.42 与热启动 ES 终审峰值 0.4132 跨口径互证——容量不是"最能打"的瓶颈**，v3.2 负结果叙事闭合加固。
+
+### 10.5 叙事链与披露
+
+- 完整链：pacifist 跨种子居首（§9.1）→ solo 沉默主流、先发打击非收敛解（§9.2）→ 专攻 +0.018 换 solo 崩（§10.1）→ 五轴 sweep+早停终审无一破线（§10.2/10.3）→ 容量无关（§10.4）——**在这个无缴获打击的世界里，"又能打又能活"的学习者不存在，这是环境结构性质**。
+- 披露：league 为 8ep 小样本；容量轴单 seed 从头训；sweep/confirm/容量轴全部产物已归档至 `runs/v3/`、`results/v3/`（2026-10-18 归档，代码引用已同步）；执行链 `logs/pipeline_v32.log`（PIPELINE_V28_DONE）+ `logs/pipeline_v30.log`；代码 `experiment/run_v32_driver.py`、`experiment/train3_champion.py`、`experiment/run_v33_capacity.py`；详版 `reports/v32_brief.md`。

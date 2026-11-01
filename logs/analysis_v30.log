@@ -1,0 +1,5 @@
+-> analysis_v30_solo.json
+ a_classic    surv 0.499 strike 0.19 p_imm 0.0207
+ b_terminal   surv 0.384 strike 0.04 p_imm 0.0
+ c_res        surv 0.500 strike 0.18 p_imm 0.0077
+ d_malintent  surv 0.479 strike 0.08 p_imm 0.3947

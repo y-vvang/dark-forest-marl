@@ -1,0 +1,12 @@
+[v31] warm start from /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/runs/v3/v30_champion/run/seed42_champion/checkpoint.npz
+[17:08:41] ep 50/500 | ret  -925.7 | alive 0.250 | silent 0.28 strike 0.00 invade 0.04 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4544 | 37s
+[17:09:19] ep 100/500 | ret  -855.2 | alive 0.250 | silent 0.28 strike 0.00 invade 0.04 obs 0.00 bd 0.01 | eps 0.05 | loss 0.54 | 75s
+[17:09:57] ep 150/500 | ret  -434.9 | alive 0.216 | silent 0.15 strike 0.00 invade 0.07 obs 0.00 bd 0.01 | eps 0.05 | loss 0.4275 | 113s
+[17:10:34] ep 200/500 | ret -1096.2 | alive 0.293 | silent 0.08 strike 0.00 invade 0.07 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4268 | 150s
+[17:11:12] ep 250/500 | ret  -491.5 | alive 0.222 | silent 0.16 strike 0.00 invade 0.03 obs 0.00 bd 0.15 | eps 0.05 | loss 0.4897 | 188s
+[17:11:50] ep 300/500 | ret -1062.2 | alive 0.200 | silent 0.07 strike 0.00 invade 0.18 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4246 | 226s
+[17:12:27] ep 350/500 | ret  -307.1 | alive 0.194 | silent 0.17 strike 0.00 invade 0.04 obs 0.00 bd 0.04 | eps 0.05 | loss 0.446 | 264s
+[17:13:05] ep 400/500 | ret  -635.4 | alive 0.234 | silent 0.09 strike 0.00 invade 0.05 obs 0.00 bd 0.10 | eps 0.05 | loss 0.4276 | 301s
+[17:13:43] ep 450/500 | ret  -841.6 | alive 0.283 | silent 0.09 strike 0.00 invade 0.08 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4508 | 339s
+[17:14:21] ep 500/500 | ret  -545.3 | alive 0.258 | silent 0.10 strike 0.00 invade 0.05 obs 0.00 bd 0.03 | eps 0.05 | loss 0.5165 | 377s
+=== done in 6.3 min -> /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/runs/v3/v32_sweep/seed42_sw_b64 ===

@@ -1,0 +1,576 @@
+{
+  "arms": {
+    "a_classic": {
+      "survival_fraction_of_lifetime": {
+        "mean": 0.4989,
+        "std": 0.09,
+        "n": 3
+      },
+      "strike_per_100_ticks": {
+        "mean": 0.193,
+        "std": 0.2438,
+        "n": 3
+      },
+      "invade_per_100_ticks": {
+        "mean": 0.572,
+        "std": 0.4486,
+        "n": 3
+      },
+      "blackdomain_per_100_ticks": {
+        "mean": 2.0503,
+        "std": 2.6596,
+        "n": 3
+      },
+      "observe_per_100_ticks": {
+        "mean": 0.2113,
+        "std": 0.1712,
+        "n": 3
+      },
+      "p_strike_within_10_of_detect": {
+        "mean": 0.0207,
+        "std": 0.0358,
+        "n": 3
+      },
+      "final_alive_per_ep": {
+        "mean": 11.5633,
+        "std": 1.6901,
+        "n": 3
+      },
+      "ever_born_per_ep": {
+        "mean": 4.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "mean_detect_to_strike": {
+        "mean": 80.5333,
+        "std": 47.7079,
+        "n": 3
+      },
+      "action_freqs": {
+        "SILENT": {
+          "mean": 0.7322,
+          "std": 0.0576,
+          "n": 3
+        },
+        "DEVELOP": {
+          "mean": 0.2474,
+          "std": 0.0507,
+          "n": 3
+        },
+        "BROADCAST_ALL": {
+          "mean": 0.0051,
+          "std": 0.0038,
+          "n": 3
+        },
+        "BROADCAST_OTHER": {
+          "mean": 0.0063,
+          "std": 0.0022,
+          "n": 3
+        },
+        "STRIKE": {
+          "mean": 0.0005,
+          "std": 0.0006,
+          "n": 3
+        },
+        "BLACK_DOMAIN": {
+          "mean": 0.0063,
+          "std": 0.0083,
+          "n": 3
+        },
+        "INVADE": {
+          "mean": 0.0016,
+          "std": 0.0008,
+          "n": 3
+        },
+        "OBSERVE": {
+          "mean": 0.0007,
+          "std": 0.0006,
+          "n": 3
+        }
+      },
+      "n_seeds": 3
+    },
+    "b_terminal": {
+      "survival_fraction_of_lifetime": {
+        "mean": 0.3839,
+        "std": 0.0143,
+        "n": 3
+      },
+      "strike_per_100_ticks": {
+        "mean": 0.0373,
+        "std": 0.0519,
+        "n": 3
+      },
+      "invade_per_100_ticks": {
+        "mean": 1.3893,
+        "std": 0.5695,
+        "n": 3
+      },
+      "blackdomain_per_100_ticks": {
+        "mean": 9.2447,
+        "std": 3.0727,
+        "n": 3
+      },
+      "observe_per_100_ticks": {
+        "mean": 0.003,
+        "std": 0.003,
+        "n": 3
+      },
+      "p_strike_within_10_of_detect": {
+        "mean": 0.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "final_alive_per_ep": {
+        "mean": 7.56,
+        "std": 0.94,
+        "n": 3
+      },
+      "ever_born_per_ep": {
+        "mean": 4.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "mean_detect_to_strike": {
+        "mean": 45.5667,
+        "std": 41.29,
+        "n": 3
+      },
+      "action_freqs": {
+        "SILENT": {
+          "mean": 0.8836,
+          "std": 0.013,
+          "n": 3
+        },
+        "DEVELOP": {
+          "mean": 0.0815,
+          "std": 0.0241,
+          "n": 3
+        },
+        "BROADCAST_ALL": {
+          "mean": 0.0006,
+          "std": 0.0005,
+          "n": 3
+        },
+        "BROADCAST_OTHER": {
+          "mean": 0.0084,
+          "std": 0.009,
+          "n": 3
+        },
+        "STRIKE": {
+          "mean": 0.0001,
+          "std": 0.0001,
+          "n": 3
+        },
+        "BLACK_DOMAIN": {
+          "mean": 0.0205,
+          "std": 0.0067,
+          "n": 3
+        },
+        "INVADE": {
+          "mean": 0.0053,
+          "std": 0.004,
+          "n": 3
+        },
+        "OBSERVE": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n": 3
+        }
+      },
+      "n_seeds": 3
+    },
+    "c_res": {
+      "survival_fraction_of_lifetime": {
+        "mean": 0.5005,
+        "std": 0.0622,
+        "n": 3
+      },
+      "strike_per_100_ticks": {
+        "mean": 0.1773,
+        "std": 0.2347,
+        "n": 3
+      },
+      "invade_per_100_ticks": {
+        "mean": 2.624,
+        "std": 0.3219,
+        "n": 3
+      },
+      "blackdomain_per_100_ticks": {
+        "mean": 0.2737,
+        "std": 0.2142,
+        "n": 3
+      },
+      "observe_per_100_ticks": {
+        "mean": 0.024,
+        "std": 0.0178,
+        "n": 3
+      },
+      "p_strike_within_10_of_detect": {
+        "mean": 0.0077,
+        "std": 0.0133,
+        "n": 3
+      },
+      "final_alive_per_ep": {
+        "mean": 6.3567,
+        "std": 0.3819,
+        "n": 3
+      },
+      "ever_born_per_ep": {
+        "mean": 4.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "mean_detect_to_strike": {
+        "mean": 126.7333,
+        "std": 5.9366,
+        "n": 3
+      },
+      "action_freqs": {
+        "SILENT": {
+          "mean": 0.8131,
+          "std": 0.0088,
+          "n": 3
+        },
+        "DEVELOP": {
+          "mean": 0.1706,
+          "std": 0.0133,
+          "n": 3
+        },
+        "BROADCAST_ALL": {
+          "mean": 0.0008,
+          "std": 0.0011,
+          "n": 3
+        },
+        "BROADCAST_OTHER": {
+          "mean": 0.0038,
+          "std": 0.0021,
+          "n": 3
+        },
+        "STRIKE": {
+          "mean": 0.0004,
+          "std": 0.0005,
+          "n": 3
+        },
+        "BLACK_DOMAIN": {
+          "mean": 0.0005,
+          "std": 0.0004,
+          "n": 3
+        },
+        "INVADE": {
+          "mean": 0.0108,
+          "std": 0.0023,
+          "n": 3
+        },
+        "OBSERVE": {
+          "mean": 0.0,
+          "std": 0.0001,
+          "n": 3
+        }
+      },
+      "n_seeds": 3
+    },
+    "d_malintent": {
+      "survival_fraction_of_lifetime": {
+        "mean": 0.4786,
+        "std": 0.1366,
+        "n": 3
+      },
+      "strike_per_100_ticks": {
+        "mean": 0.0817,
+        "std": 0.1006,
+        "n": 3
+      },
+      "invade_per_100_ticks": {
+        "mean": 2.1187,
+        "std": 0.8195,
+        "n": 3
+      },
+      "blackdomain_per_100_ticks": {
+        "mean": 0.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "observe_per_100_ticks": {
+        "mean": 0.1267,
+        "std": 0.2151,
+        "n": 3
+      },
+      "p_strike_within_10_of_detect": {
+        "mean": 0.3947,
+        "std": 0.5267,
+        "n": 3
+      },
+      "final_alive_per_ep": {
+        "mean": 6.3967,
+        "std": 1.2266,
+        "n": 3
+      },
+      "ever_born_per_ep": {
+        "mean": 4.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "mean_detect_to_strike": {
+        "mean": 53.2,
+        "std": 37.5324,
+        "n": 3
+      },
+      "action_freqs": {
+        "SILENT": {
+          "mean": 0.7806,
+          "std": 0.0248,
+          "n": 3
+        },
+        "DEVELOP": {
+          "mean": 0.0224,
+          "std": 0.0157,
+          "n": 3
+        },
+        "BROADCAST_ALL": {
+          "mean": 0.0043,
+          "std": 0.0022,
+          "n": 3
+        },
+        "BROADCAST_OTHER": {
+          "mean": 0.1873,
+          "std": 0.0368,
+          "n": 3
+        },
+        "STRIKE": {
+          "mean": 0.0003,
+          "std": 0.0003,
+          "n": 3
+        },
+        "BLACK_DOMAIN": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n": 3
+        },
+        "INVADE": {
+          "mean": 0.0049,
+          "std": 0.0015,
+          "n": 3
+        },
+        "OBSERVE": {
+          "mean": 0.0003,
+          "std": 0.0005,
+          "n": 3
+        }
+      },
+      "n_seeds": 3
+    }
+  },
+  "champion": {
+    "solo": {
+      "survival_fraction_of_lifetime": {
+        "mean": 0.4062,
+        "std": 0.0087,
+        "n": 3
+      },
+      "strike_per_100_ticks": {
+        "mean": 0.0143,
+        "std": 0.0183,
+        "n": 3
+      },
+      "invade_per_100_ticks": {
+        "mean": 2.3213,
+        "std": 0.9151,
+        "n": 3
+      },
+      "blackdomain_per_100_ticks": {
+        "mean": 2.4967,
+        "std": 2.0432,
+        "n": 3
+      },
+      "observe_per_100_ticks": {
+        "mean": 0.315,
+        "std": 0.2764,
+        "n": 3
+      },
+      "p_strike_within_10_of_detect": {
+        "mean": 0.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "final_alive_per_ep": {
+        "mean": 6.6667,
+        "std": 1.1638,
+        "n": 3
+      },
+      "ever_born_per_ep": {
+        "mean": 4.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "mean_detect_to_strike": {
+        "mean": 61.2,
+        "std": 53.2268,
+        "n": 3
+      },
+      "action_freqs": {
+        "SILENT": {
+          "mean": 0.8145,
+          "std": 0.0333,
+          "n": 3
+        },
+        "DEVELOP": {
+          "mean": 0.1705,
+          "std": 0.0308,
+          "n": 3
+        },
+        "BROADCAST_ALL": {
+          "mean": 0.0005,
+          "std": 0.0003,
+          "n": 3
+        },
+        "BROADCAST_OTHER": {
+          "mean": 0.0024,
+          "std": 0.0024,
+          "n": 3
+        },
+        "STRIKE": {
+          "mean": 0.0001,
+          "std": 0.0001,
+          "n": 3
+        },
+        "BLACK_DOMAIN": {
+          "mean": 0.0054,
+          "std": 0.0052,
+          "n": 3
+        },
+        "INVADE": {
+          "mean": 0.0061,
+          "std": 0.0028,
+          "n": 3
+        },
+        "OBSERVE": {
+          "mean": 0.0006,
+          "std": 0.0005,
+          "n": 3
+        }
+      }
+    },
+    "league": {
+      "random": {
+        "learner_surv": {
+          "mean": 0.5843,
+          "std": 0.0477,
+          "n": 3
+        },
+        "champ_strike_per_100": {
+          "mean": 0.0207,
+          "std": 0.021,
+          "n": 3
+        },
+        "champ_silent_frac": {
+          "mean": 0.8747,
+          "std": 0.0116,
+          "n": 3
+        }
+      },
+      "df": {
+        "learner_surv": {
+          "mean": 0.4836,
+          "std": 0.1424,
+          "n": 3
+        },
+        "champ_strike_per_100": {
+          "mean": 1.3293,
+          "std": 0.4537,
+          "n": 3
+        },
+        "champ_silent_frac": {
+          "mean": 0.5151,
+          "std": 0.0058,
+          "n": 3
+        }
+      },
+      "pacifist": {
+        "learner_surv": {
+          "mean": 0.5377,
+          "std": 0.1937,
+          "n": 3
+        },
+        "champ_strike_per_100": {
+          "mean": 0.0127,
+          "std": 0.017,
+          "n": 3
+        },
+        "champ_silent_frac": {
+          "mean": 0.5912,
+          "std": 0.0069,
+          "n": 3
+        }
+      },
+      "a_classic": {
+        "learner_surv": {
+          "mean": 0.3562,
+          "std": 0.0464,
+          "n": 3
+        },
+        "champ_strike_per_100": {
+          "mean": 0.0067,
+          "std": 0.0115,
+          "n": 3
+        },
+        "champ_silent_frac": {
+          "mean": 0.8846,
+          "std": 0.0101,
+          "n": 3
+        }
+      },
+      "b_terminal": {
+        "learner_surv": {
+          "mean": 0.3119,
+          "std": 0.0323,
+          "n": 3
+        },
+        "champ_strike_per_100": {
+          "mean": 0.0103,
+          "std": 0.0123,
+          "n": 3
+        },
+        "champ_silent_frac": {
+          "mean": 0.889,
+          "std": 0.0147,
+          "n": 3
+        }
+      },
+      "c_res": {
+        "learner_surv": {
+          "mean": 0.3498,
+          "std": 0.0609,
+          "n": 3
+        },
+        "champ_strike_per_100": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n": 3
+        },
+        "champ_silent_frac": {
+          "mean": 0.8387,
+          "std": 0.0048,
+          "n": 3
+        }
+      },
+      "d_malintent": {
+        "learner_surv": {
+          "mean": 0.3605,
+          "std": 0.0425,
+          "n": 3
+        },
+        "champ_strike_per_100": {
+          "mean": 0.0257,
+          "std": 0.0175,
+          "n": 3
+        },
+        "champ_silent_frac": {
+          "mean": 0.8488,
+          "std": 0.0179,
+          "n": 3
+        }
+      }
+    }
+  }
+}

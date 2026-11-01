@@ -1,0 +1,39 @@
+{
+ "branches": [
+  {
+   "name": "sw_ts500",
+   "vs_arm": 0.4667,
+   "vs_heur": 0.8478,
+   "solo_surv": 0.615,
+   "complete": true
+  },
+  {
+   "name": "sw_ts4000",
+   "vs_arm": 0.3222,
+   "vs_heur": 0.3785,
+   "solo_surv": 0.3792,
+   "complete": true
+  },
+  {
+   "name": "sw_b64",
+   "vs_arm": 0.4567,
+   "vs_heur": 0.6799,
+   "solo_surv": 0.5172,
+   "complete": true
+  },
+  {
+   "name": "sw_b256",
+   "vs_arm": 0.3543,
+   "vs_heur": 0.4798,
+   "solo_surv": 0.4275,
+   "complete": true
+  }
+ ],
+ "best": {
+  "name": "sw_ts500",
+  "vs_arm": 0.4667,
+  "vs_heur": 0.8478,
+  "solo_surv": 0.615,
+  "complete": true
+ }
+}

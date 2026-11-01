@@ -1,0 +1,182 @@
+{
+  "a_classic": {
+    "override": {},
+    "survival_by_kind": {
+      "learner": {
+        "survival_fraction_of_lifetime": 0.545,
+        "loot_mean": 38.19,
+        "kills_mean": 0.02
+      },
+      "random": {
+        "survival_fraction_of_lifetime": 0.329,
+        "loot_mean": 11.95,
+        "kills_mean": 0.0
+      },
+      "df": {
+        "survival_fraction_of_lifetime": 0.611,
+        "loot_mean": 0.18,
+        "kills_mean": 48.77
+      },
+      "pacifist": {
+        "survival_fraction_of_lifetime": 0.666,
+        "loot_mean": 0.0,
+        "kills_mean": 0.0
+      }
+    },
+    "learner_action_profile": {
+      "SILENT": 0.818,
+      "DEVELOP": 0.144,
+      "BROADCAST_ALL": 0.012,
+      "BROADCAST_OTHER": 0.005,
+      "STRIKE": 0.0,
+      "BLACK_DOMAIN": 0.003,
+      "INVADE": 0.018,
+      "OBSERVE": 0.0
+    },
+    "learner_loot_mean": null,
+    "learner_kills_mean": null,
+    "learner_invades_per_episode": 16.45,
+    "survival_by_earned_tech_class": {
+      "low": 0.425,
+      "mid": 0.68,
+      "high": 0.926
+    }
+  },
+  "b_terminal": {
+    "override": {
+      "softsign_reward_scale": 0.0,
+      "bd_entry_penalty": 0.0
+    },
+    "survival_by_kind": {
+      "learner": {
+        "survival_fraction_of_lifetime": 0.59,
+        "loot_mean": 16.63,
+        "kills_mean": 0.07
+      },
+      "random": {
+        "survival_fraction_of_lifetime": 0.356,
+        "loot_mean": 16.58,
+        "kills_mean": 0.0
+      },
+      "df": {
+        "survival_fraction_of_lifetime": 0.632,
+        "loot_mean": 0.0,
+        "kills_mean": 52.91
+      },
+      "pacifist": {
+        "survival_fraction_of_lifetime": 0.672,
+        "loot_mean": 0.0,
+        "kills_mean": 0.0
+      }
+    },
+    "learner_action_profile": {
+      "SILENT": 0.895,
+      "DEVELOP": 0.068,
+      "BROADCAST_ALL": 0.011,
+      "BROADCAST_OTHER": 0.014,
+      "STRIKE": 0.0,
+      "BLACK_DOMAIN": 0.008,
+      "INVADE": 0.004,
+      "OBSERVE": 0.0
+    },
+    "learner_loot_mean": null,
+    "learner_kills_mean": null,
+    "learner_invades_per_episode": 6.91,
+    "survival_by_earned_tech_class": {
+      "low": 0.46,
+      "mid": 0.699,
+      "high": 0.924
+    }
+  },
+  "c_res": {
+    "override": {
+      "res_reward_scale": 0.0025
+    },
+    "survival_by_kind": {
+      "learner": {
+        "survival_fraction_of_lifetime": 0.487,
+        "loot_mean": 32.49,
+        "kills_mean": 0.09
+      },
+      "random": {
+        "survival_fraction_of_lifetime": 0.365,
+        "loot_mean": 11.75,
+        "kills_mean": 0.0
+      },
+      "df": {
+        "survival_fraction_of_lifetime": 0.563,
+        "loot_mean": 0.06,
+        "kills_mean": 50.66
+      },
+      "pacifist": {
+        "survival_fraction_of_lifetime": 0.607,
+        "loot_mean": 0.0,
+        "kills_mean": 0.0
+      }
+    },
+    "learner_action_profile": {
+      "SILENT": 0.726,
+      "DEVELOP": 0.216,
+      "BROADCAST_ALL": 0.01,
+      "BROADCAST_OTHER": 0.032,
+      "STRIKE": 0.0,
+      "BLACK_DOMAIN": 0.001,
+      "INVADE": 0.014,
+      "OBSERVE": 0.0
+    },
+    "learner_loot_mean": null,
+    "learner_kills_mean": null,
+    "learner_invades_per_episode": 22.53,
+    "survival_by_earned_tech_class": {
+      "low": 0.413,
+      "mid": 0.626,
+      "high": 0.904
+    }
+  },
+  "d_malintent": {
+    "override": {
+      "res_reward_scale": 0.0025,
+      "attack_reward": 0.5
+    },
+    "survival_by_kind": {
+      "learner": {
+        "survival_fraction_of_lifetime": 0.556,
+        "loot_mean": 16.36,
+        "kills_mean": 0.75
+      },
+      "random": {
+        "survival_fraction_of_lifetime": 0.369,
+        "loot_mean": 38.71,
+        "kills_mean": 0.0
+      },
+      "df": {
+        "survival_fraction_of_lifetime": 0.588,
+        "loot_mean": 0.08,
+        "kills_mean": 41.09
+      },
+      "pacifist": {
+        "survival_fraction_of_lifetime": 0.625,
+        "loot_mean": 0.0,
+        "kills_mean": 0.0
+      }
+    },
+    "learner_action_profile": {
+      "SILENT": 0.691,
+      "DEVELOP": 0.044,
+      "BROADCAST_ALL": 0.004,
+      "BROADCAST_OTHER": 0.254,
+      "STRIKE": 0.001,
+      "BLACK_DOMAIN": 0.002,
+      "INVADE": 0.003,
+      "OBSERVE": 0.0
+    },
+    "learner_loot_mean": null,
+    "learner_kills_mean": null,
+    "learner_invades_per_episode": 8.53,
+    "survival_by_earned_tech_class": {
+      "low": 0.467,
+      "mid": 0.659,
+      "high": 0.877
+    }
+  }
+}

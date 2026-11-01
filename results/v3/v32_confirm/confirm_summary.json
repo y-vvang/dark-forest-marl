@@ -1,0 +1,34 @@
+{
+ "per_seed_peaks": [
+  {
+   "seed": 42,
+   "snap_ep": 750,
+   "vs_arm": 0.4369,
+   "vs_heur": 0.7363,
+   "solo_surv": 0.3949
+  },
+  {
+   "seed": 43,
+   "snap_ep": 250,
+   "vs_arm": 0.3802,
+   "vs_heur": 0.7387,
+   "solo_surv": 0.5662
+  },
+  {
+   "seed": 44,
+   "snap_ep": 250,
+   "vs_arm": 0.4224,
+   "vs_heur": 0.5802,
+   "solo_surv": 0.2288
+  }
+ ],
+ "final_config": {
+  "pool": "b",
+  "lr": 0.0006,
+  "gamma": 0.995,
+  "replay": 150000,
+  "eps": 0.05,
+  "tsync": 500,
+  "batch": 128
+ }
+}

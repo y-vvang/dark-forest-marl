@@ -1,0 +1,26 @@
+[a_classic] TRAIN_EXIT=0
+[b_terminal] TRAIN_EXIT=0
+[a_classic] STAGEB_EXIT=0
+[a_classic] DONE surv={'learner': 0.562, 'random': 0.283, 'df': 0.569, 'pacifist': 0.603}
+[b_terminal] STAGEB_EXIT=0
+[b_terminal] DONE surv={'learner': 0.621, 'random': 0.321, 'df': 0.596, 'pacifist': 0.635}
+batch [('a_classic', {}), ('b_terminal', {'softsign_reward_scale': 0.0, 'bd_entry_penalty': 0.0})] finished in 14.5 min
+[c_res] TRAIN_EXIT=0
+[d_malintent] TRAIN_EXIT=0
+[c_res] STAGEB_EXIT=0
+[c_res] DONE surv={'learner': 0.487, 'random': 0.301, 'df': 0.524, 'pacifist': 0.549}
+[d_malintent] STAGEB_EXIT=0
+[d_malintent] DONE surv={'learner': 0.556, 'random': 0.39, 'df': 0.548, 'pacifist': 0.573}
+batch [('c_res', {'res_reward_scale': 0.0025}), ('d_malintent', {'res_reward_scale': 0.0025, 'attack_reward': 0.5})] finished in 15.5 min
+V25_ARMS_DONE
+[a_classic] train skip
+[b_terminal] train skip
+[a_classic] DONE surv={'learner': 0.562, 'random': 0.283, 'df': 0.569, 'pacifist': 0.603}
+[b_terminal] DONE surv={'learner': 0.621, 'random': 0.321, 'df': 0.596, 'pacifist': 0.635}
+batch [('a_classic', {}), ('b_terminal', {'softsign_reward_scale': 0.0, 'bd_entry_penalty': 0.0})] finished in 0.0 min
+[c_res] train skip
+[d_malintent] train skip
+[d_malintent] DONE surv={'learner': 0.556, 'random': 0.39, 'df': 0.548, 'pacifist': 0.573}
+[c_res] DONE surv={'learner': 0.487, 'random': 0.301, 'df': 0.524, 'pacifist': 0.549}
+batch [('c_res', {'res_reward_scale': 0.0025}), ('d_malintent', {'res_reward_scale': 0.0025, 'attack_reward': 0.5})] finished in 0.0 min
+V25_ARMS_DONE

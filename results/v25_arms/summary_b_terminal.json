@@ -1,0 +1,29 @@
+{
+  "override": {
+    "softsign_reward_scale": 0.0,
+    "bd_entry_penalty": 0.0
+  },
+  "survival_by_kind": {
+    "learner": 0.621,
+    "random": 0.321,
+    "df": 0.596,
+    "pacifist": 0.635
+  },
+  "learner_loot_mean": 31.51,
+  "learner_kills_mean": 0.05,
+  "learner_action_profile": {
+    "SILENT": 0.869,
+    "DEVELOP": 0.088,
+    "BROADCAST_ALL": 0.011,
+    "BROADCAST_OTHER": 0.017,
+    "STRIKE": 0.0,
+    "BLACK_DOMAIN": 0.011,
+    "INVADE": 0.004,
+    "OBSERVE": 0.0
+  },
+  "survival_by_earned_tech_class": {
+    "low": 0.439,
+    "mid": 0.702,
+    "high": 0.879
+  }
+}

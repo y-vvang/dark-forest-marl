@@ -1,0 +1,36 @@
+-> analysis.json
+{
+ "a_classic": {
+  "episodes_done": 600,
+  "return_last50": -198.1,
+  "return_delta_last_vs_prev": 78.8,
+  "loss_last50": 0.0775,
+  "invade_per_100_last50": 1.0,
+  "strike_per_100_last50": 0.0
+ },
+ "b_terminal": {
+  "episodes_done": 600,
+  "return_last50": -269.0,
+  "return_delta_last_vs_prev": -26.0,
+  "loss_last50": 0.0859,
+  "invade_per_100_last50": 1.11,
+  "strike_per_100_last50": 0.01
+ },
+ "c_res": {
+  "episodes_done": 600,
+  "return_last50": -1277.9,
+  "return_delta_last_vs_prev": -538.1,
+  "loss_last50": 0.4024,
+  "invade_per_100_last50": 6.45,
+  "strike_per_100_last50": 0.06
+ },
+ "d_malintent": {
+  "episodes_done": 600,
+  "return_last50": 336.8,
+  "return_delta_last_vs_prev": 238.9,
+  "loss_last50": 1.1708,
+  "invade_per_100_last50": 2.58,
+  "strike_per_100_last50": 0.03
+ }
+}
+heuristic_shift: {"a_classic": {"learner": -0.017, "random": 0.046, "df": 0.042, "pacifist": 0.063}, "b_terminal": {"learner": -0.031, "random": 0.035, "df": 0.036, "pacifist": 0.037}, "c_res": {"learner": 0.0, "random": 0.064, "df": 0.039, "pacifist": 0.058}, "d_malintent": {"learner": 0.0, "random": -0.021, "df": 0.04, "pacifist": 0.052}}

@@ -1,0 +1,50 @@
+{
+  "random": [
+    {
+      "seed": 0,
+      "max_alive": 9,
+      "births": 245,
+      "grow_slots": 0
+    },
+    {
+      "seed": 1,
+      "max_alive": 10,
+      "births": 245,
+      "grow_slots": 0
+    },
+    {
+      "seed": 2,
+      "max_alive": 10,
+      "births": 240,
+      "grow_slots": 0
+    }
+  ],
+  "greedy_a": [
+    {
+      "seed": 0,
+      "max_alive": 12,
+      "births": 60,
+      "grow_slots": 0
+    },
+    {
+      "seed": 1,
+      "max_alive": 11,
+      "births": 50,
+      "grow_slots": 0
+    }
+  ],
+  "greedy_c": [
+    {
+      "seed": 0,
+      "max_alive": 12,
+      "births": 82,
+      "grow_slots": 0
+    },
+    {
+      "seed": 1,
+      "max_alive": 10,
+      "births": 71,
+      "grow_slots": 0
+    }
+  ]
+}

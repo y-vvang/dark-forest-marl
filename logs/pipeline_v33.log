@@ -1,0 +1,10 @@
+[v30] TRAIN FAIL cap_h64x64 rc=1
+[v30] TRAIN FAIL cap_h64x64 rc=1
+[v30 cap] cap_h64x64: {'hidden': '64,64', 'tag': 'cap_h64x64', 'vs_arm': None, 'vs_heur': 0.2819, 'solo_surv': 0.996}
+[v30 CAPACITY] [{'hidden': '64,64', 'tag': 'cap_h64x64', 'vs_arm': None, 'vs_heur': 0.2819, 'solo_surv': 0.996, 'delta_vs_arm_vs_h64': None}]
+[v30] TRAIN FAIL cap_h128x128 rc=1
+[v30] TRAIN FAIL cap_h128x128 rc=1
+[v30 cap] cap_h64x64: {'hidden': '64,64', 'tag': 'cap_h64x64', 'vs_arm': None, 'vs_heur': 0.6554, 'solo_surv': 0.4293}
+[v30 cap] cap_h128x128: {'hidden': '128,128', 'tag': 'cap_h128x128', 'vs_arm': None, 'vs_heur': 0.5451, 'solo_surv': 0.3599}
+[v30 cap] cap_h192x192: {'hidden': '192,192', 'tag': 'cap_h192x192', 'vs_arm': None, 'vs_heur': 0.7794, 'solo_surv': 0.5443}
+[v30 CAPACITY] [{'hidden': '64,64', 'tag': 'cap_h64x64', 'vs_arm': None, 'vs_heur': 0.6554, 'solo_surv': 0.4293, 'delta_vs_arm_vs_h64': None}, {'hidden': '128,128', 'tag': 'cap_h128x128', 'vs_arm': None, 'vs_heur': 0.5451, 'solo_surv': 0.3599, 'delta_vs_arm_vs_h64': None}, {'hidden': '192,192', 'tag': 'cap_h192x192', 'vs_arm': None, 'vs_heur': 0.7794, 'solo_surv': 0.5443, 'delta_vs_arm_vs_h64': None}]

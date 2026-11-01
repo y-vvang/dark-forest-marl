@@ -1,0 +1,4 @@
+[stage B] survival by kind: {'learner': 0.5, 'random': 0.336, 'df': 0.544, 'pacifist': 0.595}
+[stage B] learner action profile: {'SILENT': 0.783, 'DEVELOP': 0.153, 'BROADCAST_ALL': 0.01, 'BROADCAST_OTHER': 0.012, 'STRIKE': 0.0, 'BLACK_DOMAIN': 0.019, 'INVADE': 0.023, 'OBSERVE': 0.0}
+[stage B] class survival: {'low': 0.391, 'mid': 0.643, 'high': 0.898}
+-> /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v25m_arms/b_terminal/seed42/stageb_v2b/stage_b.json

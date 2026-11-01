@@ -1,0 +1,898 @@
+{
+  "a_classic": {
+    "42": {
+      "old": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.583,
+            "loot_mean": 30.52,
+            "kills_mean": 0.09
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.317,
+            "loot_mean": 29.53,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.581,
+            "loot_mean": 0.0,
+            "kills_mean": 44.23
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.59,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.64,
+          "DEVELOP": 0.306,
+          "BROADCAST_ALL": 0.012,
+          "BROADCAST_OTHER": 0.013,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.024,
+          "INVADE": 0.004,
+          "OBSERVE": 0.001
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      },
+      "v2b": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.565,
+            "loot_mean": 18.69,
+            "kills_mean": 0.04
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.343,
+            "loot_mean": 18.36,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.593,
+            "loot_mean": 0.12,
+            "kills_mean": 43.14
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.656,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.665,
+          "DEVELOP": 0.279,
+          "BROADCAST_ALL": 0.012,
+          "BROADCAST_OTHER": 0.013,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.028,
+          "INVADE": 0.003,
+          "OBSERVE": 0.001
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      }
+    },
+    "43": {
+      "old": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.577,
+            "loot_mean": 38.53,
+            "kills_mean": 0.88
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.281,
+            "loot_mean": 21.58,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.578,
+            "loot_mean": 0.0,
+            "kills_mean": 35.73
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.619,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.641,
+          "DEVELOP": 0.323,
+          "BROADCAST_ALL": 0.015,
+          "BROADCAST_OTHER": 0.009,
+          "STRIKE": 0.001,
+          "BLACK_DOMAIN": 0.005,
+          "INVADE": 0.006,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      },
+      "v2b": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.551,
+            "loot_mean": 25.79,
+            "kills_mean": 0.9
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.346,
+            "loot_mean": 16.1,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.588,
+            "loot_mean": 0.25,
+            "kills_mean": 46.77
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.633,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.658,
+          "DEVELOP": 0.306,
+          "BROADCAST_ALL": 0.014,
+          "BROADCAST_OTHER": 0.011,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.003,
+          "INVADE": 0.007,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      }
+    },
+    "44": {
+      "old": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.555,
+            "loot_mean": 50.92,
+            "kills_mean": 2.36
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.309,
+            "loot_mean": 18.13,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.557,
+            "loot_mean": 0.0,
+            "kills_mean": 43.02
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.554,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.684,
+          "DEVELOP": 0.286,
+          "BROADCAST_ALL": 0.01,
+          "BROADCAST_OTHER": 0.007,
+          "STRIKE": 0.002,
+          "BLACK_DOMAIN": 0.005,
+          "INVADE": 0.006,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      },
+      "v2b": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.498,
+            "loot_mean": 29.73,
+            "kills_mean": 1.76
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.36,
+            "loot_mean": 16.95,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.576,
+            "loot_mean": 0.08,
+            "kills_mean": 50.51
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.631,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.722,
+          "DEVELOP": 0.249,
+          "BROADCAST_ALL": 0.009,
+          "BROADCAST_OTHER": 0.007,
+          "STRIKE": 0.001,
+          "BLACK_DOMAIN": 0.004,
+          "INVADE": 0.007,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      }
+    }
+  },
+  "b_terminal": {
+    "42": {
+      "old": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.527,
+            "loot_mean": 84.18,
+            "kills_mean": 0.13
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.208,
+            "loot_mean": 15.16,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.478,
+            "loot_mean": 0.0,
+            "kills_mean": 29.12
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.508,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.787,
+          "DEVELOP": 0.153,
+          "BROADCAST_ALL": 0.011,
+          "BROADCAST_OTHER": 0.009,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.025,
+          "INVADE": 0.015,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      },
+      "v2b": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.5,
+            "loot_mean": 45.95,
+            "kills_mean": 0.05
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.336,
+            "loot_mean": 14.4,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.544,
+            "loot_mean": 0.04,
+            "kills_mean": 47.05
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.595,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.783,
+          "DEVELOP": 0.153,
+          "BROADCAST_ALL": 0.01,
+          "BROADCAST_OTHER": 0.012,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.019,
+          "INVADE": 0.023,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      }
+    },
+    "43": {
+      "old": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.519,
+            "loot_mean": 85.76,
+            "kills_mean": 1.25
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.287,
+            "loot_mean": 19.79,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.521,
+            "loot_mean": 0.0,
+            "kills_mean": 34.03
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.544,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.797,
+          "DEVELOP": 0.075,
+          "BROADCAST_ALL": 0.007,
+          "BROADCAST_OTHER": 0.056,
+          "STRIKE": 0.001,
+          "BLACK_DOMAIN": 0.048,
+          "INVADE": 0.015,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      },
+      "v2b": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.486,
+            "loot_mean": 47.34,
+            "kills_mean": 0.75
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.345,
+            "loot_mean": 14.87,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.538,
+            "loot_mean": 0.45,
+            "kills_mean": 48.64
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.604,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.831,
+          "DEVELOP": 0.064,
+          "BROADCAST_ALL": 0.007,
+          "BROADCAST_OTHER": 0.056,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.022,
+          "INVADE": 0.019,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      }
+    },
+    "44": {
+      "old": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.456,
+            "loot_mean": 112.17,
+            "kills_mean": 0.01
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.232,
+            "loot_mean": 8.87,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.496,
+            "loot_mean": 0.0,
+            "kills_mean": 31.4
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.523,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.826,
+          "DEVELOP": 0.113,
+          "BROADCAST_ALL": 0.005,
+          "BROADCAST_OTHER": 0.007,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.021,
+          "INVADE": 0.027,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      },
+      "v2b": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.447,
+            "loot_mean": 65.12,
+            "kills_mean": 0.03
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.317,
+            "loot_mean": 7.46,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.546,
+            "loot_mean": 0.03,
+            "kills_mean": 44.48
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.614,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.831,
+          "DEVELOP": 0.106,
+          "BROADCAST_ALL": 0.005,
+          "BROADCAST_OTHER": 0.01,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.014,
+          "INVADE": 0.035,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      }
+    }
+  },
+  "c_res": {
+    "42": {
+      "old": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.447,
+            "loot_mean": 101.38,
+            "kills_mean": 0.04
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.234,
+            "loot_mean": 8.44,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.491,
+            "loot_mean": 0.0,
+            "kills_mean": 33.91
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.527,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.733,
+          "DEVELOP": 0.227,
+          "BROADCAST_ALL": 0.005,
+          "BROADCAST_OTHER": 0.007,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.004,
+          "INVADE": 0.023,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      },
+      "v2b": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.446,
+            "loot_mean": 55.66,
+            "kills_mean": 0.08
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.323,
+            "loot_mean": 6.01,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.548,
+            "loot_mean": 0.06,
+            "kills_mean": 50.69
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.606,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.763,
+          "DEVELOP": 0.188,
+          "BROADCAST_ALL": 0.006,
+          "BROADCAST_OTHER": 0.01,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.004,
+          "INVADE": 0.029,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      }
+    },
+    "43": {
+      "old": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.454,
+            "loot_mean": 100.68,
+            "kills_mean": 0.41
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.254,
+            "loot_mean": 10.08,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.484,
+            "loot_mean": 0.0,
+            "kills_mean": 36.7
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.483,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.722,
+          "DEVELOP": 0.234,
+          "BROADCAST_ALL": 0.007,
+          "BROADCAST_OTHER": 0.009,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.004,
+          "INVADE": 0.022,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      },
+      "v2b": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.443,
+            "loot_mean": 58.85,
+            "kills_mean": 0.43
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.347,
+            "loot_mean": 8.12,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.52,
+            "loot_mean": 0.02,
+            "kills_mean": 41.53
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.593,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.755,
+          "DEVELOP": 0.195,
+          "BROADCAST_ALL": 0.006,
+          "BROADCAST_OTHER": 0.014,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.003,
+          "INVADE": 0.027,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      }
+    },
+    "44": {
+      "old": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.448,
+            "loot_mean": 104.85,
+            "kills_mean": 1.17
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.241,
+            "loot_mean": 6.57,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.487,
+            "loot_mean": 0.0,
+            "kills_mean": 36.76
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.515,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.734,
+          "DEVELOP": 0.216,
+          "BROADCAST_ALL": 0.008,
+          "BROADCAST_OTHER": 0.006,
+          "STRIKE": 0.001,
+          "BLACK_DOMAIN": 0.004,
+          "INVADE": 0.031,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      },
+      "v2b": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.425,
+            "loot_mean": 57.99,
+            "kills_mean": 0.63
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.307,
+            "loot_mean": 5.49,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.541,
+            "loot_mean": 0.07,
+            "kills_mean": 51.97
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.606,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.776,
+          "DEVELOP": 0.162,
+          "BROADCAST_ALL": 0.011,
+          "BROADCAST_OTHER": 0.009,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.002,
+          "INVADE": 0.04,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      }
+    }
+  },
+  "d_malintent": {
+    "42": {
+      "old": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.56,
+            "loot_mean": 28.07,
+            "kills_mean": 1.03
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.402,
+            "loot_mean": 64.64,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.563,
+            "loot_mean": 0.0,
+            "kills_mean": 35.94
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.579,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.702,
+          "DEVELOP": 0.034,
+          "BROADCAST_ALL": 0.005,
+          "BROADCAST_OTHER": 0.251,
+          "STRIKE": 0.001,
+          "BLACK_DOMAIN": 0.001,
+          "INVADE": 0.005,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      },
+      "v2b": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.55,
+            "loot_mean": 15.18,
+            "kills_mean": 1.91
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.379,
+            "loot_mean": 35.07,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.571,
+            "loot_mean": 0.05,
+            "kills_mean": 46.39
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.626,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.707,
+          "DEVELOP": 0.037,
+          "BROADCAST_ALL": 0.005,
+          "BROADCAST_OTHER": 0.244,
+          "STRIKE": 0.001,
+          "BLACK_DOMAIN": 0.001,
+          "INVADE": 0.005,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      }
+    },
+    "43": {
+      "old": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.54,
+            "loot_mean": 71.21,
+            "kills_mean": 0.15
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.333,
+            "loot_mean": 55.74,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.503,
+            "loot_mean": 0.0,
+            "kills_mean": 44.76
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.537,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.71,
+          "DEVELOP": 0.048,
+          "BROADCAST_ALL": 0.011,
+          "BROADCAST_OTHER": 0.219,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.001,
+          "INVADE": 0.009,
+          "OBSERVE": 0.001
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      },
+      "v2b": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.512,
+            "loot_mean": 33.95,
+            "kills_mean": 0.09
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.347,
+            "loot_mean": 34.58,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.537,
+            "loot_mean": 0.06,
+            "kills_mean": 38.87
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.62,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.73,
+          "DEVELOP": 0.046,
+          "BROADCAST_ALL": 0.011,
+          "BROADCAST_OTHER": 0.203,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.002,
+          "INVADE": 0.008,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      }
+    },
+    "44": {
+      "old": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.528,
+            "loot_mean": 59.97,
+            "kills_mean": 0.13
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.346,
+            "loot_mean": 52.01,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.531,
+            "loot_mean": 0.0,
+            "kills_mean": 49.08
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.531,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.701,
+          "DEVELOP": 0.08,
+          "BROADCAST_ALL": 0.005,
+          "BROADCAST_OTHER": 0.203,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.003,
+          "INVADE": 0.007,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      },
+      "v2b": {
+        "survival_by_kind": {
+          "learner": {
+            "survival_fraction_of_lifetime": 0.491,
+            "loot_mean": 29.66,
+            "kills_mean": 0.03
+          },
+          "random": {
+            "survival_fraction_of_lifetime": 0.364,
+            "loot_mean": 34.25,
+            "kills_mean": 0.0
+          },
+          "df": {
+            "survival_fraction_of_lifetime": 0.545,
+            "loot_mean": 0.05,
+            "kills_mean": 39.88
+          },
+          "pacifist": {
+            "survival_fraction_of_lifetime": 0.606,
+            "loot_mean": 0.0,
+            "kills_mean": 0.0
+          }
+        },
+        "learner_action_profile": {
+          "SILENT": 0.714,
+          "DEVELOP": 0.079,
+          "BROADCAST_ALL": 0.005,
+          "BROADCAST_OTHER": 0.193,
+          "STRIKE": 0.0,
+          "BLACK_DOMAIN": 0.002,
+          "INVADE": 0.008,
+          "OBSERVE": 0.0
+        },
+        "learner_loot_mean": null,
+        "learner_kills_mean": null
+      }
+    }
+  }
+}

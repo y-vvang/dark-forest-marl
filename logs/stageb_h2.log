@@ -1,0 +1,9 @@
+[a_classic] STAGEB_V2B_EXIT=0
+[a_classic] surv: {'learner': {'survival_fraction_of_lifetime': 0.545, 'loot_mean': 38.19, 'kills_mean': 0.02}, 'random': {'survival_fraction_of_lifetime': 0.329, 'loot_mean': 11.95, 'kills_mean': 0.0}, 'df': {'survival_fraction_of_lifetime': 0.611, 'loot_mean': 0.18, 'kills_mean': 48.77}, 'pacifist': {'survival_fraction_of_lifetime': 0.666, 'loot_mean': 0.0, 'kills_mean': 0.0}}
+[b_terminal] STAGEB_V2B_EXIT=0
+[b_terminal] surv: {'learner': {'survival_fraction_of_lifetime': 0.59, 'loot_mean': 16.63, 'kills_mean': 0.07}, 'random': {'survival_fraction_of_lifetime': 0.356, 'loot_mean': 16.58, 'kills_mean': 0.0}, 'df': {'survival_fraction_of_lifetime': 0.632, 'loot_mean': 0.0, 'kills_mean': 52.91}, 'pacifist': {'survival_fraction_of_lifetime': 0.672, 'loot_mean': 0.0, 'kills_mean': 0.0}}
+[c_res] STAGEB_V2B_EXIT=0
+[c_res] surv: {'learner': {'survival_fraction_of_lifetime': 0.487, 'loot_mean': 32.49, 'kills_mean': 0.09}, 'random': {'survival_fraction_of_lifetime': 0.365, 'loot_mean': 11.75, 'kills_mean': 0.0}, 'df': {'survival_fraction_of_lifetime': 0.563, 'loot_mean': 0.06, 'kills_mean': 50.66}, 'pacifist': {'survival_fraction_of_lifetime': 0.607, 'loot_mean': 0.0, 'kills_mean': 0.0}}
+[d_malintent] STAGEB_V2B_EXIT=0
+[d_malintent] surv: {'learner': {'survival_fraction_of_lifetime': 0.556, 'loot_mean': 16.36, 'kills_mean': 0.75}, 'random': {'survival_fraction_of_lifetime': 0.369, 'loot_mean': 38.71, 'kills_mean': 0.0}, 'df': {'survival_fraction_of_lifetime': 0.588, 'loot_mean': 0.08, 'kills_mean': 41.09}, 'pacifist': {'survival_fraction_of_lifetime': 0.625, 'loot_mean': 0.0, 'kills_mean': 0.0}}
+-> /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v25_arms_h2/summary_h2.json (4/4 arms)

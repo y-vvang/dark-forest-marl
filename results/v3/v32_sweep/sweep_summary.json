@@ -1,0 +1,49 @@
+{
+ "final_config": {
+  "pool": "b",
+  "lr": 0.0006,
+  "gamma": 0.995,
+  "replay": 150000,
+  "eps": 0.05,
+  "tsync": 500,
+  "batch": 128
+ },
+ "chained_best": {
+  "A1": {
+   "name": "sw_b_lr6e--4",
+   "vs_arm": 0.4374,
+   "vs_heur": 0.5706,
+   "solo_surv": 0.182,
+   "complete": true
+  },
+  "A2": {
+   "name": "sw_g0999",
+   "vs_arm": 0.3591,
+   "vs_heur": 0.5345,
+   "solo_surv": 0.3349,
+   "complete": true
+  },
+  "A3": {
+   "name": "sw_rp50k",
+   "vs_arm": 0.32,
+   "vs_heur": 0.4909,
+   "solo_surv": 0.3924,
+   "complete": true
+  },
+  "A4": {
+   "name": "sw_e15",
+   "vs_arm": 0.4189,
+   "vs_heur": 0.5456,
+   "solo_surv": 0.3065,
+   "complete": true
+  },
+  "A5": {
+   "name": "sw_ts500",
+   "vs_arm": 0.4667,
+   "vs_heur": 0.8478,
+   "solo_surv": 0.615,
+   "complete": true
+  }
+ },
+ "wall_s": 0
+}

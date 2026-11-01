@@ -1,0 +1,12 @@
+[a_classic/s42] train skip
+[a_classic/s43] train skip
+[a_classic/s44] train skip
+[b_terminal/s42] train skip
+[b_terminal/s43] TRAIN_EXIT=0
+[b_terminal/s44] TRAIN_EXIT=0
+[c_res/s42] train skip
+[c_res/s43] train skip
+[c_res/s44] train skip
+[d_malintent/s42] train skip
+[d_malintent/s43] train skip
+[d_malintent/s44] train skip

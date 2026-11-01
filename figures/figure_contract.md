@@ -4,6 +4,11 @@
 > fig_11 v2.2s 奖励审计）。**v2.4 暂无新图**——四奖励臂结果以数据表交付
 > （`reports/v24_arms_brief.md` §2–§3、`results/v24_arms/summary.json`），后续出图按本契约
 > archetype/sizes 规范编号 fig_12 起。
+>
+> **版本注记（2026-10-15，v2.5）**：fig_12/fig_13 已按本契约交付——
+> `fig_12_v25_action_profiles`（四臂 Stage B learner 动作画像，分组条形，9×3.6 双栏）；
+> `fig_13_v25_convergence`（四臂训练收敛 2×2：return/TD loss/invade-per-100/alive-frac，
+> 50ep 桶均值，9×3.6）。数据源 `results/v25_arms_h2/analysis.json`；脚本 `experiment/plot_v25.py`。
 
 Core conclusion: 在自建黑暗森林环境中，自博弈 DQN 收敛出"低打击、重发展、不广播"
 的生存策略；"先发打击"只在特定参数下保留——策略形态由环境机制（技术爆炸/打击成本）

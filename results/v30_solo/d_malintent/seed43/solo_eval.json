@@ -1,0 +1,33 @@
+{
+  "mode": "solo",
+  "opp_kind": null,
+  "checkpoint": "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/runs/v25m_arms/d_malintent/run/seed43_main/checkpoint.npz",
+  "episodes": 16,
+  "survival_fraction_of_lifetime": 0.3406,
+  "final_alive_per_ep": 6.25,
+  "ever_born_per_ep": 4.0,
+  "action_freqs": {
+    "SILENT": 0.794,
+    "DEVELOP": 0.0176,
+    "BROADCAST_ALL": 0.004,
+    "BROADCAST_OTHER": 0.1791,
+    "STRIKE": 0.0,
+    "BLACK_DOMAIN": 0.0,
+    "INVADE": 0.0045,
+    "OBSERVE": 0.0008
+  },
+  "strike_per_100_ticks": 0.003,
+  "invade_per_100_ticks": 1.995,
+  "blackdomain_per_100_ticks": 0.0,
+  "observe_per_100_ticks": 0.375,
+  "p_strike_within_10_of_detect": 1.0,
+  "median_note": "det_to_strike mean below (median needs per-event log)",
+  "mean_detect_to_strike": 10.0,
+  "deaths_by_cause_partial": {
+    "strike": 1,
+    "invasion": 541,
+    "mutual": 66,
+    "resource": 0
+  },
+  "contract": "v2.6 solo: frozen model commands the whole universe; NOT training metrics"
+}

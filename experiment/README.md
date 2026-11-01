@@ -1,14 +1,14 @@
 # DarkForestGrid v1.3 — 黑暗森林策略涌现实验（可运行代码包）
 
-> **版本指针（2026-10-09 更新）**：本目录代码已演进至 **v2.4**（当前版本，`config_v24.yaml`）：
-> v2.3 全套（36 槽位无上限文明、资源守恒自由池、Softsign 科技奖励 scale 0.01、线性增长、
-> 半倍科技护盾目标付账、定长 250 刻结算）+ 观测优先信息原则（BROADCAST_ALL 改名、
-> BROADCAST_OTHER 恢复为揭露目标、删 STRIKE_WEAK/STRONG、OBSERVE 显式选目标）+ 禁科技继承；
-> **动作空间 8、obs 36**。**v2.4 入口**：`train2_v24.py` + `stage_b_v24.py` + `run_v24_arms.py`
-> （四奖励臂幂等驱动）+ `smoke_v24.py`（冒烟）；v2.3-fix 链（`env2.py`/`data2.py`/`train2.py`/
-> `stage_b.py`/`config_v23.yaml`）保留原状，与 v2.4 隔离。v1.x 的 `train.py`/`config_v1*.yaml`
-> 保留作机制阶梯记录；v2.3 分析入口 `analysis_v23.py` + `sweep_v23.py`。
-> 机制说明见上级 `README.md`「环境模型与奖励设计架构」板块与 `reports/v24_arms_brief.md`。
+> **版本指针（2026-10-15 更新）**：本目录代码已演进至 **v2.5**（当前版本，`config_v25.yaml`）：
+> v2.4 全套（观测优先信息原则、BROADCAST_ALL/BROADCAST_OTHER、无科技排序打击、OBSERVE 显式
+> 选目标、禁科技继承、同起跑线）+ **信息完备化**（"被入侵"成为第一类环境状态——受害者立即
+> 发现入侵者且知晓正被入侵，obs `under_attack` 滑窗标志；"自身被 BROADCAST_OTHER 广播"可醒目
+> 发现——obs `self_public` 持久标志；不添加"反咬"等专用应对动作）+ **出生数无上限**
+> （36 槽位不变，死亡槽回收给新生儿并抹除社交记忆，ever-born uncapped，资源预算为唯一刹车）；
+> **动作空间 8、obs 38**（scal 7→9）。**v2.5 入口**：`train2_v25.py` + `stage_b_v25.py` +
+> `run_v25_arms.py` + `smoke_v25.py`；v2.4 链（`*_v24.py`/`config_v24.yaml`）保留原状；
+> v2.3-fix 链与 v1.x 记录同前。机制说明见上级 `README.md` 版本表与 `reports/v25_brief.md`。
 
 把《三体》黑暗森林法则的两条公理、两个中间机制（猜疑链 / 技术爆炸）**逐条编码**成
 12 文明的多智能体环境，用参数共享的 Double-DQN 自博弈训练，观察"生存策略"是否

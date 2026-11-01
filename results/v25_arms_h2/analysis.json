@@ -1,0 +1,1120 @@
+{
+  "profile_by_arm": {
+    "a_classic": {
+      "SILENT": 0.818,
+      "DEVELOP": 0.144,
+      "BROADCAST_ALL": 0.012,
+      "BROADCAST_OTHER": 0.005,
+      "STRIKE": 0.0,
+      "BLACK_DOMAIN": 0.003,
+      "INVADE": 0.018,
+      "OBSERVE": 0.0
+    },
+    "b_terminal": {
+      "SILENT": 0.895,
+      "DEVELOP": 0.068,
+      "BROADCAST_ALL": 0.011,
+      "BROADCAST_OTHER": 0.014,
+      "STRIKE": 0.0,
+      "BLACK_DOMAIN": 0.008,
+      "INVADE": 0.004,
+      "OBSERVE": 0.0
+    },
+    "c_res": {
+      "SILENT": 0.726,
+      "DEVELOP": 0.216,
+      "BROADCAST_ALL": 0.01,
+      "BROADCAST_OTHER": 0.032,
+      "STRIKE": 0.0,
+      "BLACK_DOMAIN": 0.001,
+      "INVADE": 0.014,
+      "OBSERVE": 0.0
+    },
+    "d_malintent": {
+      "SILENT": 0.691,
+      "DEVELOP": 0.044,
+      "BROADCAST_ALL": 0.004,
+      "BROADCAST_OTHER": 0.254,
+      "STRIKE": 0.001,
+      "BLACK_DOMAIN": 0.002,
+      "INVADE": 0.003,
+      "OBSERVE": 0.0
+    }
+  },
+  "survival_v2b": {
+    "a_classic": {
+      "learner": 0.545,
+      "random": 0.329,
+      "df": 0.611,
+      "pacifist": 0.666
+    },
+    "b_terminal": {
+      "learner": 0.59,
+      "random": 0.356,
+      "df": 0.632,
+      "pacifist": 0.672
+    },
+    "c_res": {
+      "learner": 0.487,
+      "random": 0.365,
+      "df": 0.563,
+      "pacifist": 0.607
+    },
+    "d_malintent": {
+      "learner": 0.556,
+      "random": 0.369,
+      "df": 0.588,
+      "pacifist": 0.625
+    }
+  },
+  "survival_old_heuristics": {
+    "a_classic": {
+      "learner": 0.562,
+      "random": 0.283,
+      "df": 0.569,
+      "pacifist": 0.603
+    },
+    "b_terminal": {
+      "learner": 0.621,
+      "random": 0.321,
+      "df": 0.596,
+      "pacifist": 0.635
+    },
+    "c_res": {
+      "learner": 0.487,
+      "random": 0.301,
+      "df": 0.524,
+      "pacifist": 0.549
+    },
+    "d_malintent": {
+      "learner": 0.556,
+      "random": 0.39,
+      "df": 0.548,
+      "pacifist": 0.573
+    }
+  },
+  "heuristic_shift": {
+    "a_classic": {
+      "learner": -0.017,
+      "random": 0.046,
+      "df": 0.042,
+      "pacifist": 0.063
+    },
+    "b_terminal": {
+      "learner": -0.031,
+      "random": 0.035,
+      "df": 0.036,
+      "pacifist": 0.037
+    },
+    "c_res": {
+      "learner": 0.0,
+      "random": 0.064,
+      "df": 0.039,
+      "pacifist": 0.058
+    },
+    "d_malintent": {
+      "learner": 0.0,
+      "random": -0.021,
+      "df": 0.04,
+      "pacifist": 0.052
+    }
+  },
+  "convergence_by_arm": {
+    "a_classic": [
+      {
+        "ep_range": [
+          1,
+          50
+        ],
+        "return": -2359.3161999999998,
+        "loss": 1.130694,
+        "alive_frac": 0.189674,
+        "invade_per_100": 13.98388,
+        "strike_per_100": 0.0,
+        "SILENT": 0.27079800000000004,
+        "DEVELOP": 0.24351000000000003,
+        "BROADCAST_ALL": 0.20031,
+        "BROADCAST_OTHER": 0.151954,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.0,
+        "INVADE": 0.133428,
+        "OBSERVE": 0.0
+      },
+      {
+        "ep_range": [
+          51,
+          100
+        ],
+        "return": -2199.4683999999997,
+        "loss": 0.853674,
+        "alive_frac": 0.20537599999999998,
+        "invade_per_100": 12.005719999999998,
+        "strike_per_100": 0.0,
+        "SILENT": 0.294016,
+        "DEVELOP": 0.25917,
+        "BROADCAST_ALL": 0.17545000000000002,
+        "BROADCAST_OTHER": 0.15327,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.000952,
+        "INVADE": 0.117078,
+        "OBSERVE": 5e-05
+      },
+      {
+        "ep_range": [
+          101,
+          150
+        ],
+        "return": -1960.2358,
+        "loss": 0.6294919999999999,
+        "alive_frac": 0.21591399999999997,
+        "invade_per_100": 10.14776,
+        "strike_per_100": 0.0,
+        "SILENT": 0.31298400000000004,
+        "DEVELOP": 0.26425,
+        "BROADCAST_ALL": 0.15075,
+        "BROADCAST_OTHER": 0.171482,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.0030540000000000007,
+        "INVADE": 0.09741800000000002,
+        "OBSERVE": 6.4e-05
+      },
+      {
+        "ep_range": [
+          151,
+          200
+        ],
+        "return": -1472.374,
+        "loss": 0.44694999999999996,
+        "alive_frac": 0.219398,
+        "invade_per_100": 7.509639999999999,
+        "strike_per_100": 0.0,
+        "SILENT": 0.304334,
+        "DEVELOP": 0.33726200000000006,
+        "BROADCAST_ALL": 0.11981399999999999,
+        "BROADCAST_OTHER": 0.15542999999999998,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.010064,
+        "INVADE": 0.07307999999999999,
+        "OBSERVE": 1e-05
+      },
+      {
+        "ep_range": [
+          201,
+          250
+        ],
+        "return": -1026.1410000000003,
+        "loss": 0.28922800000000004,
+        "alive_frac": 0.21654800000000002,
+        "invade_per_100": 5.304100000000001,
+        "strike_per_100": 0.001,
+        "SILENT": 0.38989999999999997,
+        "DEVELOP": 0.336758,
+        "BROADCAST_ALL": 0.102614,
+        "BROADCAST_OTHER": 0.10841599999999998,
+        "STRIKE": 1e-05,
+        "BLACK_DOMAIN": 0.009657999999999998,
+        "INVADE": 0.05256399999999999,
+        "OBSERVE": 9.399999999999998e-05
+      },
+      {
+        "ep_range": [
+          251,
+          300
+        ],
+        "return": -503.529,
+        "loss": 0.17898399999999998,
+        "alive_frac": 0.22267800000000001,
+        "invade_per_100": 2.6014599999999994,
+        "strike_per_100": 0.00202,
+        "SILENT": 0.42749599999999993,
+        "DEVELOP": 0.4441220000000001,
+        "BROADCAST_ALL": 0.036576,
+        "BROADCAST_OTHER": 0.042162000000000005,
+        "STRIKE": 2.1999999999999996e-05,
+        "BLACK_DOMAIN": 0.020110000000000003,
+        "INVADE": 0.029248,
+        "OBSERVE": 0.00026
+      },
+      {
+        "ep_range": [
+          301,
+          350
+        ],
+        "return": -308.4644,
+        "loss": 0.10712200000000001,
+        "alive_frac": 0.23008600000000004,
+        "invade_per_100": 1.6062199999999998,
+        "strike_per_100": 0.00094,
+        "SILENT": 0.34551200000000004,
+        "DEVELOP": 0.589154,
+        "BROADCAST_ALL": 0.013732,
+        "BROADCAST_OTHER": 0.013204000000000002,
+        "STRIKE": 1e-05,
+        "BLACK_DOMAIN": 0.017608,
+        "INVADE": 0.020321999999999996,
+        "OBSERVE": 0.000442
+      },
+      {
+        "ep_range": [
+          351,
+          400
+        ],
+        "return": -372.9617999999999,
+        "loss": 0.104398,
+        "alive_frac": 0.256766,
+        "invade_per_100": 1.7162599999999997,
+        "strike_per_100": 0.00254,
+        "SILENT": 0.4356379999999999,
+        "DEVELOP": 0.4828859999999999,
+        "BROADCAST_ALL": 0.020664000000000002,
+        "BROADCAST_OTHER": 0.02749,
+        "STRIKE": 2.6e-05,
+        "BLACK_DOMAIN": 0.013634000000000002,
+        "INVADE": 0.01913,
+        "OBSERVE": 0.0005399999999999999
+      },
+      {
+        "ep_range": [
+          401,
+          450
+        ],
+        "return": -306.5874,
+        "loss": 0.103324,
+        "alive_frac": 0.230058,
+        "invade_per_100": 1.64548,
+        "strike_per_100": 0.0,
+        "SILENT": 0.267594,
+        "DEVELOP": 0.6304359999999999,
+        "BROADCAST_ALL": 0.035178,
+        "BROADCAST_OTHER": 0.031026,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.016325999999999997,
+        "INVADE": 0.019187999999999997,
+        "OBSERVE": 0.000242
+      },
+      {
+        "ep_range": [
+          451,
+          500
+        ],
+        "return": -348.013,
+        "loss": 0.09959799999999999,
+        "alive_frac": 0.22646399999999997,
+        "invade_per_100": 1.87618,
+        "strike_per_100": 0.0,
+        "SILENT": 0.26089199999999996,
+        "DEVELOP": 0.58373,
+        "BROADCAST_ALL": 0.04719199999999999,
+        "BROADCAST_OTHER": 0.066708,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.017566,
+        "INVADE": 0.023169999999999996,
+        "OBSERVE": 0.000722
+      },
+      {
+        "ep_range": [
+          501,
+          550
+        ],
+        "return": -276.8664,
+        "loss": 0.10729400000000001,
+        "alive_frac": 0.259768,
+        "invade_per_100": 1.3665,
+        "strike_per_100": 0.00878,
+        "SILENT": 0.13223200000000002,
+        "DEVELOP": 0.72012,
+        "BROADCAST_ALL": 0.05674799999999999,
+        "BROADCAST_OTHER": 0.04913399999999999,
+        "STRIKE": 0.000178,
+        "BLACK_DOMAIN": 0.024944,
+        "INVADE": 0.015424,
+        "OBSERVE": 0.0012159999999999999
+      },
+      {
+        "ep_range": [
+          551,
+          600
+        ],
+        "return": -198.06799999999998,
+        "loss": 0.07752999999999999,
+        "alive_frac": 0.26163400000000003,
+        "invade_per_100": 1.00244,
+        "strike_per_100": 0.0025,
+        "SILENT": 0.12427600000000001,
+        "DEVELOP": 0.762448,
+        "BROADCAST_ALL": 0.061472,
+        "BROADCAST_OTHER": 0.022276000000000004,
+        "STRIKE": 3.4e-05,
+        "BLACK_DOMAIN": 0.01734,
+        "INVADE": 0.010741999999999998,
+        "OBSERVE": 0.0014060000000000001
+      }
+    ],
+    "b_terminal": [
+      {
+        "ep_range": [
+          1,
+          50
+        ],
+        "return": -2366.6,
+        "loss": 1.14972,
+        "alive_frac": 0.19065600000000005,
+        "invade_per_100": 13.928320000000003,
+        "strike_per_100": 0.0,
+        "SILENT": 0.27350599999999997,
+        "DEVELOP": 0.251238,
+        "BROADCAST_ALL": 0.194744,
+        "BROADCAST_OTHER": 0.146946,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.0,
+        "INVADE": 0.13356,
+        "OBSERVE": 1.1999999999999999e-05
+      },
+      {
+        "ep_range": [
+          51,
+          100
+        ],
+        "return": -2217.8,
+        "loss": 0.858074,
+        "alive_frac": 0.20468599999999998,
+        "invade_per_100": 12.148679999999999,
+        "strike_per_100": 0.0,
+        "SILENT": 0.294028,
+        "DEVELOP": 0.26196400000000003,
+        "BROADCAST_ALL": 0.17690399999999998,
+        "BROADCAST_OTHER": 0.14514000000000002,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.0028240000000000006,
+        "INVADE": 0.11914999999999999,
+        "OBSERVE": 0.0
+      },
+      {
+        "ep_range": [
+          101,
+          150
+        ],
+        "return": -1979.2,
+        "loss": 0.57965,
+        "alive_frac": 0.21876199999999998,
+        "invade_per_100": 10.11548,
+        "strike_per_100": 0.0,
+        "SILENT": 0.29117,
+        "DEVELOP": 0.27797,
+        "BROADCAST_ALL": 0.165198,
+        "BROADCAST_OTHER": 0.16170600000000002,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.00452,
+        "INVADE": 0.099422,
+        "OBSERVE": 0.0
+      },
+      {
+        "ep_range": [
+          151,
+          200
+        ],
+        "return": -1535.6,
+        "loss": 0.428622,
+        "alive_frac": 0.22332600000000002,
+        "invade_per_100": 7.670200000000001,
+        "strike_per_100": 0.0,
+        "SILENT": 0.33602000000000004,
+        "DEVELOP": 0.24749400000000002,
+        "BROADCAST_ALL": 0.16889200000000001,
+        "BROADCAST_OTHER": 0.164444,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.007474000000000001,
+        "INVADE": 0.075656,
+        "OBSERVE": 1e-05
+      },
+      {
+        "ep_range": [
+          201,
+          250
+        ],
+        "return": -1033.2,
+        "loss": 0.28695800000000005,
+        "alive_frac": 0.23421400000000003,
+        "invade_per_100": 4.90914,
+        "strike_per_100": 0.0008799999999999999,
+        "SILENT": 0.40641999999999995,
+        "DEVELOP": 0.271162,
+        "BROADCAST_ALL": 0.13740000000000002,
+        "BROADCAST_OTHER": 0.115694,
+        "STRIKE": 8e-06,
+        "BLACK_DOMAIN": 0.021508000000000003,
+        "INVADE": 0.047729999999999995,
+        "OBSERVE": 6.8e-05
+      },
+      {
+        "ep_range": [
+          251,
+          300
+        ],
+        "return": -500.6,
+        "loss": 0.167466,
+        "alive_frac": 0.25648200000000004,
+        "invade_per_100": 2.21556,
+        "strike_per_100": 0.0,
+        "SILENT": 0.42909600000000003,
+        "DEVELOP": 0.303788,
+        "BROADCAST_ALL": 0.129348,
+        "BROADCAST_OTHER": 0.05952400000000001,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.057224,
+        "INVADE": 0.020826,
+        "OBSERVE": 0.00021200000000000003
+      },
+      {
+        "ep_range": [
+          301,
+          350
+        ],
+        "return": -203.0,
+        "loss": 0.08026200000000001,
+        "alive_frac": 0.27165800000000007,
+        "invade_per_100": 0.8252400000000002,
+        "strike_per_100": 0.0023,
+        "SILENT": 0.34967800000000004,
+        "DEVELOP": 0.394132,
+        "BROADCAST_ALL": 0.09017599999999999,
+        "BROADCAST_OTHER": 0.021064,
+        "STRIKE": 2.4e-05,
+        "BLACK_DOMAIN": 0.13701,
+        "INVADE": 0.007814,
+        "OBSERVE": 0.000106
+      },
+      {
+        "ep_range": [
+          351,
+          400
+        ],
+        "return": -259.6,
+        "loss": 0.06318,
+        "alive_frac": 0.25504200000000005,
+        "invade_per_100": 1.14392,
+        "strike_per_100": 0.0060799999999999995,
+        "SILENT": 0.317548,
+        "DEVELOP": 0.4730460000000001,
+        "BROADCAST_ALL": 0.04902600000000001,
+        "BROADCAST_OTHER": 0.022528000000000003,
+        "STRIKE": 0.000112,
+        "BLACK_DOMAIN": 0.12511,
+        "INVADE": 0.012546000000000002,
+        "OBSERVE": 0.00010200000000000001
+      },
+      {
+        "ep_range": [
+          401,
+          450
+        ],
+        "return": -321.0,
+        "loss": 0.08802199999999999,
+        "alive_frac": 0.249754,
+        "invade_per_100": 1.4342599999999999,
+        "strike_per_100": 0.01202,
+        "SILENT": 0.434004,
+        "DEVELOP": 0.369074,
+        "BROADCAST_ALL": 0.04405599999999999,
+        "BROADCAST_OTHER": 0.041094,
+        "STRIKE": 0.000144,
+        "BLACK_DOMAIN": 0.096096,
+        "INVADE": 0.01528,
+        "OBSERVE": 0.00025600000000000004
+      },
+      {
+        "ep_range": [
+          451,
+          500
+        ],
+        "return": -251.6,
+        "loss": 0.08666,
+        "alive_frac": 0.289972,
+        "invade_per_100": 0.9473399999999998,
+        "strike_per_100": 0.01048,
+        "SILENT": 0.457016,
+        "DEVELOP": 0.274436,
+        "BROADCAST_ALL": 0.06842,
+        "BROADCAST_OTHER": 0.11105000000000001,
+        "STRIKE": 0.00010999999999999999,
+        "BLACK_DOMAIN": 0.078584,
+        "INVADE": 0.00907,
+        "OBSERVE": 0.0013220000000000005
+      },
+      {
+        "ep_range": [
+          501,
+          550
+        ],
+        "return": -243.0,
+        "loss": 0.080964,
+        "alive_frac": 0.28910399999999997,
+        "invade_per_100": 0.9201400000000001,
+        "strike_per_100": 0.0109,
+        "SILENT": 0.4102499999999999,
+        "DEVELOP": 0.30637,
+        "BROADCAST_ALL": 0.045298,
+        "BROADCAST_OTHER": 0.13056399999999999,
+        "STRIKE": 0.000184,
+        "BLACK_DOMAIN": 0.097508,
+        "INVADE": 0.008556000000000001,
+        "OBSERVE": 0.00127
+      },
+      {
+        "ep_range": [
+          551,
+          600
+        ],
+        "return": -269.0,
+        "loss": 0.085914,
+        "alive_frac": 0.26699,
+        "invade_per_100": 1.1126800000000001,
+        "strike_per_100": 0.0108,
+        "SILENT": 0.430088,
+        "DEVELOP": 0.357912,
+        "BROADCAST_ALL": 0.022718,
+        "BROADCAST_OTHER": 0.102072,
+        "STRIKE": 0.00014800000000000002,
+        "BLACK_DOMAIN": 0.07551999999999999,
+        "INVADE": 0.010726000000000003,
+        "OBSERVE": 0.000796
+      }
+    ],
+    "c_res": [
+      {
+        "ep_range": [
+          1,
+          50
+        ],
+        "return": -2342.7635999999998,
+        "loss": 1.120644,
+        "alive_frac": 0.19027599999999997,
+        "invade_per_100": 13.906259999999998,
+        "strike_per_100": 0.0011799999999999998,
+        "SILENT": 0.26627,
+        "DEVELOP": 0.25424599999999997,
+        "BROADCAST_ALL": 0.19603200000000004,
+        "BROADCAST_OTHER": 0.14825,
+        "STRIKE": 1.1999999999999999e-05,
+        "BLACK_DOMAIN": 0.0018559999999999998,
+        "INVADE": 0.13328600000000002,
+        "OBSERVE": 3.399999999999999e-05
+      },
+      {
+        "ep_range": [
+          51,
+          100
+        ],
+        "return": -2212.7000000000003,
+        "loss": 0.8450740000000002,
+        "alive_frac": 0.19781600000000002,
+        "invade_per_100": 12.657499999999997,
+        "strike_per_100": 0.0,
+        "SILENT": 0.259152,
+        "DEVELOP": 0.29815400000000003,
+        "BROADCAST_ALL": 0.18830199999999994,
+        "BROADCAST_OTHER": 0.127334,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.000776,
+        "INVADE": 0.126284,
+        "OBSERVE": 0.0
+      },
+      {
+        "ep_range": [
+          101,
+          150
+        ],
+        "return": -2063.0553999999997,
+        "loss": 0.624704,
+        "alive_frac": 0.19594599999999995,
+        "invade_per_100": 11.92454,
+        "strike_per_100": 0.0,
+        "SILENT": 0.258376,
+        "DEVELOP": 0.357166,
+        "BROADCAST_ALL": 0.142212,
+        "BROADCAST_OTHER": 0.10126600000000002,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.00386,
+        "INVADE": 0.137106,
+        "OBSERVE": 1.1999999999999999e-05
+      },
+      {
+        "ep_range": [
+          151,
+          200
+        ],
+        "return": -2125.7668000000003,
+        "loss": 0.4825880000000001,
+        "alive_frac": 0.21365199999999998,
+        "invade_per_100": 11.4196,
+        "strike_per_100": 0.00116,
+        "SILENT": 0.19986000000000004,
+        "DEVELOP": 0.463258,
+        "BROADCAST_ALL": 0.10346400000000001,
+        "BROADCAST_OTHER": 0.09825800000000001,
+        "STRIKE": 1.1999999999999999e-05,
+        "BLACK_DOMAIN": 0.004398,
+        "INVADE": 0.130572,
+        "OBSERVE": 0.00018199999999999998
+      },
+      {
+        "ep_range": [
+          201,
+          250
+        ],
+        "return": -1266.6842,
+        "loss": 0.388042,
+        "alive_frac": 0.20407600000000004,
+        "invade_per_100": 7.227080000000001,
+        "strike_per_100": 0.00096,
+        "SILENT": 0.135598,
+        "DEVELOP": 0.6114940000000001,
+        "BROADCAST_ALL": 0.071964,
+        "BROADCAST_OTHER": 0.090108,
+        "STRIKE": 1e-05,
+        "BLACK_DOMAIN": 0.009092,
+        "INVADE": 0.081486,
+        "OBSERVE": 0.00023799999999999998
+      },
+      {
+        "ep_range": [
+          251,
+          300
+        ],
+        "return": -958.038,
+        "loss": 0.324264,
+        "alive_frac": 0.19470600000000002,
+        "invade_per_100": 5.922280000000001,
+        "strike_per_100": 0.0,
+        "SILENT": 0.136958,
+        "DEVELOP": 0.68861,
+        "BROADCAST_ALL": 0.040198,
+        "BROADCAST_OTHER": 0.024778,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.010246000000000002,
+        "INVADE": 0.099094,
+        "OBSERVE": 9.6e-05
+      },
+      {
+        "ep_range": [
+          301,
+          350
+        ],
+        "return": -924.3888,
+        "loss": 0.394074,
+        "alive_frac": 0.220814,
+        "invade_per_100": 4.98512,
+        "strike_per_100": 0.00114,
+        "SILENT": 0.174592,
+        "DEVELOP": 0.723282,
+        "BROADCAST_ALL": 0.017225999999999998,
+        "BROADCAST_OTHER": 0.013369999999999998,
+        "STRIKE": 1.1999999999999999e-05,
+        "BLACK_DOMAIN": 0.010504,
+        "INVADE": 0.060944000000000005,
+        "OBSERVE": 6e-05
+      },
+      {
+        "ep_range": [
+          351,
+          400
+        ],
+        "return": -1072.44,
+        "loss": 0.445256,
+        "alive_frac": 0.230672,
+        "invade_per_100": 5.5686,
+        "strike_per_100": 0.00178,
+        "SILENT": 0.10617800000000001,
+        "DEVELOP": 0.727796,
+        "BROADCAST_ALL": 0.032136,
+        "BROADCAST_OTHER": 0.06110200000000001,
+        "STRIKE": 1.8e-05,
+        "BLACK_DOMAIN": 0.01065,
+        "INVADE": 0.06202,
+        "OBSERVE": 0.00010200000000000001
+      },
+      {
+        "ep_range": [
+          401,
+          450
+        ],
+        "return": -1113.9397999999999,
+        "loss": 0.465874,
+        "alive_frac": 0.240586,
+        "invade_per_100": 5.4924800000000005,
+        "strike_per_100": 0.0007000000000000001,
+        "SILENT": 0.118172,
+        "DEVELOP": 0.650542,
+        "BROADCAST_ALL": 0.04851199999999999,
+        "BROADCAST_OTHER": 0.103866,
+        "STRIKE": 5.999999999999999e-06,
+        "BLACK_DOMAIN": 0.011314000000000001,
+        "INVADE": 0.06756000000000001,
+        "OBSERVE": 3.4e-05
+      },
+      {
+        "ep_range": [
+          451,
+          500
+        ],
+        "return": -796.0344,
+        "loss": 0.44533599999999995,
+        "alive_frac": 0.234938,
+        "invade_per_100": 4.14826,
+        "strike_per_100": 0.00344,
+        "SILENT": 0.128886,
+        "DEVELOP": 0.6628659999999997,
+        "BROADCAST_ALL": 0.06078399999999999,
+        "BROADCAST_OTHER": 0.08950799999999998,
+        "STRIKE": 3.4e-05,
+        "BLACK_DOMAIN": 0.009194,
+        "INVADE": 0.048248000000000006,
+        "OBSERVE": 0.00048
+      },
+      {
+        "ep_range": [
+          501,
+          550
+        ],
+        "return": -739.8584,
+        "loss": 0.38138599999999995,
+        "alive_frac": 0.20312999999999998,
+        "invade_per_100": 4.39316,
+        "strike_per_100": 0.0074199999999999995,
+        "SILENT": 0.126054,
+        "DEVELOP": 0.7114199999999999,
+        "BROADCAST_ALL": 0.035372,
+        "BROADCAST_OTHER": 0.054794,
+        "STRIKE": 7.400000000000001e-05,
+        "BLACK_DOMAIN": 0.013916,
+        "INVADE": 0.058276,
+        "OBSERVE": 8.6e-05
+      },
+      {
+        "ep_range": [
+          551,
+          600
+        ],
+        "return": -1277.9128,
+        "loss": 0.40237599999999996,
+        "alive_frac": 0.23188199999999995,
+        "invade_per_100": 6.45284,
+        "strike_per_100": 0.05772,
+        "SILENT": 0.080536,
+        "DEVELOP": 0.72478,
+        "BROADCAST_ALL": 0.04089,
+        "BROADCAST_OTHER": 0.049834,
+        "STRIKE": 0.000576,
+        "BLACK_DOMAIN": 0.008469999999999998,
+        "INVADE": 0.094816,
+        "OBSERVE": 0.000106
+      }
+    ],
+    "d_malintent": [
+      {
+        "ep_range": [
+          1,
+          50
+        ],
+        "return": -2146.0672000000004,
+        "loss": 1.286154,
+        "alive_frac": 0.189498,
+        "invade_per_100": 14.077440000000001,
+        "strike_per_100": 0.0,
+        "SILENT": 0.24800600000000003,
+        "DEVELOP": 0.23618999999999996,
+        "BROADCAST_ALL": 0.18819400000000003,
+        "BROADCAST_OTHER": 0.192726,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.000386,
+        "INVADE": 0.13450399999999998,
+        "OBSERVE": 0.0
+      },
+      {
+        "ep_range": [
+          51,
+          100
+        ],
+        "return": -1914.3934000000002,
+        "loss": 1.4293460000000004,
+        "alive_frac": 0.20259600000000003,
+        "invade_per_100": 12.47398,
+        "strike_per_100": 0.0,
+        "SILENT": 0.207334,
+        "DEVELOP": 0.21408800000000003,
+        "BROADCAST_ALL": 0.15900199999999998,
+        "BROADCAST_OTHER": 0.302154,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.000138,
+        "INVADE": 0.11728199999999997,
+        "OBSERVE": 1.1999999999999999e-05
+      },
+      {
+        "ep_range": [
+          101,
+          150
+        ],
+        "return": -1587.4506000000003,
+        "loss": 1.5018080000000003,
+        "alive_frac": 0.20450599999999997,
+        "invade_per_100": 10.90184,
+        "strike_per_100": 0.0,
+        "SILENT": 0.18929399999999996,
+        "DEVELOP": 0.19729399999999997,
+        "BROADCAST_ALL": 0.12963,
+        "BROADCAST_OTHER": 0.376154,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.001254,
+        "INVADE": 0.10627800000000001,
+        "OBSERVE": 8.6e-05
+      },
+      {
+        "ep_range": [
+          151,
+          200
+        ],
+        "return": -1097.286,
+        "loss": 1.4299560000000002,
+        "alive_frac": 0.21147400000000002,
+        "invade_per_100": 8.589960000000001,
+        "strike_per_100": 0.0,
+        "SILENT": 0.145774,
+        "DEVELOP": 0.17613800000000002,
+        "BROADCAST_ALL": 0.09611999999999998,
+        "BROADCAST_OTHER": 0.49862,
+        "STRIKE": 0.0,
+        "BLACK_DOMAIN": 0.0010040000000000001,
+        "INVADE": 0.08231999999999999,
+        "OBSERVE": 1e-05
+      },
+      {
+        "ep_range": [
+          201,
+          250
+        ],
+        "return": -598.9698,
+        "loss": 1.28161,
+        "alive_frac": 0.211096,
+        "invade_per_100": 6.26112,
+        "strike_per_100": 0.00106,
+        "SILENT": 0.136698,
+        "DEVELOP": 0.166888,
+        "BROADCAST_ALL": 0.065256,
+        "BROADCAST_OTHER": 0.565782,
+        "STRIKE": 3.2e-05,
+        "BLACK_DOMAIN": 0.004098,
+        "INVADE": 0.061014,
+        "OBSERVE": 0.00022199999999999998
+      },
+      {
+        "ep_range": [
+          251,
+          300
+        ],
+        "return": 25.7216,
+        "loss": 1.05644,
+        "alive_frac": 0.22283799999999995,
+        "invade_per_100": 3.51816,
+        "strike_per_100": 0.0495,
+        "SILENT": 0.10979000000000001,
+        "DEVELOP": 0.12453000000000002,
+        "BROADCAST_ALL": 0.031138000000000002,
+        "BROADCAST_OTHER": 0.6968639999999999,
+        "STRIKE": 0.00079,
+        "BLACK_DOMAIN": 0.002252,
+        "INVADE": 0.034324,
+        "OBSERVE": 0.00031000000000000005
+      },
+      {
+        "ep_range": [
+          301,
+          350
+        ],
+        "return": 386.29820000000007,
+        "loss": 0.7636539999999999,
+        "alive_frac": 0.226792,
+        "invade_per_100": 2.17214,
+        "strike_per_100": 0.10253999999999999,
+        "SILENT": 0.075652,
+        "DEVELOP": 0.07885199999999999,
+        "BROADCAST_ALL": 0.01601,
+        "BROADCAST_OTHER": 0.804982,
+        "STRIKE": 0.001714,
+        "BLACK_DOMAIN": 0.001326,
+        "INVADE": 0.021227999999999997,
+        "OBSERVE": 0.000248
+      },
+      {
+        "ep_range": [
+          351,
+          400
+        ],
+        "return": 270.29740000000004,
+        "loss": 0.726412,
+        "alive_frac": 0.216672,
+        "invade_per_100": 2.5883800000000003,
+        "strike_per_100": 0.016239999999999997,
+        "SILENT": 0.09985799999999997,
+        "DEVELOP": 0.088658,
+        "BROADCAST_ALL": 0.016176,
+        "BROADCAST_OTHER": 0.767136,
+        "STRIKE": 0.000564,
+        "BLACK_DOMAIN": 0.002114,
+        "INVADE": 0.02533,
+        "OBSERVE": 0.00015
+      },
+      {
+        "ep_range": [
+          401,
+          450
+        ],
+        "return": 124.6496,
+        "loss": 0.8626320000000001,
+        "alive_frac": 0.20099,
+        "invade_per_100": 3.0199200000000004,
+        "strike_per_100": 0.022799999999999997,
+        "SILENT": 0.13191,
+        "DEVELOP": 0.11510399999999998,
+        "BROADCAST_ALL": 0.015435999999999998,
+        "BROADCAST_OTHER": 0.7066060000000002,
+        "STRIKE": 0.00074,
+        "BLACK_DOMAIN": 0.00036,
+        "INVADE": 0.029227999999999997,
+        "OBSERVE": 0.000598
+      },
+      {
+        "ep_range": [
+          451,
+          500
+        ],
+        "return": 87.37359999999998,
+        "loss": 0.993976,
+        "alive_frac": 0.20637600000000003,
+        "invade_per_100": 3.2073199999999997,
+        "strike_per_100": 0.0795,
+        "SILENT": 0.11864999999999998,
+        "DEVELOP": 0.122472,
+        "BROADCAST_ALL": 0.015600000000000001,
+        "BROADCAST_OTHER": 0.711502,
+        "STRIKE": 0.000842,
+        "BLACK_DOMAIN": 0.0009299999999999999,
+        "INVADE": 0.029906000000000002,
+        "OBSERVE": 9.2e-05
+      },
+      {
+        "ep_range": [
+          501,
+          550
+        ],
+        "return": 97.92360000000001,
+        "loss": 1.133294,
+        "alive_frac": 0.22852599999999998,
+        "invade_per_100": 3.2974400000000004,
+        "strike_per_100": 0.07780000000000001,
+        "SILENT": 0.10329,
+        "DEVELOP": 0.117096,
+        "BROADCAST_ALL": 0.017182000000000003,
+        "BROADCAST_OTHER": 0.733412,
+        "STRIKE": 0.0008640000000000001,
+        "BLACK_DOMAIN": 0.001732,
+        "INVADE": 0.026314,
+        "OBSERVE": 0.00010799999999999998
+      },
+      {
+        "ep_range": [
+          551,
+          600
+        ],
+        "return": 336.8064,
+        "loss": 1.170846,
+        "alive_frac": 0.23800999999999997,
+        "invade_per_100": 2.58474,
+        "strike_per_100": 0.03238,
+        "SILENT": 0.077304,
+        "DEVELOP": 0.07619400000000001,
+        "BROADCAST_ALL": 0.014871999999999998,
+        "BROADCAST_OTHER": 0.8070860000000001,
+        "STRIKE": 0.00038199999999999996,
+        "BLACK_DOMAIN": 0.0011799999999999998,
+        "INVADE": 0.02236,
+        "OBSERVE": 0.000612
+      }
+    ]
+  },
+  "late_train_mix": {
+    "a_classic": {
+      "SILENT": 0.12427600000000001,
+      "DEVELOP": 0.762448,
+      "BROADCAST_ALL": 0.061472,
+      "BROADCAST_OTHER": 0.022276000000000004,
+      "STRIKE": 3.4e-05,
+      "BLACK_DOMAIN": 0.01734,
+      "INVADE": 0.010741999999999998,
+      "OBSERVE": 0.0014060000000000001
+    },
+    "b_terminal": {
+      "SILENT": 0.430088,
+      "DEVELOP": 0.357912,
+      "BROADCAST_ALL": 0.022718,
+      "BROADCAST_OTHER": 0.102072,
+      "STRIKE": 0.00014800000000000002,
+      "BLACK_DOMAIN": 0.07551999999999999,
+      "INVADE": 0.010726000000000003,
+      "OBSERVE": 0.000796
+    },
+    "c_res": {
+      "SILENT": 0.080536,
+      "DEVELOP": 0.72478,
+      "BROADCAST_ALL": 0.04089,
+      "BROADCAST_OTHER": 0.049834,
+      "STRIKE": 0.000576,
+      "BLACK_DOMAIN": 0.008469999999999998,
+      "INVADE": 0.094816,
+      "OBSERVE": 0.000106
+    },
+    "d_malintent": {
+      "SILENT": 0.077304,
+      "DEVELOP": 0.07619400000000001,
+      "BROADCAST_ALL": 0.014871999999999998,
+      "BROADCAST_OTHER": 0.8070860000000001,
+      "STRIKE": 0.00038199999999999996,
+      "BLACK_DOMAIN": 0.0011799999999999998,
+      "INVADE": 0.02236,
+      "OBSERVE": 0.000612
+    }
+  },
+  "convergence_summary": {
+    "a_classic": {
+      "episodes_done": 600,
+      "return_last50": -198.1,
+      "return_delta_last_vs_prev": 78.8,
+      "loss_last50": 0.0775,
+      "invade_per_100_last50": 1.0,
+      "strike_per_100_last50": 0.0
+    },
+    "b_terminal": {
+      "episodes_done": 600,
+      "return_last50": -269.0,
+      "return_delta_last_vs_prev": -26.0,
+      "loss_last50": 0.0859,
+      "invade_per_100_last50": 1.11,
+      "strike_per_100_last50": 0.01
+    },
+    "c_res": {
+      "episodes_done": 600,
+      "return_last50": -1277.9,
+      "return_delta_last_vs_prev": -538.1,
+      "loss_last50": 0.4024,
+      "invade_per_100_last50": 6.45,
+      "strike_per_100_last50": 0.06
+    },
+    "d_malintent": {
+      "episodes_done": 600,
+      "return_last50": 336.8,
+      "return_delta_last_vs_prev": 238.9,
+      "loss_last50": 1.1708,
+      "invade_per_100_last50": 2.58,
+      "strike_per_100_last50": 0.03
+    }
+  }
+}

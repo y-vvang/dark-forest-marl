@@ -1,0 +1,4 @@
+[stage B] survival by kind: {'learner': 0.556, 'random': 0.39, 'df': 0.548, 'pacifist': 0.573}
+[stage B] learner action profile: {'SILENT': 0.695, 'DEVELOP': 0.048, 'BROADCAST_ALL': 0.004, 'BROADCAST_OTHER': 0.246, 'STRIKE': 0.0, 'BLACK_DOMAIN': 0.003, 'INVADE': 0.004, 'OBSERVE': 0.0}
+[stage B] class survival: {'low': 0.469, 'mid': 0.608, 'high': 0.798}
+-> ../results/v25_arms/d_malintent/stage_b.json

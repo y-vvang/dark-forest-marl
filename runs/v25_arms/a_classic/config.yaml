@@ -1,0 +1,67 @@
+env:
+  attack_reward: 0.0
+  bd_entry_penalty: 0.5
+  bd_explosion_mult: 0.1
+  bd_growth_mult: 0.2
+  death_penalty: 10.0
+  deplete_hi: 2.0
+  deplete_lo: 0.5
+  detect_radius: 30.0
+  develop_rate: 0.05
+  develop_reward: 0.05
+  enable_black_domain: true
+  gate_broadcast_res: 10.0
+  gate_broadcast_tech: 1.0
+  gate_domain_tech: 5.0
+  gate_observe_tech: 5.0
+  gate_strike_tech: 7.0
+  kill_base: 0.55
+  kill_tech_slope: 0.12
+  n_agents: 36
+  p_deplete: 0.02
+  p_detect_base: 0.03
+  p_detect_max: 0.35
+  p_explosion: 0.01
+  res_max: 20.0
+  res_min: 5.0
+  res_reward_scale: 0.0
+  res_total_budget: 150.0
+  shield_cost_frac: 0.5
+  softsign_a: 0.2
+  softsign_reward_scale: 0.01
+  spawn_schedule:
+  - - 0
+    - 4
+  stealth_mult: 0.25
+  t_max: 250
+  tech_cap: 1000000.0
+  tech_spawn_hi: 1.0
+  tech_spawn_lo: 1.0
+  world: 100.0
+eval:
+  env_seed_base: 10001
+  episodes: 150
+  epsilon: 0.05
+  policy_seeds:
+  - 1001
+  - 1002
+  - 1003
+model:
+  hidden:
+  - 64
+  - 64
+  n_actions: 8
+  obs_dim: 38
+train:
+  batch_size: 128
+  episodes: 600
+  eps_end: 0.05
+  eps_frac: 0.5
+  eps_start: 1.0
+  gamma: 0.995
+  lr: 0.0006
+  replay_size: 150000
+  seeds:
+  - 42
+  target_sync: 2000
+  update_every: 2

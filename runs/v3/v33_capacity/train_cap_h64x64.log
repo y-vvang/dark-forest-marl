@@ -1,0 +1,12 @@
+[v3.0] hidden override -> [64, 64]
+[19:43:42] ep 50/500 | ret  -449.0 | alive 0.202 | silent 0.36 strike 0.00 invade 0.02 obs 0.00 bd 0.00 | eps 0.05 | loss 0.2036 | 54s
+[19:44:36] ep 100/500 | ret -1082.7 | alive 0.261 | silent 0.24 strike 0.00 invade 0.02 obs 0.00 bd 0.01 | eps 0.05 | loss 0.2108 | 109s
+[19:45:32] ep 150/500 | ret  -517.5 | alive 0.227 | silent 0.15 strike 0.00 invade 0.01 obs 0.00 bd 0.04 | eps 0.05 | loss 0.2273 | 165s
+[19:46:27] ep 200/500 | ret  -495.1 | alive 0.241 | silent 0.07 strike 0.00 invade 0.02 obs 0.00 bd 0.07 | eps 0.05 | loss 0.2257 | 220s
+[19:47:22] ep 250/500 | ret  -459.9 | alive 0.198 | silent 0.17 strike 0.00 invade 0.03 obs 0.00 bd 0.00 | eps 0.05 | loss 0.2458 | 275s
+[19:48:18] ep 300/500 | ret  -808.8 | alive 0.235 | silent 0.07 strike 0.00 invade 0.07 obs 0.00 bd 0.00 | eps 0.05 | loss 0.2735 | 331s
+[19:49:13] ep 350/500 | ret  -683.1 | alive 0.206 | silent 0.09 strike 0.00 invade 0.04 obs 0.02 bd 0.00 | eps 0.05 | loss 0.2761 | 386s
+[19:50:08] ep 400/500 | ret  -584.7 | alive 0.215 | silent 0.08 strike 0.00 invade 0.07 obs 0.00 bd 0.00 | eps 0.05 | loss 0.3243 | 441s
+[19:51:03] ep 450/500 | ret  -497.7 | alive 0.211 | silent 0.17 strike 0.00 invade 0.06 obs 0.05 bd 0.02 | eps 0.05 | loss 0.3791 | 496s
+[19:51:58] ep 500/500 | ret  -636.7 | alive 0.229 | silent 0.08 strike 0.00 invade 0.05 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4621 | 551s
+=== done in 9.2 min -> /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/runs/v3/v33_capacity/seed42_cap_h64x64 ===

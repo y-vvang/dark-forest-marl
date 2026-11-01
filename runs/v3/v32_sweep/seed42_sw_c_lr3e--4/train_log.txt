@@ -1,0 +1,10 @@
+ep 50/500 | ret  -797.4 | alive 0.257 | silent 0.21 strike 0.00 invade 0.03 obs 0.00 bd 0.09 | eps 0.05 | loss 0.516 | 54s
+ep 100/500 | ret  -619.3 | alive 0.223 | silent 0.17 strike 0.00 invade 0.05 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4747 | 108s
+ep 150/500 | ret  -687.2 | alive 0.221 | silent 0.07 strike 0.00 invade 0.04 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4703 | 162s
+ep 200/500 | ret -1379.3 | alive 0.264 | silent 0.15 strike 0.00 invade 0.07 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4134 | 216s
+ep 250/500 | ret  -675.3 | alive 0.242 | silent 0.12 strike 0.00 invade 0.04 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4131 | 270s
+ep 300/500 | ret  -638.8 | alive 0.224 | silent 0.19 strike 0.00 invade 0.05 obs 0.00 bd 0.00 | eps 0.05 | loss 0.3959 | 322s
+ep 350/500 | ret  -986.5 | alive 0.264 | silent 0.14 strike 0.00 invade 0.07 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4118 | 376s
+ep 400/500 | ret  -862.0 | alive 0.252 | silent 0.09 strike 0.00 invade 0.05 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4187 | 429s
+ep 450/500 | ret  -720.9 | alive 0.186 | silent 0.12 strike 0.00 invade 0.08 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4194 | 482s
+ep 500/500 | ret -1308.8 | alive 0.265 | silent 0.05 strike 0.00 invade 0.12 obs 0.00 bd 0.00 | eps 0.05 | loss 0.4033 | 535s

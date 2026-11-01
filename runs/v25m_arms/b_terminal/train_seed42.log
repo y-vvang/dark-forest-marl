@@ -1,0 +1,21 @@
+[20:53:21] ep 50/1000 | ret -2400.0 | alive 0.182 | silent 0.28 strike 0.00 invade 0.14 obs 0.00 bd 0.00 | eps 0.91 | loss 1.0202 | 77s
+[20:54:37] ep 100/1000 | ret -2200.0 | alive 0.199 | silent 0.26 strike 0.00 invade 0.12 obs 0.00 bd 0.00 | eps 0.81 | loss 0.7309 | 152s
+[20:55:52] ep 150/1000 | ret -2080.0 | alive 0.204 | silent 0.27 strike 0.00 invade 0.11 obs 0.00 bd 0.00 | eps 0.72 | loss 0.4074 | 227s
+[20:57:05] ep 200/1000 | ret -2070.0 | alive 0.225 | silent 0.33 strike 0.00 invade 0.10 obs 0.00 bd 0.00 | eps 0.62 | loss 0.277 | 301s
+[21:08:35] ep 250/1000 | ret -2170.0 | alive 0.229 | silent 0.40 strike 0.00 invade 0.11 obs 0.00 bd 0.00 | eps 0.53 | loss 0.2625 | 990s
+[21:09:44] ep 300/1000 | ret -1230.0 | alive 0.241 | silent 0.33 strike 0.00 invade 0.05 obs 0.00 bd 0.06 | eps 0.43 | loss 0.2343 | 1060s
+[21:10:52] ep 350/1000 | ret -1090.0 | alive 0.238 | silent 0.42 strike 0.00 invade 0.05 obs 0.00 bd 0.04 | eps 0.34 | loss 0.1886 | 1127s
+[21:11:57] ep 400/1000 | ret -1260.0 | alive 0.251 | silent 0.54 strike 0.00 invade 0.06 obs 0.00 bd 0.00 | eps 0.24 | loss 0.1307 | 1192s
+[21:13:00] ep 450/1000 | ret  -600.0 | alive 0.226 | silent 0.52 strike 0.00 invade 0.03 obs 0.00 bd 0.00 | eps 0.15 | loss 0.1172 | 1255s
+[21:13:59] ep 500/1000 | ret  -270.0 | alive 0.255 | silent 0.57 strike 0.00 invade 0.01 obs 0.00 bd 0.07 | eps 0.05 | loss 0.0894 | 1314s
+[21:14:56] ep 550/1000 | ret  -260.0 | alive 0.255 | silent 0.65 strike 0.00 invade 0.01 obs 0.01 bd 0.01 | eps 0.05 | loss 0.0834 | 1371s
+[21:15:52] ep 600/1000 | ret  -410.0 | alive 0.216 | silent 0.89 strike 0.00 invade 0.02 obs 0.00 bd 0.00 | eps 0.05 | loss 0.0906 | 1428s
+[21:16:50] ep 650/1000 | ret  -530.0 | alive 0.254 | silent 0.76 strike 0.00 invade 0.03 obs 0.00 bd 0.06 | eps 0.05 | loss 0.1092 | 1485s
+[21:17:47] ep 700/1000 | ret  -400.0 | alive 0.234 | silent 0.71 strike 0.00 invade 0.03 obs 0.00 bd 0.07 | eps 0.05 | loss 0.079 | 1543s
+[21:18:45] ep 750/1000 | ret  -510.0 | alive 0.228 | silent 0.77 strike 0.00 invade 0.05 obs 0.00 bd 0.00 | eps 0.05 | loss 0.0949 | 1601s
+[21:19:44] ep 800/1000 | ret  -660.0 | alive 0.244 | silent 0.74 strike 0.00 invade 0.04 obs 0.00 bd 0.03 | eps 0.05 | loss 0.1249 | 1660s
+[21:20:43] ep 850/1000 | ret  -330.0 | alive 0.250 | silent 0.57 strike 0.00 invade 0.01 obs 0.00 bd 0.08 | eps 0.05 | loss 0.1201 | 1718s
+[21:21:41] ep 900/1000 | ret  -620.0 | alive 0.237 | silent 0.71 strike 0.00 invade 0.05 obs 0.00 bd 0.00 | eps 0.05 | loss 0.1026 | 1777s
+[21:22:41] ep 950/1000 | ret  -550.0 | alive 0.194 | silent 0.50 strike 0.00 invade 0.05 obs 0.00 bd 0.02 | eps 0.05 | loss 0.1022 | 1836s
+[21:23:40] ep 1000/1000 | ret  -780.0 | alive 0.189 | silent 0.19 strike 0.00 invade 0.10 obs 0.00 bd 0.03 | eps 0.05 | loss 0.1259 | 1896s
+=== done in 31.6 min -> /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/runs/v25m_arms/b_terminal/run/seed42_main ===

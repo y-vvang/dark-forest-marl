@@ -1,0 +1,400 @@
+[2026-10-17 21:02:25] PIPELINE_V28 START
+Traceback (most recent call last):
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/run_v32_driver.py", line 91, in <module>
+    best1 = run_stage("A1", a1)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/run_v32_driver.py", line 77, in run_stage
+    train_branch(b["name"], **b)
+TypeError: train_branch() got multiple values for argument 'name'
+[2026-10-17 21:03:04] PIPELINE_V28 START
+Traceback (most recent call last):
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/run_v32_driver.py", line 91, in <module>
+    best1 = run_stage("A1", a1)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/run_v32_driver.py", line 77, in run_stage
+    train_branch(**b)
+TypeError: train_branch() missing 1 required positional argument: 'episodes'
+[2026-10-17 21:03:56] PIPELINE_V28 START
+Traceback (most recent call last):
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/run_v32_driver.py", line 91, in <module>
+    best1 = run_stage("A1", a1)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/run_v32_driver.py", line 77, in run_stage
+    train_branch(**b)
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/run_v32_driver.py", line 36, in train_branch
+    rc = sh(cmd, os.path.join(out, f"train_{name}.log"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/run_v32_driver.py", line 17, in sh
+    r = subprocess.run(cmd, stdout=open(log, "w"), stderr=subprocess.STDOUT, cwd=EXP)
+                                   ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/runs/v3/v32_sweep/train_sw_b_lr1e-4.log'
+[2026-10-17 21:05:17] PIPELINE_V28 START
+[v32 train] sw_b_lr1.5e-4 rc=0 tail_ep=500
+[v32 eval] sw_b_lr1.5e-4/solo/None rc=0
+[v32 eval] sw_b_lr1.5e-4/league/random rc=0
+[v32 eval] sw_b_lr1.5e-4/league/df rc=0
+[v32 eval] sw_b_lr1.5e-4/league/pacifist rc=0
+[v32 eval] sw_b_lr1.5e-4/league/ckpt:a_classic rc=0
+[v32 eval] sw_b_lr1.5e-4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_b_lr1.5e-4/league/ckpt:c_res rc=0
+[v32 eval] sw_b_lr1.5e-4/league/ckpt:d_malintent rc=0
+[v32 train] sw_b_lr3e--4 rc=0 tail_ep=500
+[v32 eval] sw_b_lr3e--4/solo/None rc=0
+[v32 eval] sw_b_lr3e--4/league/random rc=0
+[v32 eval] sw_b_lr3e--4/league/df rc=0
+[v32 eval] sw_b_lr3e--4/league/pacifist rc=0
+[v32 eval] sw_b_lr3e--4/league/ckpt:a_classic rc=0
+[v32 eval] sw_b_lr3e--4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_b_lr3e--4/league/ckpt:c_res rc=0
+[v32 eval] sw_b_lr3e--4/league/ckpt:d_malintent rc=0
+[2026-10-18 09:50:41] PIPELINE_V28 START
+[v32 train] sw_b_lr6e--4 rc=0 tail_ep=500
+[v32 eval] sw_b_lr6e--4/solo/None rc=0
+[v32 eval] sw_b_lr6e--4/league/random rc=0
+[v32 eval] sw_b_lr6e--4/league/df rc=0
+[v32 eval] sw_b_lr6e--4/league/pacifist rc=0
+[v32 eval] sw_b_lr6e--4/league/ckpt:a_classic rc=0
+[v32 eval] sw_b_lr6e--4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_b_lr6e--4/league/ckpt:c_res rc=0
+[v32 eval] sw_b_lr6e--4/league/ckpt:d_malintent rc=0
+[v32 train] sw_c_lr1.5e-4 rc=0 tail_ep=500
+[v32 eval] sw_c_lr1.5e-4/solo/None rc=0
+[v32 eval] sw_c_lr1.5e-4/league/random rc=0
+[v32 eval] sw_c_lr1.5e-4/league/df rc=0
+[v32 eval] sw_c_lr1.5e-4/league/pacifist rc=0
+[v32 eval] sw_c_lr1.5e-4/league/ckpt:a_classic rc=0
+[v32 eval] sw_c_lr1.5e-4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_c_lr1.5e-4/league/ckpt:c_res rc=0
+[v32 eval] sw_c_lr1.5e-4/league/ckpt:d_malintent rc=0
+[v32 train] sw_c_lr3e--4 rc=0 tail_ep=500
+[v32 eval] sw_c_lr3e--4/solo/None rc=0
+[v32 eval] sw_c_lr3e--4/league/random rc=0
+[v32 eval] sw_c_lr3e--4/league/df rc=0
+[v32 eval] sw_c_lr3e--4/league/pacifist rc=0
+[v32 eval] sw_c_lr3e--4/league/ckpt:a_classic rc=0
+[v32 eval] sw_c_lr3e--4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_c_lr3e--4/league/ckpt:c_res rc=0
+[v32 eval] sw_c_lr3e--4/league/ckpt:d_malintent rc=0
+[2026-10-18 11:41:05] PIPELINE_V28 START
+[2026-10-18 11:43:25] PIPELINE_V28 START
+[v32 train] sw_c_lr6e--4 rc=0 tail_ep=500
+[v32 eval] sw_c_lr6e--4/solo/None rc=0
+[v32 eval] sw_c_lr6e--4/league/random rc=0
+[v32 eval] sw_c_lr6e--4/league/df rc=0
+[v32 eval] sw_c_lr6e--4/league/pacifist rc=0
+[v32 eval] sw_c_lr6e--4/league/ckpt:a_classic rc=0
+[v32 eval] sw_c_lr6e--4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_c_lr6e--4/league/ckpt:c_res rc=0
+[v32 eval] sw_c_lr6e--4/league/ckpt:d_malintent rc=0
+[v32 train] sw_d_lr1.5e-4 rc=0 tail_ep=500
+[v32 eval] sw_d_lr1.5e-4/solo/None rc=0
+[v32 eval] sw_d_lr1.5e-4/league/random rc=0
+[v32 eval] sw_d_lr1.5e-4/league/df rc=0
+[v32 eval] sw_d_lr1.5e-4/league/pacifist rc=0
+[v32 eval] sw_d_lr1.5e-4/league/ckpt:a_classic rc=0
+[v32 eval] sw_d_lr1.5e-4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_d_lr1.5e-4/league/ckpt:c_res rc=0
+[v32 eval] sw_d_lr1.5e-4/league/ckpt:d_malintent rc=0
+[v32 train] sw_d_lr3e--4 rc=0 tail_ep=500
+[v32 eval] sw_d_lr3e--4/solo/None rc=0
+[v32 eval] sw_d_lr3e--4/league/random rc=0
+[v32 eval] sw_d_lr3e--4/league/df rc=0
+[v32 eval] sw_d_lr3e--4/league/pacifist rc=0
+[v32 eval] sw_d_lr3e--4/league/ckpt:a_classic rc=0
+[v32 eval] sw_d_lr3e--4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_d_lr3e--4/league/ckpt:c_res rc=0
+[v32 eval] sw_d_lr3e--4/league/ckpt:d_malintent rc=0
+[v32 train] sw_d_lr6e--4 rc=0 tail_ep=500
+[v32 eval] sw_d_lr6e--4/solo/None rc=0
+[v32 eval] sw_d_lr6e--4/league/random rc=0
+[v32 eval] sw_d_lr6e--4/league/df rc=0
+[v32 eval] sw_d_lr6e--4/league/pacifist rc=0
+[v32 eval] sw_d_lr6e--4/league/ckpt:a_classic rc=0
+[v32 eval] sw_d_lr6e--4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_d_lr6e--4/league/ckpt:c_res rc=0
+[v32 eval] sw_d_lr6e--4/league/ckpt:d_malintent rc=0
+[v32 stage A1] best={'name': 'sw_c_lr1.5e-4', 'vs_arm': 0.4294, 'vs_heur': 0.4907, 'solo_surv': 0.322, 'complete': True}
+[v32 train] sw_g099 rc=0 tail_ep=500
+[v32 eval] sw_g099/solo/None rc=0
+[v32 eval] sw_g099/league/random rc=0
+[v32 eval] sw_g099/league/df rc=0
+[v32 eval] sw_g099/league/pacifist rc=0
+[v32 eval] sw_g099/league/ckpt:a_classic rc=0
+[v32 eval] sw_g099/league/ckpt:b_terminal rc=0
+[v32 eval] sw_g099/league/ckpt:c_res rc=0
+[v32 eval] sw_g099/league/ckpt:d_malintent rc=0
+[v32 train] sw_g0999 rc=0 tail_ep=500
+[v32 eval] sw_g0999/solo/None rc=0
+[v32 eval] sw_g0999/league/random rc=0
+[v32 eval] sw_g0999/league/df rc=0
+[v32 eval] sw_g0999/league/pacifist rc=0
+[v32 eval] sw_g0999/league/ckpt:a_classic rc=0
+[v32 eval] sw_g0999/league/ckpt:b_terminal rc=0
+[v32 eval] sw_g0999/league/ckpt:c_res rc=0
+[v32 eval] sw_g0999/league/ckpt:d_malintent rc=0
+[v32 stage A2] best={'name': 'sw_g099', 'vs_arm': 0.4294, 'vs_heur': 0.4907, 'solo_surv': 0.322, 'complete': True}
+[v32 train] sw_rp50k rc=0 tail_ep=500
+[v32 eval] sw_rp50k/solo/None rc=0
+[v32 eval] sw_rp50k/league/random rc=0
+[v32 eval] sw_rp50k/league/df rc=0
+[v32 eval] sw_rp50k/league/pacifist rc=0
+[v32 eval] sw_rp50k/league/ckpt:a_classic rc=0
+[v32 eval] sw_rp50k/league/ckpt:b_terminal rc=0
+[v32 eval] sw_rp50k/league/ckpt:c_res rc=0
+[v32 eval] sw_rp50k/league/ckpt:d_malintent rc=0
+[v32 train] sw_rp400k rc=0 tail_ep=500
+[v32 eval] sw_rp400k/solo/None rc=0
+[v32 eval] sw_rp400k/league/random rc=0
+[v32 eval] sw_rp400k/league/df rc=0
+[v32 eval] sw_rp400k/league/pacifist rc=0
+[v32 eval] sw_rp400k/league/ckpt:a_classic rc=0
+[v32 eval] sw_rp400k/league/ckpt:b_terminal rc=0
+[v32 eval] sw_rp400k/league/ckpt:c_res rc=0
+[v32 eval] sw_rp400k/league/ckpt:d_malintent rc=0
+[v32 stage A3] best={'name': 'sw_rp50k', 'vs_arm': 0.4294, 'vs_heur': 0.4907, 'solo_surv': 0.322, 'complete': True}
+[v32 train] sw_e10 rc=0 tail_ep=500
+[v32 eval] sw_e10/solo/None rc=0
+[v32 eval] sw_e10/league/random rc=0
+[v32 eval] sw_e10/league/df rc=0
+[v32 eval] sw_e10/league/pacifist rc=0
+[v32 eval] sw_e10/league/ckpt:a_classic rc=0
+[v32 eval] sw_e10/league/ckpt:b_terminal rc=0
+[v32 eval] sw_e10/league/ckpt:c_res rc=0
+[v32 eval] sw_e10/league/ckpt:d_malintent rc=0
+[v32 train] sw_e15 rc=0 tail_ep=500
+[v32 eval] sw_e15/solo/None rc=0
+[v32 eval] sw_e15/league/random rc=0
+[v32 eval] sw_e15/league/df rc=0
+[v32 eval] sw_e15/league/pacifist rc=0
+[v32 eval] sw_e15/league/ckpt:a_classic rc=0
+[v32 eval] sw_e15/league/ckpt:b_terminal rc=0
+[v32 eval] sw_e15/league/ckpt:c_res rc=0
+[v32 eval] sw_e15/league/ckpt:d_malintent rc=0
+[v32 stage A4] best={'name': 'sw_e10', 'vs_arm': 0.3818, 'vs_heur': 0.5228, 'solo_surv': 0.5647, 'complete': True}
+[v32 train] sw_ts500 rc=0 tail_ep=500
+[v32 eval] sw_ts500/solo/None rc=0
+[v32 eval] sw_ts500/league/random rc=0
+[v32 eval] sw_ts500/league/df rc=0
+[v32 eval] sw_ts500/league/pacifist rc=0
+[v32 eval] sw_ts500/league/ckpt:a_classic rc=0
+[v32 eval] sw_ts500/league/ckpt:b_terminal rc=0
+[v32 eval] sw_ts500/league/ckpt:c_res rc=0
+[v32 eval] sw_ts500/league/ckpt:d_malintent rc=0
+[v32 train] sw_ts4000 rc=0 tail_ep=500
+[v32 eval] sw_ts4000/solo/None rc=0
+[v32 eval] sw_ts4000/league/random rc=0
+[v32 eval] sw_ts4000/league/df rc=0
+[v32 eval] sw_ts4000/league/pacifist rc=0
+[v32 eval] sw_ts4000/league/ckpt:a_classic rc=0
+[v32 eval] sw_ts4000/league/ckpt:b_terminal rc=0
+[v32 eval] sw_ts4000/league/ckpt:c_res rc=0
+[v32 eval] sw_ts4000/league/ckpt:d_malintent rc=0
+[v32 train] sw_b64 rc=0 tail_ep=500
+[v32 eval] sw_b64/solo/None rc=0
+[v32 eval] sw_b64/league/random rc=0
+[v32 eval] sw_b64/league/df rc=0
+[v32 eval] sw_b64/league/pacifist rc=0
+[v32 eval] sw_b64/league/ckpt:a_classic rc=0
+[v32 eval] sw_b64/league/ckpt:b_terminal rc=0
+[v32 eval] sw_b64/league/ckpt:c_res rc=0
+[v32 eval] sw_b64/league/ckpt:d_malintent rc=0
+[v32 train] sw_b256 rc=0 tail_ep=500
+[v32 eval] sw_b256/solo/None rc=0
+[v32 eval] sw_b256/league/random rc=0
+[v32 eval] sw_b256/league/df rc=0
+[v32 eval] sw_b256/league/pacifist rc=0
+[v32 eval] sw_b256/league/ckpt:a_classic rc=0
+[v32 eval] sw_b256/league/ckpt:b_terminal rc=0
+[v32 eval] sw_b256/league/ckpt:c_res rc=0
+[v32 eval] sw_b256/league/ckpt:d_malintent rc=0
+[v32 stage A5] best={'name': 'sw_ts500', 'vs_arm': 0.4294, 'vs_heur': 0.4907, 'solo_surv': 0.322, 'complete': True}
+[v32] FINAL: {'pool': 'c', 'lr': 0.00015, 'gamma': 0.995, 'replay': 150000, 'eps': 0.05, 'tsync': 2000, 'batch': 128}
+[v32] GATE: vs_arm=0.4294 vs_heur=[0.4907, 0.4907, 0.4907, 0.4907]
+[v32] GATE NOT PASSED -> no confirm run (honest negative)
+[2026-10-18 14:30:55] PIPELINE_V28 START
+[2026-10-18 14:33:01] PIPELINE_V28 START
+[v32 train] sw_b_lr1.5e-4 rc=0 tail_ep=500
+[v32 eval] sw_b_lr1.5e-4/solo/None rc=0
+[v32 eval] sw_b_lr1.5e-4/league/random rc=0
+[v32 eval] sw_b_lr1.5e-4/league/df rc=0
+[v32 eval] sw_b_lr1.5e-4/league/pacifist rc=0
+[v32 eval] sw_b_lr1.5e-4/league/ckpt:a_classic rc=0
+[v32 eval] sw_b_lr1.5e-4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_b_lr1.5e-4/league/ckpt:c_res rc=0
+[v32 eval] sw_b_lr1.5e-4/league/ckpt:d_malintent rc=0
+[v32 train] sw_b_lr6e--4 rc=0 tail_ep=500
+[v32 eval] sw_b_lr6e--4/solo/None rc=0
+[v32 eval] sw_b_lr6e--4/league/random rc=0
+[v32 eval] sw_b_lr6e--4/league/df rc=0
+[v32 eval] sw_b_lr6e--4/league/pacifist rc=0
+[v32 eval] sw_b_lr6e--4/league/ckpt:a_classic rc=0
+[v32 eval] sw_b_lr6e--4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_b_lr6e--4/league/ckpt:c_res rc=0
+[v32 eval] sw_b_lr6e--4/league/ckpt:d_malintent rc=0
+[v32 train] sw_c_lr1.5e-4 rc=0 tail_ep=500
+[v32 eval] sw_c_lr1.5e-4/solo/None rc=0
+[v32 eval] sw_c_lr1.5e-4/league/random rc=0
+[v32 eval] sw_c_lr1.5e-4/league/df rc=0
+[v32 eval] sw_c_lr1.5e-4/league/pacifist rc=0
+[v32 eval] sw_c_lr1.5e-4/league/ckpt:a_classic rc=0
+[v32 eval] sw_c_lr1.5e-4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_c_lr1.5e-4/league/ckpt:c_res rc=0
+[v32 eval] sw_c_lr1.5e-4/league/ckpt:d_malintent rc=0
+[v32 train] sw_c_lr6e--4 rc=0 tail_ep=500
+[v32 eval] sw_c_lr6e--4/solo/None rc=0
+[v32 eval] sw_c_lr6e--4/league/random rc=0
+[v32 eval] sw_c_lr6e--4/league/df rc=0
+[v32 eval] sw_c_lr6e--4/league/pacifist rc=0
+[v32 eval] sw_c_lr6e--4/league/ckpt:a_classic rc=0
+[v32 eval] sw_c_lr6e--4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_c_lr6e--4/league/ckpt:c_res rc=0
+[v32 eval] sw_c_lr6e--4/league/ckpt:d_malintent rc=0
+[v32 train] sw_d_lr1.5e-4 rc=0 tail_ep=500
+[v32 eval] sw_d_lr1.5e-4/solo/None rc=0
+[v32 eval] sw_d_lr1.5e-4/league/random rc=0
+[v32 eval] sw_d_lr1.5e-4/league/df rc=0
+[v32 eval] sw_d_lr1.5e-4/league/pacifist rc=0
+[v32 eval] sw_d_lr1.5e-4/league/ckpt:a_classic rc=0
+[v32 eval] sw_d_lr1.5e-4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_d_lr1.5e-4/league/ckpt:c_res rc=0
+[v32 eval] sw_d_lr1.5e-4/league/ckpt:d_malintent rc=0
+[v32 train] sw_d_lr6e--4 rc=0 tail_ep=500
+[v32 eval] sw_d_lr6e--4/solo/None rc=0
+[v32 eval] sw_d_lr6e--4/league/random rc=0
+[v32 eval] sw_d_lr6e--4/league/df rc=0
+[v32 eval] sw_d_lr6e--4/league/pacifist rc=0
+[v32 eval] sw_d_lr6e--4/league/ckpt:a_classic rc=0
+[v32 eval] sw_d_lr6e--4/league/ckpt:b_terminal rc=0
+[v32 eval] sw_d_lr6e--4/league/ckpt:c_res rc=0
+[v32 eval] sw_d_lr6e--4/league/ckpt:d_malintent rc=0
+[v32 stage A1] best={'name': 'sw_b_lr6e--4', 'vs_arm': 0.4374, 'vs_heur': 0.5706, 'solo_surv': 0.182, 'complete': True}
+[v32 train] sw_g099 rc=0 tail_ep=500
+[v32 eval] sw_g099/solo/None rc=0
+[v32 eval] sw_g099/league/random rc=0
+[v32 eval] sw_g099/league/df rc=0
+[v32 eval] sw_g099/league/pacifist rc=0
+[v32 eval] sw_g099/league/ckpt:a_classic rc=0
+[v32 eval] sw_g099/league/ckpt:b_terminal rc=0
+[v32 eval] sw_g099/league/ckpt:c_res rc=0
+[v32 eval] sw_g099/league/ckpt:d_malintent rc=0
+[2026-10-18 15:59:57] PIPELINE_V28 START
+[v32 stage A1] best={'name': 'sw_b_lr6e--4', 'vs_arm': 0.4374, 'vs_heur': 0.5706, 'solo_surv': 0.182, 'complete': True}
+[v32 train] sw_g0999 rc=0 tail_ep=500
+[v32 eval] sw_g0999/solo/None rc=0
+[v32 eval] sw_g0999/league/random rc=0
+[v32 eval] sw_g0999/league/df rc=0
+[v32 eval] sw_g0999/league/pacifist rc=0
+[v32 eval] sw_g0999/league/ckpt:a_classic rc=0
+[v32 eval] sw_g0999/league/ckpt:b_terminal rc=0
+[v32 eval] sw_g0999/league/ckpt:c_res rc=0
+[v32 eval] sw_g0999/league/ckpt:d_malintent rc=0
+[v32 stage A2] best={'name': 'sw_g0999', 'vs_arm': 0.3591, 'vs_heur': 0.5345, 'solo_surv': 0.3349, 'complete': True}
+[v32 train] sw_rp50k rc=0 tail_ep=500
+[v32 eval] sw_rp50k/solo/None rc=0
+[v32 eval] sw_rp50k/league/random rc=0
+[v32 eval] sw_rp50k/league/df rc=0
+[v32 eval] sw_rp50k/league/pacifist rc=0
+[v32 eval] sw_rp50k/league/ckpt:a_classic rc=0
+[v32 eval] sw_rp50k/league/ckpt:b_terminal rc=0
+[v32 eval] sw_rp50k/league/ckpt:c_res rc=0
+[v32 eval] sw_rp50k/league/ckpt:d_malintent rc=0
+[v32 train] sw_rp400k rc=0 tail_ep=500
+[v32 eval] sw_rp400k/solo/None rc=0
+[v32 eval] sw_rp400k/league/random rc=0
+[v32 eval] sw_rp400k/league/df rc=0
+[v32 eval] sw_rp400k/league/pacifist rc=0
+[v32 eval] sw_rp400k/league/ckpt:a_classic rc=0
+[v32 eval] sw_rp400k/league/ckpt:b_terminal rc=0
+[v32 eval] sw_rp400k/league/ckpt:c_res rc=0
+[v32 eval] sw_rp400k/league/ckpt:d_malintent rc=0
+[v32 stage A3] best={'name': 'sw_rp50k', 'vs_arm': 0.32, 'vs_heur': 0.4909, 'solo_surv': 0.3924, 'complete': True}
+[v32 train] sw_e10 rc=0 tail_ep=500
+[v32 eval] sw_e10/solo/None rc=0
+[v32 eval] sw_e10/league/random rc=0
+[v32 eval] sw_e10/league/df rc=0
+[v32 eval] sw_e10/league/pacifist rc=0
+[v32 eval] sw_e10/league/ckpt:a_classic rc=0
+[v32 eval] sw_e10/league/ckpt:b_terminal rc=0
+[v32 eval] sw_e10/league/ckpt:c_res rc=0
+[v32 eval] sw_e10/league/ckpt:d_malintent rc=0
+[v32 train] sw_e15 rc=0 tail_ep=500
+[v32 eval] sw_e15/solo/None rc=0
+[v32 eval] sw_e15/league/random rc=0
+[v32 eval] sw_e15/league/df rc=0
+[v32 eval] sw_e15/league/pacifist rc=0
+[v32 eval] sw_e15/league/ckpt:a_classic rc=0
+[v32 eval] sw_e15/league/ckpt:b_terminal rc=0
+[v32 eval] sw_e15/league/ckpt:c_res rc=0
+[v32 eval] sw_e15/league/ckpt:d_malintent rc=0
+[v32 stage A4] best={'name': 'sw_e15', 'vs_arm': 0.4189, 'vs_heur': 0.5456, 'solo_surv': 0.3065, 'complete': True}
+[v32 train] sw_ts500 rc=0 tail_ep=500
+[v32 eval] sw_ts500/solo/None rc=0
+[v32 eval] sw_ts500/league/random rc=0
+[v32 eval] sw_ts500/league/df rc=0
+[v32 eval] sw_ts500/league/pacifist rc=0
+[v32 eval] sw_ts500/league/ckpt:a_classic rc=0
+[v32 eval] sw_ts500/league/ckpt:b_terminal rc=0
+[v32 eval] sw_ts500/league/ckpt:c_res rc=0
+[v32 eval] sw_ts500/league/ckpt:d_malintent rc=0
+[v32 train] sw_ts4000 rc=0 tail_ep=500
+[v32 eval] sw_ts4000/solo/None rc=0
+[v32 eval] sw_ts4000/league/random rc=0
+[v32 eval] sw_ts4000/league/df rc=0
+[v32 eval] sw_ts4000/league/pacifist rc=0
+[v32 eval] sw_ts4000/league/ckpt:a_classic rc=0
+[v32 eval] sw_ts4000/league/ckpt:b_terminal rc=0
+[v32 eval] sw_ts4000/league/ckpt:c_res rc=0
+[v32 eval] sw_ts4000/league/ckpt:d_malintent rc=0
+[v32 train] sw_b64 rc=0 tail_ep=500
+[v32 eval] sw_b64/solo/None rc=0
+[v32 eval] sw_b64/league/random rc=0
+[v32 eval] sw_b64/league/df rc=0
+[v32 eval] sw_b64/league/pacifist rc=0
+[v32 eval] sw_b64/league/ckpt:a_classic rc=0
+[v32 eval] sw_b64/league/ckpt:b_terminal rc=0
+[v32 eval] sw_b64/league/ckpt:c_res rc=0
+[v32 eval] sw_b64/league/ckpt:d_malintent rc=0
+[v32 train] sw_b256 rc=0 tail_ep=500
+[v32 eval] sw_b256/solo/None rc=0
+[v32 eval] sw_b256/league/random rc=0
+[v32 eval] sw_b256/league/df rc=0
+[v32 eval] sw_b256/league/pacifist rc=0
+[v32 eval] sw_b256/league/ckpt:a_classic rc=0
+[v32 eval] sw_b256/league/ckpt:b_terminal rc=0
+[v32 eval] sw_b256/league/ckpt:c_res rc=0
+[v32 eval] sw_b256/league/ckpt:d_malintent rc=0
+[v32 stage A5] best={'name': 'sw_ts500', 'vs_arm': 0.4667, 'vs_heur': 0.8478, 'solo_surv': 0.615, 'complete': True}
+[v32] FINAL: {'pool': 'b', 'lr': 0.0006, 'gamma': 0.995, 'replay': 150000, 'eps': 0.05, 'tsync': 500, 'batch': 128}
+[v32] GATE: vs_arm=0.4667 vs_heur=[0.8478]
+[2026-10-18 18:11:00] PIPELINE_V28 START
+[v32 stage A1] best={'name': 'sw_b_lr6e--4', 'vs_arm': 0.4374, 'vs_heur': 0.5706, 'solo_surv': 0.182, 'complete': True}
+[v32 stage A2] best={'name': 'sw_g0999', 'vs_arm': 0.3591, 'vs_heur': 0.5345, 'solo_surv': 0.3349, 'complete': True}
+[v32 stage A3] best={'name': 'sw_rp50k', 'vs_arm': 0.32, 'vs_heur': 0.4909, 'solo_surv': 0.3924, 'complete': True}
+[v32 stage A4] best={'name': 'sw_e15', 'vs_arm': 0.4189, 'vs_heur': 0.5456, 'solo_surv': 0.3065, 'complete': True}
+[v32 stage A5] best={'name': 'sw_ts500', 'vs_arm': 0.4667, 'vs_heur': 0.8478, 'solo_surv': 0.615, 'complete': True}
+[v32] FINAL: {'pool': 'b', 'lr': 0.0006, 'gamma': 0.995, 'replay': 150000, 'eps': 0.05, 'tsync': 500, 'batch': 128}
+[v32] GATE: vs_arm=0.4667 vs_heur=[0.8478]
+Traceback (most recent call last):
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/run_v32_driver.py", line 168, in <module>
+    sh(cmd, os.path.join(out, f"train_{name}.log"))
+  File "/home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/experiment/run_v32_driver.py", line 19, in sh
+    r = subprocess.run(cmd, stdout=open(log, "w"), stderr=subprocess.STDOUT, cwd=EXP)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/z/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 1885, in _execute_child
+    self.pid = _fork_exec(
+               ^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not int
+[2026-10-18 18:12:17] PIPELINE_V28 START
+[v32 stage A1] best={'name': 'sw_b_lr6e--4', 'vs_arm': 0.4374, 'vs_heur': 0.5706, 'solo_surv': 0.182, 'complete': True}
+[v32 stage A2] best={'name': 'sw_g0999', 'vs_arm': 0.3591, 'vs_heur': 0.5345, 'solo_surv': 0.3349, 'complete': True}
+[v32 stage A3] best={'name': 'sw_rp50k', 'vs_arm': 0.32, 'vs_heur': 0.4909, 'solo_surv': 0.3924, 'complete': True}
+[v32 stage A4] best={'name': 'sw_e15', 'vs_arm': 0.4189, 'vs_heur': 0.5456, 'solo_surv': 0.3065, 'complete': True}
+[v32 stage A5] best={'name': 'sw_ts500', 'vs_arm': 0.4667, 'vs_heur': 0.8478, 'solo_surv': 0.615, 'complete': True}
+[v32] FINAL: {'pool': 'b', 'lr': 0.0006, 'gamma': 0.995, 'replay': 150000, 'eps': 0.05, 'tsync': 500, 'batch': 128}
+[v32] GATE: vs_arm=0.4667 vs_heur=[0.8478]
+[v32 CONFIRM-ES] [{'seed': 42, 'snap_ep': 750, 'vs_arm': 0.4369, 'vs_heur': 0.7363, 'solo_surv': 0.3949}, {'seed': 43, 'snap_ep': 250, 'vs_arm': 0.3802, 'vs_heur': 0.7387, 'solo_surv': 0.5662}, {'seed': 44, 'snap_ep': 250, 'vs_arm': 0.4224, 'vs_heur': 0.5802, 'solo_surv': 0.2288}]

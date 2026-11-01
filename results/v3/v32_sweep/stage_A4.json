@@ -1,0 +1,25 @@
+{
+ "branches": [
+  {
+   "name": "sw_e10",
+   "vs_arm": 0.4002,
+   "vs_heur": 0.5935,
+   "solo_surv": 0.2413,
+   "complete": true
+  },
+  {
+   "name": "sw_e15",
+   "vs_arm": 0.4189,
+   "vs_heur": 0.5456,
+   "solo_surv": 0.3065,
+   "complete": true
+  }
+ ],
+ "best": {
+  "name": "sw_e15",
+  "vs_arm": 0.4189,
+  "vs_heur": 0.5456,
+  "solo_surv": 0.3065,
+  "complete": true
+ }
+}

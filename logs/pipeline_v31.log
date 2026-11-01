@@ -1,0 +1,48 @@
+[2026-10-17 11:41:12] PIPELINE_V27 START
+V27_TRAIN_42_EXIT=0
+V27_TRAIN_43_EXIT=0
+[2026-10-17 20:30:48] PIPELINE_V27 START
+[2026-10-17 20:30:48] V27 s42 train skip (done)
+[2026-10-17 20:30:48] V27 s43 train skip (done)
+V27_TRAIN_44_EXIT=0
+[2026-10-17 20:48:34] V27 s44 train done
+[2026-10-17 20:48:34] V27_TRAIN_EXIT=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed42/solo exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed42/league/random exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed42/league/df exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed42/league/pacifist exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed42/league/a_classic exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed42/league/b_terminal exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed42/league/c_res exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed42/league/d_malintent exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed43/solo exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed43/league/random exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed43/league/df exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed43/league/pacifist exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed43/league/a_classic exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed43/league/b_terminal exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed43/league/c_res exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed43/league/d_malintent exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed44/solo exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed44/league/random exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed44/league/df exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed44/league/pacifist exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed44/league/a_classic exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed44/league/b_terminal exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed44/league/c_res exit=0
+[v31 eval] /home/z/my-project/output/experiment-suite/does-the-dark-forest-strategy-emerge-as-ecec922e/2026-09-04_221544/results/v3/v31_champion/seed44/league/d_malintent exit=0
+V27_EVAL_MISSING=0
+[2026-10-17 20:50:15] V27_EVAL_EXIT=0
+-> analysis_v31.json
+  random       v31 0.581 vs v30 0.584  delta -0.004
+  df           v31 0.551 vs v30 0.484  delta +0.067
+  pacifist     v31 0.528 vs v30 0.538  delta -0.010
+  a_classic    v31 0.369 vs v30 0.356  delta +0.013
+  b_terminal   v31 0.305 vs v30 0.312  delta -0.007
+  c_res        v31 0.404 vs v30 0.350  delta +0.054
+  d_malintent  v31 0.372 vs v30 0.360  delta +0.012
+verdict: {'v31_mean_vs_arm_ckpts': 0.3626, 'v30_mean_vs_arm_ckpts': 0.3446, 'all_arm_uplift_positive': False, 'beats_half_vs_arm_ckpts': False}
+[2026-10-17 20:50:15] V27_ANALYSIS_EXIT=0
+-> fig_19/fig_20
+[2026-10-17 20:50:18] V27_PLOT_EXIT=0
+[2026-10-17 20:50:18] PIPELINE_V27_DONE

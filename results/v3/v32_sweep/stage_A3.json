@@ -1,0 +1,25 @@
+{
+ "branches": [
+  {
+   "name": "sw_rp50k",
+   "vs_arm": 0.32,
+   "vs_heur": 0.4909,
+   "solo_surv": 0.3924,
+   "complete": true
+  },
+  {
+   "name": "sw_rp400k",
+   "vs_arm": 0.2712,
+   "vs_heur": 0.5095,
+   "solo_surv": 0.4295,
+   "complete": true
+  }
+ ],
+ "best": {
+  "name": "sw_rp50k",
+  "vs_arm": 0.32,
+  "vs_heur": 0.4909,
+  "solo_surv": 0.3924,
+  "complete": true
+ }
+}

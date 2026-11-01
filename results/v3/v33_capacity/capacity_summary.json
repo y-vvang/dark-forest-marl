@@ -1,0 +1,35 @@
+{
+ "baseline_h64": {
+  "name": "sw_ts500",
+  "vs_arm": 0.4667,
+  "vs_heur": 0.8478,
+  "solo_surv": 0.615,
+  "complete": true
+ },
+ "capacity": [
+  {
+   "hidden": "64,64",
+   "tag": "cap_h64x64",
+   "vs_arm": 0.412,
+   "vs_heur": 0.6554,
+   "solo_surv": 0.4293,
+   "delta_vs_arm_vs_h64": -0.0547
+  },
+  {
+   "hidden": "128,128",
+   "tag": "cap_h128x128",
+   "vs_arm": 0.3871,
+   "vs_heur": 0.5451,
+   "solo_surv": 0.3599,
+   "delta_vs_arm_vs_h64": -0.0796
+  },
+  {
+   "hidden": "192,192",
+   "tag": "cap_h192x192",
+   "vs_arm": 0.4158,
+   "vs_heur": 0.7794,
+   "solo_surv": 0.5443,
+   "delta_vs_arm_vs_h64": -0.0509
+  }
+ ]
+}

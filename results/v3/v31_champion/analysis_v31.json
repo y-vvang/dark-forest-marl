@@ -1,0 +1,262 @@
+{
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "league_v31": {
+  "random": {
+   "mean": 0.5805,
+   "std": 0.0434,
+   "n": 3
+  },
+  "df": {
+   "mean": 0.5506,
+   "std": 0.0599,
+   "n": 3
+  },
+  "pacifist": {
+   "mean": 0.5277,
+   "std": 0.0473,
+   "n": 3
+  },
+  "a_classic": {
+   "mean": 0.3689,
+   "std": 0.0873,
+   "n": 3
+  },
+  "b_terminal": {
+   "mean": 0.3052,
+   "std": 0.076,
+   "n": 3
+  },
+  "c_res": {
+   "mean": 0.4038,
+   "std": 0.0714,
+   "n": 3
+  },
+  "d_malintent": {
+   "mean": 0.3725,
+   "std": 0.0536,
+   "n": 3
+  }
+ },
+ "league_v30": {
+  "random": {
+   "mean": 0.5843,
+   "std": 0.0389,
+   "n": 3
+  },
+  "df": {
+   "mean": 0.4836,
+   "std": 0.1163,
+   "n": 3
+  },
+  "pacifist": {
+   "mean": 0.5377,
+   "std": 0.1581,
+   "n": 3
+  },
+  "a_classic": {
+   "mean": 0.3562,
+   "std": 0.0379,
+   "n": 3
+  },
+  "b_terminal": {
+   "mean": 0.3119,
+   "std": 0.0263,
+   "n": 3
+  },
+  "c_res": {
+   "mean": 0.3498,
+   "std": 0.0498,
+   "n": 3
+  },
+  "d_malintent": {
+   "mean": 0.3605,
+   "std": 0.0347,
+   "n": 3
+  }
+ },
+ "solo_v31": {
+  "survival_fraction_of_lifetime": {
+   "mean": 0.3226,
+   "std": 0.0283,
+   "n": 3
+  },
+  "strike_per_100_ticks": {
+   "mean": 0.0823,
+   "std": 0.0225,
+   "n": 3
+  },
+  "blackdomain_per_100_ticks": {
+   "mean": 1.2377,
+   "std": 0.7948,
+   "n": 3
+  },
+  "invade_per_100_ticks": {
+   "mean": 1.9497,
+   "std": 0.3201,
+   "n": 3
+  },
+  "p_strike_within_10_of_detect": {
+   "mean": 0.1017,
+   "std": 0.0712,
+   "n": 3
+  },
+  "action_freqs": {
+   "SILENT": {
+    "mean": 0.8312,
+    "std": 0.0322,
+    "n": 3
+   },
+   "DEVELOP": {
+    "mean": 0.1585,
+    "std": 0.0316,
+    "n": 3
+   },
+   "BROADCAST_ALL": {
+    "mean": 0.0001,
+    "std": 0.0,
+    "n": 3
+   },
+   "BROADCAST_OTHER": {
+    "mean": 0.0024,
+    "std": 0.0011,
+    "n": 3
+   },
+   "STRIKE": {
+    "mean": 0.0002,
+    "std": 0.0001,
+    "n": 3
+   },
+   "BLACK_DOMAIN": {
+    "mean": 0.0024,
+    "std": 0.0015,
+    "n": 3
+   },
+   "INVADE": {
+    "mean": 0.005,
+    "std": 0.0007,
+    "n": 3
+   },
+   "OBSERVE": {
+    "mean": 0.0001,
+    "std": 0.0001,
+    "n": 3
+   }
+  }
+ },
+ "solo_v30": {
+  "survival_fraction_of_lifetime": {
+   "mean": 0.4062,
+   "std": 0.0071,
+   "n": 3
+  },
+  "strike_per_100_ticks": {
+   "mean": 0.0143,
+   "std": 0.015,
+   "n": 3
+  },
+  "blackdomain_per_100_ticks": {
+   "mean": 2.4967,
+   "std": 1.6682,
+   "n": 3
+  },
+  "invade_per_100_ticks": {
+   "mean": 2.3213,
+   "std": 0.7471,
+   "n": 3
+  },
+  "p_strike_within_10_of_detect": {
+   "mean": 0.0,
+   "std": 0.0,
+   "n": 3
+  },
+  "action_freqs": {
+   "SILENT": {
+    "mean": 0.8145,
+    "std": 0.0272,
+    "n": 3
+   },
+   "DEVELOP": {
+    "mean": 0.1705,
+    "std": 0.0251,
+    "n": 3
+   },
+   "BROADCAST_ALL": {
+    "mean": 0.0005,
+    "std": 0.0002,
+    "n": 3
+   },
+   "BROADCAST_OTHER": {
+    "mean": 0.0024,
+    "std": 0.002,
+    "n": 3
+   },
+   "STRIKE": {
+    "mean": 0.0001,
+    "std": 0.0,
+    "n": 3
+   },
+   "BLACK_DOMAIN": {
+    "mean": 0.0054,
+    "std": 0.0043,
+    "n": 3
+   },
+   "INVADE": {
+    "mean": 0.0061,
+    "std": 0.0023,
+    "n": 3
+   },
+   "OBSERVE": {
+    "mean": 0.0006,
+    "std": 0.0004,
+    "n": 3
+   }
+  }
+ },
+ "uplift": {
+  "random": {
+   "v31": 0.5805,
+   "v30": 0.5843,
+   "delta": -0.0038
+  },
+  "df": {
+   "v31": 0.5506,
+   "v30": 0.4836,
+   "delta": 0.067
+  },
+  "pacifist": {
+   "v31": 0.5277,
+   "v30": 0.5377,
+   "delta": -0.01
+  },
+  "a_classic": {
+   "v31": 0.3689,
+   "v30": 0.3562,
+   "delta": 0.0127
+  },
+  "b_terminal": {
+   "v31": 0.3052,
+   "v30": 0.3119,
+   "delta": -0.0067
+  },
+  "c_res": {
+   "v31": 0.4038,
+   "v30": 0.3498,
+   "delta": 0.054
+  },
+  "d_malintent": {
+   "v31": 0.3725,
+   "v30": 0.3605,
+   "delta": 0.012
+  }
+ },
+ "verdict": {
+  "v31_mean_vs_arm_ckpts": 0.3626,
+  "v30_mean_vs_arm_ckpts": 0.3446,
+  "all_arm_uplift_positive": false,
+  "beats_half_vs_arm_ckpts": false
+ }
+}

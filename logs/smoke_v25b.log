@@ -1,0 +1,4 @@
+df counter-bite: action=INVADE, target=last_invader OK
+pacifist hide/hunt-free responses OK
+v2b episode OK; keys: ['alive_ticks', 'kills', 'kinds', 'learner_action_freqs', 'learner_invades', 'learner_strike_after_detect'] ...
+SMOKE_V25B_OK
